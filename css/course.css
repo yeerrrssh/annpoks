@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&family=Yeseva+One&display=swap');
+
+/* Общие настроечки */
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* Шапка (START) */
+#navbar{
+    background: none;
+}
+
+.brand{
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 48px;
+    margin-left: 70px;
+}
+
+.head-button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: black;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+
+#hamburger-menu{
+    margin-right: 70px;
+}
+/* Шапка (END) */
+
+/* Страница с курсами (START) */
+.courses-page-text{
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 130px;
+    color: black;
+    margin-bottom: -22px;
+    margin-top: -20px;
+    margin-right: -170px;
+    padding-bottom: 0;
+}
+
+#first-col-course{
+    margin-left: 30px;
+}
+
+.blue-photo{
+    position: absolute;
+    z-index: 1;
+}
+
+#blue-filter-mini{
+    position: relative;
+    width: 327px;
+    height: 219px;
+    opacity: 60%;
+    background-color: #0358E4;
+    z-index: 2;
+}
+
+.blue-frame-mini{
+    position: relative;
+    width: 300px;
+    height: 190px;
+    background: none;
+    border: 3px solid #0358E4;
+    margin-top: -205px;
+    margin-left: 15px;
+    padding: 15px;
+    z-index: 3;
+}
+
+.blue-photo-mini-text{
+    position: relative;
+    font-family: 'Yeseva One', sans-serif;
+    color: #F1F1F1;
+    margin-top: 18px;
+    text-align: center;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#mini-photo-2{
+    margin-top: 40px;
+}
+
+#square-photo{
+    position: absolute;
+    margin-top: -15px;
+    z-index: 1;
+}
+
+.blue-frame-medium{
+    position: relative;
+    width: 410px;
+    height: 410px;
+    background: none;
+    border: 3px solid #0358E4;
+    margin-top: 23px;
+    margin-left: 15px;
+    padding: 15px;
+    z-index: 3;
+}
+
+#square-photo-text{
+    position: relative;
+    font-family: 'Yeseva One', sans-serif;
+    color: #F1F1F1;
+    margin-top: 130px;
+    text-align: center;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#big-photo{
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+}
+
+#blue-filter-big{
+    position: relative;
+    width: 323px;
+    height: 595px;
+    margin-top: 21px;
+    opacity: 60%;
+    background-color: #0358E4;
+    z-index: 2;
+}
+
+.blue-frame-big{
+    position: relative;
+    width: 293px;
+    height: 565px;
+    background: none;
+    border: 3px solid #0358E4;
+    margin-top: -580px;
+    margin-left: 15px;
+    padding: 15px;
+    z-index: 3;
+}
+
+#big-photo-text{
+    position: relative;
+    font-family: 'Yeseva One', sans-serif;
+    color: #F1F1F1;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#last-col-course{
+    margin-left: -35px;
+}
+
+/* Факин подчеркивание синее (START)*/
+.rhombus-blue {
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #0358E4;
+    position: relative;
+    top: -15px;
+    right: -260px;
+}
+.rhombus-blue:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -8px;
+    top: 7px;
+    border: 8px solid transparent;
+    border-top-color: #0358E4;
+}
+.rhombus-blue:before {
+    content: "";
+    position: absolute;
+    left: -267px;
+    top: 6px;
+    border: 3px solid transparent;
+    border-top-color: #0358E4;
+    color: #0358E4;
+    border-radius: 5px;
+    width: 265px;
+}
+/* Факин подчеркивание синее (END)*/
+/* Страница с курсами (END) */
+

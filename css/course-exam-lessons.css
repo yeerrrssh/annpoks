@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&family=Yeseva+One&display=swap');
+
+/* Общие настроечки */
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url('../pics/course-group-lessons/background-grey.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Шапка (START) */
+#navbar{
+    background: none;
+}
+.brand{
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 48px;
+    margin-left: 70px;
+    color: white;
+}
+.head-button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+.head-button-black{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: black;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+#hamburger-menu{
+    margin-right: 70px;
+}
+/* Шапка (END) */
+
+#background-photo{
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    left: 0;
+}
+
+.white-button{
+    width: auto;
+    height: fit-content;
+    background-color: white;
+    border: none;
+    padding: 13px 45px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #0358E4;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 77%;
+    left: 33%;
+}
+
+.white-box{
+    background-color: #FFFFFF;
+    border-radius: 34px !important;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 30px 55px 100px;
+    margin-top: 10px;
+    margin-right: -160px;
+}
+
+.big-main-text{
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 147px;
+    color: black;
+    margin-top: -60px;
+    margin-left: -152px;
+}
+.mini-main-text{
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 50px;
+    color: black;
+    margin-top: -90px;
+    text-align: right;
+    margin-right: -10px;
+}
+.blue-text{
+    font-family: 'Montserrat', sans-serif;
+    color: #0358E4;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: -5px;
+}
+.white-text-align-center{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+.white-text{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.right-area{
+    position: relative;
+    width: 60%;
+    right: -180px;
+}
+#icons-up{
+    position: absolute;
+    width: 590px !important;
+    top: 50px;
+    left: 13%;
+}
+#up-left-text{
+    position: absolute;
+    left: 9%;
+    top: 190px;
+}
+#up-center-text{
+    position: absolute;
+    left: 39.5%;
+    top: 145px;
+}
+#up-right-text{
+    position: absolute;
+    left: 72%;
+    top: 190px;
+}
+#icon-center{
+    position: absolute;
+    left: 15%;
+    top: 325px;
+}
+#icon-down{
+    position: absolute;
+    left: 15%;
+    top: 430px;
+}
+#center-right-text{
+    position: absolute;
+    left: 28%;
+    top: 325px;
+}
+#down-right-text{
+    position: absolute;
+    left: 28%;
+    top: 430px;
+}

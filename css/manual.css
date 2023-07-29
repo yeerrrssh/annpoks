@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&family=Yeseva+One&display=swap');
+
+/* Общие настроечки */
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.carousel{
+    height: 100%;
+    width: 100%;
+    margin-top: -45px;
+}
+
+
+
+/* Шапка (START) */
+#navbar{
+    background: none;
+}
+
+.brand{
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 48px;
+    margin-left: 70px;
+}
+
+.head-button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: black;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+
+#hamburger-menu{
+    margin-right: 70px;
+}
+/* Шапка (END) */
+
+#triangle{
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    left: 0;
+}
+
+.big-text{
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 140px;
+    color: black;
+    margin-left: -10px;
+    margin-top: 5px;
+}
+
+.black-text{
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 47px;
+    color: black;
+    text-align: right;
+    margin-top: -85px;
+    margin-right: -25px;
+}
+
+.white-main-text{
+    font-family: 'Yeseva One', sans-serif;
+    color: #F1F1F1;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.white-not-button{
+    width: 270px;
+    background-color: white;
+    border: none;
+    padding: 12px 40px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #0358E4;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.white-info-text{
+    color: #F1F1F1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+#up-arrow{
+    position: relative;
+    top: -65px;
+    right: -55px;
+}
+#down-arrow{
+    position: relative;
+    top: 25px;
+    right: -583px;
+}
+
+.white-box-1{
+    border-radius: 34px;
+    background: #FFF;
+    width: 370px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.white-box-23{
+    border-radius: 34px;
+    margin-left: 60px;
+    background: #FFF;
+    width: 355px;
+    height: 220px;
+    flex-shrink: 0;
+}
+
+.window{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#second-box{
+    position: relative;
+    z-index: 10;
+    margin-top: -155px;
+    margin-left: 180px;
+}
+
+.photo{
+    margin-left: 120px;
+}
+
+/* Факин подчеркивание палка вправо (START)*/
+.rhombus-right {
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-bottom-color: black;
+    position: relative;
+    top: -35px;
+    right: -443px;
+}
+.rhombus-right:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -8px;
+    top: 7px;
+    border: 8px solid transparent;
+    border-top-color: black;
+}
+.rhombus-right:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    border: 3px solid transparent;
+    border-top-color: black;
+    color: black;
+    border-radius: 5px;
+    width: 200px;
+}
+/* Факин подчеркивание палка вправо (END)*/

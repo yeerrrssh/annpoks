@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&family=Yeseva+One&display=swap');
+
+/* Общие настроечки */
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url('../pics/course-extra-lessons/background-grey.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Шапка (START) */
+#navbar{
+    background: none;
+}
+.brand{
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 48px;
+    margin-left: 70px;
+    color: white;
+}
+.head-button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+.head-button-black{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: black;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+#hamburger-menu{
+    margin-right: 70px;
+}
+/* Шапка (END) */
+
+#background-photo{
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    left: 0;
+}
+
+.white-button{
+    width: auto;
+    height: fit-content;
+    background-color: white;
+    border: none;
+    padding: 13px 45px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #0358E4;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.blue-box{
+    width: fit-content;
+    background-color: #0358E4;
+    border-radius: 34px !important;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 30px 55px 100px;
+    margin-top: 10px;
+}
+
+.big-main-text{
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 147px;
+    color: #F1F1F1;
+    margin-top: -60px;
+    margin-left: -330px;
+}
+.white-text{
+    font-family: 'Montserrat', sans-serif;
+    color: #F1F1F1;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: -5px;
+}
+.white-text-align-center{
+    text-align: center;
+}
+#sheldon-photo{
+    position: absolute;
+    z-index: -20;
+    top: 12%;
+    left: -10px;
+}
+#sheldon-text{
+    position: absolute;
+    top: 67%;
+    left: 24%;
+}
+#adventure-time-photo{
+    position: absolute;
+    z-index: -20;
+    top: 10%;
+    right: 0;
+}
+#adventure-time-text{
+     position: absolute;
+     top: 67.5%;
+     left: 12.5%;
+}
+#left-button{
+    position: absolute;
+    top: 77%;
+    left: 28%;
+}
+#right-button{
+    position: absolute;
+    top: 77%;
+    left: 8%;
+}
+
+#left-rhombus{
+    position: absolute;
+    bottom: 0;
+    left: 12%;
+}
+#right-rhombus{
+    position: absolute;
+    bottom: 0;
+    right: 12%;
+}

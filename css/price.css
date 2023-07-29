@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&family=Yeseva+One&display=swap');
+
+/* Общие настроечки */
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Шапка (START) */
+#navbar{
+    background: none;
+}
+
+.brand{
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 48px;
+    margin-left: 70px;
+}
+
+.head-button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: black;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+
+#hamburger-menu{
+    margin-right: 70px;
+}
+/* Шапка (END) */
+
+
+
+.main-text-max{
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 130px;
+    color: black;
+    margin-bottom: -22px;
+    margin-top: -30px;
+    padding-bottom: 0;
+}
+.main-text-mini{
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 50px;
+    color: black;
+    margin-top: 55px;
+    margin-left: -60px;
+}
+
+.rhombus {
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-bottom-color: black;
+    position: relative;
+    top: -30px;
+    right: -380px;
+}
+.rhombus:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -8px;
+    top: 7px;
+    border: 8px solid transparent;
+    border-top-color: black;
+}
+.rhombus:before {
+    content: "";
+    position: absolute;
+    left: -200px;
+    top: 6px;
+    border: 3px solid transparent;
+    border-top-color: black;
+    color: black;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#triangle{
+    position: absolute;
+    z-index: -100;
+    top: -90px;
+    left: 17%;
+    width: 2200px;
+}
+
+.white-box{
+    background-color: #FFFFFF;
+    border-radius: 34px !important;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 25px 35px 50px;
+    margin: -5px 15px 15px;
+}
+.white-text-name{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 26.4px */
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: -57px;
+}
+
+.information-text-mini{
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 8px;
+}
+
+.cost-text{
+    font-family: 'Montserrat', sans-serif;
+    color: #3C6FC3;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: -57px;
+}
+
+.cost-lower-text{
+    font-family: 'Montserrat', sans-serif;
+    color: #3C6FC3;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: -15px;
+}
+
+#third-card-text{
+    margin-bottom: 15px;
+}
