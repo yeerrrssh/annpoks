@@ -22,46 +22,82 @@
 </head>
 <body style="background-color: #F1F1F1; overflow: hidden">
 <header>
-    <nav class="navbar navbar-expand-lg mt-2">
-        <div class="container-fluid ms-5">
-            <a class="nav-link brand user-select-none" href="index.html">annpoks</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
-                <ul class="navbar-nav me-5">
-                    <li class="nav-item me-2 ms-3">
-                        <a class="nav-link head-button user-select-none" href="index.html">HOME</a>
-                    </li>
-                    <li class="nav-item me-2 ms-3">
-                        <a class="nav-link head-button user-select-none" href="course.html">COURSE</a>
-                    </li>
-                    <li class="nav-item me-2 ms-3">
-                        <a class="nav-link head-button user-select-none" href="price.html">PRICE</a>
-                    </li>
-                    <li class="nav-item me-2 ms-3">
-                        <a class="nav-link head-button user-select-none" href="manual.html">HOW IT WORKS</a>
-                    </li>
-                    <li class="nav-item me-2 ms-3">
-                        <a class="nav-link head-button user-select-none" href="about.html">ABOUT</a>
-                    </li>
-                    <li class="nav-item dropdown ms-3">
-                        <a id="hamburger-menu" class="nav-link dropdown-toggle head-button user-select-none" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            MORE
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color:#F1F1F1">
-                            <li><a class="dropdown-item head-button user-select-none" href="feedback.html">Feedback</a></li>
-                            <li><a class="dropdown-item head-button user-select-none" href="gallery.html">Gallery</a></li>
-                            <li><a class="dropdown-item head-button user-select-none" href="contacts.html">Contacts</a></li>
-                            <li><a class="dropdown-item head-button user-select-none" href="news.html">News</a></li>
-                        </ul>
-                    </li>
-                </ul>
+    <?php
+    if ($_COOKIE['user'] == ''):
+        ?>
+        <nav class="navbar navbar-expand-lg mt-2">
+            <div class="container-fluid ms-5">
+                <a class="nav-link brand user-select-none" href="index.php">annpoks</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
+                    <ul class="navbar-nav me-5">
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link head-button user-select-none" href="index.php">ГЛАВНАЯ</a>
+                        </li>
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link head-button user-select-none" href="course.php">КУРСЫ</a>
+                        </li>
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link head-button user-select-none" href="price.php">ЦЕНА</a>
+                        </li>
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link head-button user-select-none" href="manual.php">КАК ЗАПИСАТЬСЯ</a>
+                        </li>
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link head-button user-select-none" href="about.php">ОБО МНЕ</a>
+                        </li>
+                        <li class="nav-item me-5 ms-2">
+                            <a class="nav-link head-button user-select-none" href="contacts.php">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    <?php else: ?>
+        <nav class="navbar navbar-expand-lg mt-2">
+            <div class="container-fluid ms-5">
+                <a class="nav-link brand user-select-none" href="index.php">annpoks</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
+                    <ul class="navbar-nav me-5">
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link head-button user-select-none" href="index.php">ГЛАВНАЯ</a>
+                        </li>
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link head-button user-select-none" href="course.php">КУРСЫ</a>
+                        </li>
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link head-button user-select-none" href="price.php">ЦЕНА</a>
+                        </li>
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link head-button user-select-none" href="manual.php">КАК ЗАПИСАТЬСЯ</a>
+                        </li>
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link head-button user-select-none" href="about.php">ОБО МНЕ</a>
+                        </li>
+                        <li class="nav-item dropdown ms-2">
+                            <a id="hamburger-menu" class="nav-link dropdown-toggle head-button user-select-none" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                БОЛЬШЕ
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color:#F1F1F1">
+                                <li><a class="dropdown-item head-button user-select-none" href="contacts.php">Контакты</a></li>
+                                <li><a class="dropdown-item head-button user-select-none" href="news.php">Расписание</a></li>
+                                <li><a class="dropdown-item head-button user-select-none" href="php/exit.php">Выйти</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <?php endif;?>
 </header>
 <main>
     <div class="container">

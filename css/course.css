@@ -74,7 +74,7 @@ html{
     z-index: 3;
 }
 
-.blue-photo-mini-text{
+.blue-photo-text{
     position: relative;
     font-family: 'Yeseva One', sans-serif;
     color: #F1F1F1;
@@ -84,6 +84,32 @@ html{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.blue-photo-mini-text{
+    font-family: 'Montserrat', sans-serif;
+    color: #F1F1F1;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.up{
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+}
+.down{
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
 }
 
 #mini-photo-2{

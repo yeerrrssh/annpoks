@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="Rus Sofia" name="author">
+    <meta content="репетитор по английскому, английский кемерово, репетитор кемерово, анна покасова"
+          name="keywords">
+    <meta content="Высококвалифицированный репетитор по английскому языку в городе Кемерово -
+          Анна Сергеевна Покасова" name="description">
+    <title>Ann_poks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+    <script src="bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <link rel="stylesheet" href="./css/course-extra-lessons.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+</head>
+<body style="background-color: #F1F1F1; overflow: hidden">
+<header>
+    <?php
+    if ($_COOKIE['user'] == ''):
+        ?>
+        <nav class="navbar navbar-expand-lg mt-2">
+            <div class="container-fluid ms-5">
+                <a class="nav-link brand user-select-none" href="index.php">annpoks</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
+                    <ul class="navbar-nav me-5">
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link head-button user-select-none" href="index.php">ГЛАВНАЯ</a>
+                        </li>
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link head-button user-select-none" href="course.php">КУРСЫ</a>
+                        </li>
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link head-button user-select-none" href="price.php">ЦЕНА</a>
+                        </li>
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link head-button user-select-none" href="manual.php">КАК ЗАПИСАТЬСЯ</a>
+                        </li>
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link head-button user-select-none" href="about.php">ОБО МНЕ</a>
+                        </li>
+                        <li class="nav-item me-5 ms-2">
+                            <a class="nav-link head-button user-select-none" href="contacts.php">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <?php else: ?>
+        <nav class="navbar navbar-expand-lg mt-2">
+            <div class="container-fluid ms-5">
+                <a class="nav-link brand user-select-none" href="index.php">annpoks</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
+                    <ul class="navbar-nav me-5">
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link head-button user-select-none" href="index.php">ГЛАВНАЯ</a>
+                        </li>
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link head-button user-select-none" href="course.php">КУРСЫ</a>
+                        </li>
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link head-button user-select-none" href="price.php">ЦЕНА</a>
+                        </li>
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link head-button user-select-none" href="manual.php">КАК ЗАПИСАТЬСЯ</a>
+                        </li>
+                        <li class="nav-item me-2 ms-2">
+                            <a class="nav-link head-button user-select-none" href="about.php">ОБО МНЕ</a>
+                        </li>
+                        <li class="nav-item dropdown ms-2">
+                            <a id="hamburger-menu" class="nav-link dropdown-toggle head-button user-select-none" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                БОЛЬШЕ
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color:#F1F1F1">
+                                <li><a class="dropdown-item head-button user-select-none" href="contacts.php">Контакты</a></li>
+                                <li><a class="dropdown-item head-button user-select-none" href="news.php">Расписание</a></li>
+                                <li><a class="dropdown-item head-button user-select-none" href="php/exit.php">Выйти</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <?php endif;?>
+</header>
+<main>
+    <div class="container-fluid">
+        <img id="background-photo" class="user-select-none"
+             srcset="pics/course-extra-lessons/background-dark.png 52w, pics/course-extra-lessons/background-dark.png 40w, pics/course-extra-lessons/background-dark.png 30w"
+             sizes="(min-width: 1600px) 50px, (max-width: 1600px) 46px, (max-width: 1034px) 30px"
+             src="pics/course-extra-lessons/background-dark.png">
+        <div class="row justify-content-center">
+            <div class="col-4" style="position: relative">
+                <img id="sheldon-photo" class="user-select-none"
+                     srcset="pics/course-extra-lessons/sheldon.png 52w, pics/course-extra-lessons/sheldon.png 40w, pics/course-extra-lessons/sheldon.png 30w"
+                     sizes="(min-width: 1600px) 50px, (max-width: 1600px) 40px, (max-width: 1034px) 30px"
+                     src="pics/course-extra-lessons/sheldon.png">
+                <p id="sheldon-text" class="white-text white-text-align-center user-select-none">young sheldon crash<br>course</p>
+                <form action="contacts.php">
+                    <button id="left-button" class="white-button user-select-none" href="contacts.php">записаться</button>
+                </form>
+                <svg id="left-rhombus" xmlns="http://www.w3.org/2000/svg" width="20" height="570" viewBox="0 0 24 712" fill="none">
+                    <path d="M12 0.453003L0.453029 12L12 23.547L23.547 12L12 0.453003ZM14 794L14 12L10 12L10 794L14 794Z" fill="#F1F1F1"/>
+                </svg>
+            </div>
+            <div class="col-4">
+                <div class="blue-box ms-4">
+                    <p class="big-main-text user-select-none">Extra<span style="font-size: 50px"> course</span></p>
+                    <p class="white-text user-select-none">погружение в<br>английскую<br>культуру и сленг<br>через сериалы и<br>анимации<br><br>развлекательный<br>формат<br><br>упор на<br>разговорную<br>практику<br><br>игры, кейсы и<br>основы<br>retelling’а</p>
+                </div>
+            </div>
+            <div class="col-4" style="position: relative">
+                <img id="adventure-time-photo" class="user-select-none"
+                     srcset="pics/course-extra-lessons/adventure-time.png 52w, pics/course-extra-lessons/adventure-time.png 40w, pics/course-extra-lessons/adventure-time.png 30w"
+                     sizes="(min-width: 1600px) 50px, (max-width: 1600px) 41px, (max-width: 1034px) 30px"
+                     src="pics/course-extra-lessons/adventure-time.png">
+                <p id="adventure-time-text" class="white-text white-text-align-center user-select-none">adventure time<br>crash course</p>
+                <form action="contacts.php">
+                    <button id="right-button" class="white-button user-select-none" href="contacts.php">записаться</button>
+                </form>
+                <svg id="right-rhombus" xmlns="http://www.w3.org/2000/svg" width="20" height="570" viewBox="0 0 24 712" fill="none">
+                    <path d="M12 0.453003L0.453029 12L12 23.547L23.547 12L12 0.453003ZM14 794L14 12L10 12L10 794L14 794Z" fill="#F1F1F1"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>

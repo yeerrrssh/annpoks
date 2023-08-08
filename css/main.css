@@ -75,9 +75,10 @@ html{
 }
 
 .blue-button{
-    background-color: #0358E4;;
+    width: auto;
+    background-color: #0358E4;
     border: none;
-    padding: 12px 40px;
+    padding: 12px 60px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
