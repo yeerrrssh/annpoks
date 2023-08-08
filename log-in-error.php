@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta content="Rus Sofia" name="author">
-  <meta content="репетитор по английскому, английский кемерово, репетитор кемерово, анна покасова"
-        name="keywords">
-  <meta content="Высококвалифицированный репетитор по английскому языку в городе Кемерово -
+    <meta charset="utf-8">
+    <meta content="Rus Sofia" name="author">
+    <meta content="репетитор по английскому, английский кемерово, репетитор кемерово, анна покасова"
+          name="keywords">
+    <meta content="Высококвалифицированный репетитор по английскому языку в городе Кемерово -
           Анна Сергеевна Покасова" name="description">
-  <title>Ann_poks</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ann_poks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
-  <script src="bootstrap/dist/js/bootstrap.js"></script>
-  <script src="bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+    <script src="bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.bundle.js"></script>
 
-  <link rel="stylesheet" href="./css/log-in.css">
+    <link rel="stylesheet" href="./css/log-in.css">
     <script src="./js/log-in.js"></script>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 </head>
 <body style="overflow: hidden">
 <header>
@@ -128,6 +128,7 @@
                             <input id="pass" class="password-input" type="password" name="password" placeholder="" required>
                             <div class="password-btn"><img id="eye" src="./pics/log-in/icon-eye.png" alt="img"></div>
                         </label><br>
+                        <p class="error-text">Неправильный логин или пароль</p>
                         <input class="submit_button user-select-none" type="submit" value="Войти">
                     </form>
                 </div>
