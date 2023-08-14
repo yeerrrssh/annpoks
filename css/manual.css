@@ -66,7 +66,7 @@ html{
 .white-main-text{
     font-family: 'Yeseva One', sans-serif;
     color: #F1F1F1;
-    font-size: 36px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -84,6 +84,7 @@ html{
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 3px;
+    margin-top: -5px;
 }
 
 .white-info-text{

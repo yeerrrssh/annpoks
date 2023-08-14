@@ -94,7 +94,6 @@
                             <?php elseif ($_COOKIE['role'] == 'admin'): ?>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color:white">
                                     <li><a class="dropdown-item head-button-black user-select-none" href="contacts.php">Контакты</a></li>
-                                    <li><a class="dropdown-item head-button-black user-select-none" href="schedule-admin.php">Расписание</a></li>
                                     <li><a class="dropdown-item head-button-black user-select-none" href="sign-up.php">Регистрация</a></li>
                                     <li><a class="dropdown-item head-button-black user-select-none" href="php/exit.php">Выйти из<br><?=$_COOKIE['user']?></a></li>
                                 </ul>

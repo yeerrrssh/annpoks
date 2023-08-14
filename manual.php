@@ -95,7 +95,6 @@
                             <?php elseif ($_COOKIE['role'] == 'admin'): ?>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color:#F1F1F1">
                                     <li><a class="dropdown-item head-button user-select-none" href="contacts.php">Контакты</a></li>
-                                    <li><a class="dropdown-item head-button user-select-none" href="schedule-admin.php">Расписание</a></li>
                                     <li><a class="dropdown-item head-button user-select-none" href="sign-up.php">Регистрация</a></li>
                                     <li><a class="dropdown-item head-button user-select-none" href="php/exit.php">Выйти из<br><?=$_COOKIE['user']?></a></li>
                                 </ul>
@@ -182,7 +181,7 @@
             <div class="col-6">
                 <img class="photo user-select-none"
                      srcset="pics/manual/photo-manual.png 52w, pics/manual/photo-manual.png 40w, pics/manual/photo-manual.png 30w"
-                     sizes="(min-width: 1600px) 50px, (max-width: 1600px) 39px, (max-width: 1034px) 30px"
+                     sizes="(min-width: 1600px) 50px, (max-width: 1600px) 38px, (max-width: 1034px) 30px"
                      src="pics/manual/photo-manual.png">
             </div>
         </div>

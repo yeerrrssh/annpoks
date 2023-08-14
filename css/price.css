@@ -90,12 +90,22 @@ html{
 }
 
 .white-box{
+    position: relative;
     background-color: #FFFFFF;
     border-radius: 34px !important;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     padding: 25px 35px 50px;
     margin: -5px 15px 15px;
 }
+
+#translate{
+    position: absolute;
+    top: 27px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+}
+
 .white-text-name{
     font-family: 'Montserrat', sans-serif;
     color: #FFF;

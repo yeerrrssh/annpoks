@@ -94,7 +94,6 @@
                             <?php elseif ($_COOKIE['role'] == 'admin'): ?>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color:#F1F1F1">
                                     <li><a class="dropdown-item head-button user-select-none" href="contacts.php">Контакты</a></li>
-                                    <li><a class="dropdown-item head-button user-select-none" href="schedule-admin.php">Расписание</a></li>
                                     <li><a class="dropdown-item head-button user-select-none" href="sign-up.php">Регистрация</a></li>
                                     <li><a class="dropdown-item head-button user-select-none" href="php/exit.php">Выйти из<br><?=$_COOKIE['user']?></a></li>
                                 </ul>
@@ -121,6 +120,7 @@
         </div>
         <div class="row justify-content-center">
             <div class="white-box col-auto">
+                <p id="translate" class="cost-lower-text user-select-none">индивидуальные</p>
                 <svg class="user-select-none" xmlns="http://www.w3.org/2000/svg" width="230" height="74" viewBox="0 0 277 72" fill="none">
                     <path d="M0 10C0 4.47715 4.47715 0 10 0H267C272.523 0 277 4.47715 277 10V62C277 67.5229 272.523 72 267 72H10C4.47716 72 0 67.5229 0 62V10Z" fill="#0358E4"/>
                 </svg>
@@ -138,6 +138,7 @@
                 <p class="cost-lower-text user-select-none">пара</p>
             </div>
             <div class="white-box col-auto">
+                <p id="translate" class="cost-lower-text user-select-none">групповые</p>
                 <svg class="user-select-none" xmlns="http://www.w3.org/2000/svg" width="230" height="74" viewBox="0 0 277 72" fill="none">
                     <path d="M0 10C0 4.47715 4.47715 0 10 0H267C272.523 0 277 4.47715 277 10V62C277 67.5229 272.523 72 267 72H10C4.47716 72 0 67.5229 0 62V10Z" fill="#0358E4"/>
                 </svg>
@@ -155,6 +156,7 @@
                 <p class="cost-lower-text user-select-none">пара</p>
             </div>
             <div class="white-box col-auto">
+                <p id="translate" class="cost-lower-text user-select-none">экзамены</p>
                 <svg class="user-select-none" xmlns="http://www.w3.org/2000/svg" width="230" height="74" viewBox="0 0 277 72" fill="none">
                     <path d="M0 10C0 4.47715 4.47715 0 10 0H267C272.523 0 277 4.47715 277 10V62C277 67.5229 272.523 72 267 72H10C4.47716 72 0 67.5229 0 62V10Z" fill="#0358E4"/>
                 </svg>
@@ -172,6 +174,7 @@
                 <p class="cost-lower-text user-select-none">пара</p>
             </div>
             <div class="white-box col-auto">
+                <p id="translate" class="cost-lower-text user-select-none">дополнительные</p>
                 <svg class="user-select-none" xmlns="http://www.w3.org/2000/svg" width="230" height="74" viewBox="0 0 277 72" fill="none">
                     <path d="M0 10C0 4.47715 4.47715 0 10 0H267C272.523 0 277 4.47715 277 10V62C277 67.5229 272.523 72 267 72H10C4.47716 72 0 67.5229 0 62V10Z" fill="#0358E4"/>
                 </svg>
