@@ -20,7 +20,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 </head>
-<body style="background-color: #F1F1F1; overflow: hidden">
+<body style="background-color: #F1F1F1">
 <header>
     <?php
     if ($_COOKIE['user'] == ''):
@@ -35,22 +35,22 @@
                 </button>
                 <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
                     <ul class="navbar-nav me-5">
-                        <li class="nav-item me-2 ms-2">
+                        <li class="nav-item me-xxl-2 ms-xxl-2 me-lg-1 ms-xl-1">
                             <a class="nav-link head-button user-select-none" href="index.php">ГЛАВНАЯ</a>
                         </li>
-                        <li class="nav-item me-2 ms-2">
+                        <li class="nav-item me-xxl-2 ms-xxl-2 me-lg-1 ms-xl-1">
                             <a class="nav-link head-button user-select-none" href="course.php">КУРСЫ</a>
                         </li>
-                        <li class="nav-item me-2 ms-2">
+                        <li class="nav-item me-xxl-2 ms-xxl-2 me-lg-1 ms-xl-1">
                             <a class="nav-link head-button user-select-none" href="price.php">ЦЕНА</a>
                         </li>
-                        <li class="nav-item me-2 ms-2">
+                        <li class="nav-item me-xxl-2 ms-xxl-2 me-lg-1 ms-xl-1">
                             <a class="nav-link head-button user-select-none" href="manual.php">КАК ЗАПИСАТЬСЯ</a>
                         </li>
-                        <li class="nav-item me-2 ms-2">
+                        <li class="nav-item me-xxl-2 ms-xxl-2 me-lg-1 ms-xl-1">
                             <a class="nav-link head-button user-select-none" href="about.php">ОБО МНЕ</a>
                         </li>
-                        <li class="nav-item me-5 ms-2">
+                        <li class="nav-item me-xxl-5 ms-xxl-2 me-lg-1 ms-xl-1">
                             <a class="nav-link head-button user-select-none" href="contacts.php">КОНТАКТЫ</a>
                         </li>
                     </ul>
@@ -68,22 +68,22 @@
                 </button>
                 <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
                     <ul class="navbar-nav me-5">
-                        <li class="nav-item me-2 ms-2">
+                        <li class="nav-item me-xxl-2 ms-xxl-2 me-lg-1 ms-xl-1">
                             <a class="nav-link head-button user-select-none" href="index.php">ГЛАВНАЯ</a>
                         </li>
-                        <li class="nav-item me-2 ms-2">
+                        <li class="nav-item me-xxl-2 ms-xxl-2 me-lg-1 ms-xl-1">
                             <a class="nav-link head-button user-select-none" href="course.php">КУРСЫ</a>
                         </li>
-                        <li class="nav-item me-2 ms-2">
+                        <li class="nav-item me-xxl-2 ms-xxl-2 me-lg-1 ms-xl-1">
                             <a class="nav-link head-button user-select-none" href="price.php">ЦЕНА</a>
                         </li>
-                        <li class="nav-item me-2 ms-2">
+                        <li class="nav-item me-xxl-2 ms-xxl-2 me-lg-1 ms-xl-1">
                             <a class="nav-link head-button user-select-none" href="manual.php">КАК ЗАПИСАТЬСЯ</a>
                         </li>
-                        <li class="nav-item me-2 ms-2">
+                        <li class="nav-item me-xxl-2 ms-xxl-2 me-lg-1 ms-xl-1">
                             <a class="nav-link head-button user-select-none" href="about.php">ОБО МНЕ</a>
                         </li>
-                        <li class="nav-item dropdown ms-2">
+                        <li class="nav-item dropdown ms-xxl-2 ms-lg-1">
                             <a id="hamburger-menu" class="nav-link dropdown-toggle head-button user-select-none" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 БОЛЬШЕ
                             </a>

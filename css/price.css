@@ -15,39 +15,25 @@ html{
 
 .brand{
     font-family: 'Yeseva One', sans-serif;
-    font-size: 48px;
-    margin-left: 70px;
 }
 
 .head-button{
     font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
     color: black;
-    letter-spacing: 3px;
     margin-top: 10px;
 }
 
-#hamburger-menu{
-    margin-right: 70px;
-}
 /* Шапка (END) */
 
 
 
 .main-text-max{
     font-family: 'Yeseva One', sans-serif;
-    font-size: 130px;
     color: black;
-    margin-bottom: -22px;
-    margin-top: -30px;
-    padding-bottom: 0;
 }
 .main-text-mini{
     font-family: 'Yeseva One', sans-serif;
-    font-size: 50px;
     color: black;
-    margin-top: 55px;
-    margin-left: -60px;
 }
 
 .rhombus {
@@ -84,9 +70,6 @@ html{
 #triangle{
     position: absolute;
     z-index: -100;
-    top: -90px;
-    left: 17%;
-    width: 2200px;
 }
 
 .white-box{
@@ -160,3 +143,418 @@ html{
 #third-card-text{
     margin-bottom: 15px;
 }
+
+/* Адаптация */
+@media (min-width: 1600px) {
+    body{
+        overflow: hidden;
+    }
+
+    .brand{
+        font-size: 48px;
+        margin-left: 70px;
+    }
+    .head-button{
+        font-size: 22px;
+        letter-spacing: 3px;
+    }
+    #hamburger-menu{
+        margin-right: 70px;
+    }
+
+    #triangle{
+        top: -305px;
+        left: 17%;
+        width: 2200px;
+    }
+
+    .main-text-max{
+        font-size: 130px;
+        margin-bottom: -22px;
+        margin-top: -30px;
+        padding-bottom: 0;
+    }
+    .main-text-mini{
+        font-size: 50px;
+        margin-top: 55px;
+        margin-left: -60px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+    body{
+        overflow: hidden;
+    }
+
+    .brand{
+        font-size: 48px;
+        margin-left: 70px;
+    }
+    .head-button{
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+    #hamburger-menu{
+        margin-right: 70px;
+    }
+
+    #triangle{
+        top: -305px;
+        left: 17%;
+        width: 2200px;
+    }
+
+    .main-text-max{
+        font-size: 130px;
+        margin-bottom: -22px;
+        margin-top: -30px;
+        padding-bottom: 0;
+    }
+    .main-text-mini{
+        font-size: 50px;
+        margin-top: 55px;
+        margin-left: -60px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    body{
+        overflow: hidden;
+    }
+
+    .brand{
+        font-size: 44px;
+    }
+    .head-button{
+        font-size: 19px;
+        letter-spacing: 1px;
+    }
+
+    #triangle{
+        top: -380px;
+        left: 17%;
+        width: 2200px;
+    }
+
+    .main-text-max{
+        font-size: 116px;
+        margin-bottom: -22px;
+        margin-top: -30px;
+        padding-bottom: 0;
+    }
+    .main-text-mini{
+        font-size: 46px;
+        margin-top: 45px;
+        margin-left: -60px;
+    }
+    .rhombus{
+        right: -320px;
+        top: -26px;
+    }
+
+    .white-box{
+        margin: 15px 10px 10px 10px;
+        padding-bottom: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    #translate{
+        top: 32px;
+    }
+    .white-text-name{
+        margin-top: -56px;
+        font-size: 17px;
+        letter-spacing: 3px;
+    }
+
+    .information-text-mini{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .cost-text{
+        font-size: 17px;
+        letter-spacing: 3px;
+    }
+
+    .cost-lower-text{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .bc-box{
+        width: 200px!important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .brand{
+        font-size: 42px;
+        margin-left: 0;
+    }
+    .head-button{
+        font-size: 18px;
+        letter-spacing: 0;
+    }
+    #hamburger-menu{
+        margin-right: 0;
+    }
+
+    #triangle{
+        top: -190px;
+        left: -33%;
+        width: 2000px;
+    }
+
+    .main-text-max{
+        font-size: 104px;
+        margin-bottom: -22px;
+        margin-top: -30px;
+        padding-bottom: 0;
+    }
+    .main-text-mini{
+        font-size: 38px;
+        margin-top: 39px;
+        margin-left: -30px;
+    }
+    .rhombus{
+        right: -288px;
+        top: -25px;
+    }
+
+    .white-box{
+        margin: 15px 35px 10px 35px;
+        padding-bottom: 20px;
+    }
+    #translate{
+        top: 32px;
+    }
+    .white-text-name{
+        margin-top: -56px;
+        font-size: 17px;
+        letter-spacing: 3px;
+    }
+
+    .information-text-mini{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .cost-text{
+        font-size: 17px;
+        letter-spacing: 3px;
+    }
+
+    .cost-lower-text{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .bc-box{
+        width: 200px!important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    body{
+        overflow-x: hidden;
+    }
+    .brand{
+        font-size: 48px;
+        margin-left: 0;
+    }
+    .head-button{
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+    #hamburger-menu{
+        margin-right: 70px;
+    }
+
+    #triangle{
+        top: -220px;
+        left: -100%;
+        width: 4000px;
+    }
+
+    .main-text-max{
+        text-align: center;
+        font-size: 96px;
+        margin-bottom: -22px;
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+    .main-text-mini{
+        text-align: center;
+        font-size: 38px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: -5px;
+    }
+    .rhombus{
+        right: -385px;
+        top: -20px;
+    }
+    .rhombus:before{
+        left: -270px;
+        width: 270px;
+    }
+
+    .white-box{
+        margin: 15px 15px 10px 15px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    body{
+        overflow-x: hidden;
+    }
+    .head-button{
+        text-align: center;
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+    #hamburger-menu{
+        margin-right: 70px;
+    }
+
+    #triangle{
+        top: -220px;
+        left: -100%;
+        width: 3670px;
+    }
+
+    .main-text-max{
+        text-align: center;
+        font-size: 76px;
+        margin-bottom: -22px;
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+    .main-text-mini{
+        text-align: center;
+        font-size: 25px;
+        margin: 0 5px -5px;
+    }
+    .rhombus{
+        right: -340px;
+        top: -10px;
+    }
+    .rhombus:before{
+        left: -210px;
+        width: 210px;
+    }
+
+    .white-box{
+        margin: 15px 0 10px 0;
+        padding-bottom: 20px;
+    }
+
+    .white-text-name{
+        margin-top: -56px;
+        font-size: 17px;
+        letter-spacing: 4px;
+    }
+
+    .information-text-mini{
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+
+    .cost-text{
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+
+    .cost-lower-text{
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+
+    .bc-box{
+        width: 210px!important;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #triangle{
+        top: -160px;
+        left: -80%;
+        width: 2250px;
+    }
+    .rhombus{
+        right: -470px;
+        top: -20px;
+    }
+}
+
+
+/* ЧИСТО ДЛЯ ШАПКИ */
+@media (min-width: 1300px) and (max-width: 1400px) {
+    .brand{
+        margin-left: 60px;
+    }
+    #hamburger-menu{
+        margin-right: 40px;
+    }
+}
+
+@media (min-width: 1250px) and (max-width: 1300px) {
+    .brand{
+        margin-left: 30px !important;
+    }
+    #hamburger-menu{
+        margin-right: 30px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1020px) {
+    .head-button{
+        font-size: 17px;
+        letter-spacing: 0;
+    }
+}
+
+@media (min-width: 490px) and (max-width: 576px) {
+    .brand{
+        font-size: 36px;
+        margin-left: 110px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 490px) {
+    .brand{
+        font-size: 36px;
+        margin-left: 80px;
+    }
+    .rhombus{
+        right: -310px;
+        top: -10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .brand{
+        font-size: 30px;
+        margin-left: 46px;
+    }
+    .rhombus{
+        right: -260px;
+        top: -10px;
+    }
+}
+
+@media (max-width: 350px) {
+    .brand{
+        font-size: 30px;
+        margin-left: 40px;
+    }
+}
+

@@ -22,29 +22,19 @@ body {
 
 .brand{
     font-family: 'Yeseva One', sans-serif;
-    font-size: 48px;
-    margin-left: 70px;
     color: white;
 }
 
 .head-button{
     font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
     color: white;
-    letter-spacing: 3px;
     margin-top: 10px;
 }
 
 .head-button-black{
     font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
     color: black;
-    letter-spacing: 3px;
     margin-top: 10px;
-}
-
-#hamburger-menu{
-    margin-right: 70px;
 }
 /* Шапка (END) */
 
@@ -108,4 +98,186 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 3px;
+}
+
+
+/* Адаптация */
+@media (min-width: 1600px) {
+    body{
+        overflow: hidden;
+    }
+    .brand{
+        font-size: 48px;
+        margin-left: 70px;
+    }
+    .head-button{
+        font-size: 22px;
+        letter-spacing: 3px;
+    }
+    .head-button-black{
+        font-size: 22px;
+        letter-spacing: 3px;
+    }
+    #hamburger-menu{
+        margin-right: 70px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+    body{
+        overflow: hidden;
+    }
+    .brand{
+        font-size: 48px;
+        margin-left: 70px;
+    }
+    .head-button{
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+    .head-button-black{
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+    #hamburger-menu{
+        margin-right: 70px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    body{
+        overflow: hidden;
+    }
+    .brand{
+        font-size: 44px;
+    }
+    .head-button{
+        font-size: 19px;
+        letter-spacing: 1px;
+    }
+    .head-button-black{
+        font-size: 19px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    body{
+        overflow: hidden;
+    }
+    .brand{
+        font-size: 42px;
+        margin-left: 0;
+    }
+    .head-button{
+        font-size: 18px;
+        letter-spacing: 0;
+    }
+    .head-button-black{
+        font-size: 18px;
+        letter-spacing: 0;
+    }
+    #hamburger-menu{
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    body{
+        overflow: hidden;
+    }
+    .brand{
+        font-size: 48px;
+        margin-left: 0;
+    }
+    .head-button{
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+    .head-button-black{
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+    #hamburger-menu{
+        margin-right: 70px;
+    }
+}
+
+@media (max-width: 576px) {
+    body{
+        overflow-x: hidden;
+    }
+    .head-button{
+        text-align: center;
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+    .head-button-black{
+        text-align: center;
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+    #hamburger-menu{
+        margin-right: 70px;
+    }
+}
+
+
+
+/* ЧИСТО ДЛЯ ШАПКИ */
+@media (min-width: 1300px) and (max-width: 1400px) {
+    .brand{
+        margin-left: 60px;
+    }
+    #hamburger-menu{
+        margin-right: 40px;
+    }
+}
+
+@media (min-width: 1250px) and (max-width: 1300px) {
+    .brand{
+        margin-left: 40px !important;
+    }
+    #hamburger-menu{
+        margin-right: 30px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1020px) {
+    .head-button{
+        font-size: 17px;
+        letter-spacing: 0;
+    }
+    .head-button-black{
+        font-size: 17px;
+        letter-spacing: 0;
+    }
+}
+
+@media (min-width: 490px) and (max-width: 576px) {
+    .brand{
+        font-size: 36px;
+        margin-left: 110px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 490px) {
+    .brand{
+        font-size: 36px;
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 400px) {
+    .brand{
+        font-size: 30px;
+        margin-left: 46px;
+    }
+}
+
+@media (max-width: 350px) {
+    .brand{
+        font-size: 30px;
+        margin-left: 40px;
+    }
 }
