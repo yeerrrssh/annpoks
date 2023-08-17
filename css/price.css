@@ -145,43 +145,7 @@ html{
 }
 
 /* Адаптация */
-@media (min-width: 1600px) {
-    body{
-        overflow: hidden;
-    }
-
-    .brand{
-        font-size: 48px;
-        margin-left: 70px;
-    }
-    .head-button{
-        font-size: 22px;
-        letter-spacing: 3px;
-    }
-    #hamburger-menu{
-        margin-right: 70px;
-    }
-
-    #triangle{
-        top: -305px;
-        left: 17%;
-        width: 2200px;
-    }
-
-    .main-text-max{
-        font-size: 130px;
-        margin-bottom: -22px;
-        margin-top: -30px;
-        padding-bottom: 0;
-    }
-    .main-text-mini{
-        font-size: 50px;
-        margin-top: 55px;
-        margin-left: -60px;
-    }
-}
-
-@media (min-width: 1400px) and (max-width: 1600px) {
+@media (min-width: 1400px) {
     body{
         overflow: hidden;
     }
