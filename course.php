@@ -18,7 +18,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 </head>
-<body style="background-color: #F1F1F1; overflow: hidden">
+<body style="background-color: #F1F1F1">
 <header>
     <?php
     if ($_COOKIE['user'] == ''):
@@ -108,14 +108,13 @@
     <main>
         <div class="container-fluid">
             <div class="row justify-content-center">
-                <div class="col-7" id="first-col-course">
+                <div class="col-sm-auto col-lg-7" id="first-col-course">
                     <div class="row justify-content-center">
                         <p class="courses-page-text user-select-none ms-5">Courses</p>
-                        <div class="col-5">
+                        <div class="col-sm-auto col-lg-5">
+                            <div class="rhombus-blue-xs user-select-none"></div>
                             <a href="course-group-lessons.php">
-                                <img class="blue-photo user-select-none"
-                                     srcset="pics/course/group-lessons-logo.png 200w, pics/course/group-lessons-logo.png 150w, pics/course/group-lessons-logo.png 100w"
-                                     sizes="(min-width: 1600px) 200px, (max-width: 1600px) 150px, (max-width: 1034px) 100px"
+                                <img id="first-photo" class="blue-photo user-select-none"
                                      src="pics/course/group-lessons-logo.png">
                                 <div id="blue-filter-mini" class="user-select-none"></div>
                                 <div class="blue-frame-mini user-select-none">
@@ -126,8 +125,6 @@
                             </a>
                             <a href="course-extra-lessons.php">
                                 <img id="mini-photo-2" class="user-select-none"
-                                     srcset="pics/course/extra-lessons-logo.png 200w, pics/course/extra-lessons-logo.png 150w, pics/course/extra-lessons-logo.png 100w"
-                                     sizes="(min-width: 1600px) 200px, (max-width: 1600px) 150px, (max-width: 1034px) 100px"
                                      src="pics/course/extra-lessons-logo.png">
                                 <div class="blue-frame-mini user-select-none">
                                     <p class="blue-photo-text user-select-none">extra course</p>
@@ -137,12 +134,10 @@
                             </a>
                         </div>
 
-                        <div class="col-7">
+                        <div class="col-sm-auto col-lg-7">
                             <div class="rhombus-blue user-select-none"></div>
                             <a href="course-personal-lessons.php">
                                 <img id="square-photo" class="user-select-none"
-                                     srcset="pics/course/personal-lessons-logo.png 200w, pics/course/personal-lessons-logo.png 150w, pics/course/personal-lessons-logo.png 100w"
-                                     sizes="(min-width: 1600px) 200px, (max-width: 1600px) 150px, (max-width: 1034px) 100px"
                                      src="pics/course/personal-lessons-logo.png">
                                 <div class="blue-frame-medium user-select-none">
                                     <p id="square-photo-text" class="user-select-none">personal lessons</p>
@@ -153,11 +148,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3" id="last-col-course">
+                <div class="col-sm-auto col-lg-3" id="last-col-course">
                     <a href="course-exam-lessons.php">
                         <img id="big-photo" class="user-select-none"
-                             srcset="pics/course/exam-lessons-logo.png 200w, pics/course/exam-lessons-logo.png 150w, pics/course/exam-lessons-logo.png 100w"
-                             sizes="(min-width: 1600px) 200px, (max-width: 1600px) 150px, (max-width: 1034px) 100px"
                              src="pics/course/exam-lessons-logo.png">
                         <div id="blue-filter-big" class="user-select-none"></div>
                         <div class="blue-frame-big user-select-none">
