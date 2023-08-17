@@ -9,7 +9,7 @@ html{
 }
 
 body {
-    background-image: url('../pics/contacts/background-grey.png');
+    background-image: url('../pics/contacts/background.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -46,25 +46,20 @@ body {
 
 .big-text{
     font-family: 'Yeseva One', sans-serif;
-    font-size: 147px;
     color: black;
-    margin-top: -55px;
-    margin-left: -330px;
 }
 
 .blue-text{
-    margin-top: -80px;
     font-family: 'Yeseva One', sans-serif;
-    font-size: 50px;
     color: #0358E4;
     text-align: center;
-    margin-left: -30px;
 }
 
 .white-box{
     background-color: #FFFFFF;
-    border-radius: 34px !important;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 34px !important;
+    border-top-right-radius: 34px !important;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     padding: 25px 100px 100px;
     margin-top: 12px;
 }
@@ -72,74 +67,33 @@ body {
 .info-text{
     font-family: 'Montserrat', sans-serif;
     color: #000;
-    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 110%;
-    letter-spacing: 4px;
     text-transform: uppercase;
-    margin-bottom: 20px;
 }
 
-.column-text{
-    margin-left: 20px;
-}
 .contact-text{
     font-family: 'Montserrat', sans-serif;
     color: #000;
-    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 110%;
-    letter-spacing: 2px;
     text-transform: uppercase;
 }
-#contact-1{
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-#contact-2{
-    margin-top: 44px;
-    margin-bottom: 40px;
-}
-#contact-3{
-    margin-top: 44px;
-    margin-bottom: 40px;
-}
-#contact-4{
-    margin-top: 44px;
-    margin-bottom: 40px;
-}
-
-.icons{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-#icon-2{
-    margin-left: 10px;
-}
-#icon-3{
-    margin-left: 10px;
-}
-#icon-4{
-    margin-left: 10px;
-}
-
 
 .snoska-text{
     font-family: 'Montserrat', sans-serif;
     color: #000;
-    font-size: 10px;
     font-style: normal;
     font-weight: 400;
     line-height: 110%;
-    letter-spacing: 2px;
     text-transform: uppercase;
 }
 
 
 /* Адаптация */
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
     body{
         overflow: hidden;
     }
@@ -149,35 +103,76 @@ body {
     }
     .head-button{
         font-size: 22px;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
     }
     .head-button-black{
         font-size: 22px;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
     }
     #hamburger-menu{
         margin-right: 70px;
     }
-}
 
-@media (min-width: 1400px) and (max-width: 1600px) {
-    body{
-        overflow: hidden;
+    .big-text{
+        font-size: 147px;
+        margin-top: -55px;
+        margin-left: -330px;
     }
-    .brand{
-        font-size: 48px;
-        margin-left: 70px;
+    .blue-text{
+        font-size: 50px;
+        margin-top: -80px;
+        margin-left: -30px;
     }
-    .head-button{
-        font-size: 22px;
+    .info-text{
+        font-size: 24px;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+    }
+    .icons{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #icon-1{
+        width: 57px;
+    }
+    #icon-2{
+        width: 45px;
+        margin-left: 10px;
+    }
+    #icon-3{
+        width: 40px;
+        margin-left: 10px;
+    }
+    #icon-4{
+        width: 40px;
+        margin-left: 10px;
+    }
+    .column-text{
+        margin-left: 20px;
+    }
+    .contact-text{
+        font-size: 14px;
         letter-spacing: 2px;
     }
-    .head-button-black{
-        font-size: 22px;
-        letter-spacing: 2px;
+    #contact-1{
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
-    #hamburger-menu{
-        margin-right: 70px;
+    #contact-2{
+        margin-top: 44px;
+        margin-bottom: 40px;
+    }
+    #contact-3{
+        margin-top: 44px;
+        margin-bottom: 40px;
+    }
+    #contact-4{
+        margin-top: 44px;
+        margin-bottom: 40px;
+    }
+    .snoska-text{
+        font-size: 10px;
+        letter-spacing: 2px;
     }
 }
 
@@ -196,11 +191,73 @@ body {
         font-size: 19px;
         letter-spacing: 1px;
     }
+
+    .big-text{
+        font-size: 127px;
+        margin-top: -55px;
+        margin-left: -265px;
+    }
+    .blue-text{
+        font-size: 36px;
+        margin-top: -80px;
+        margin-left: -10px;
+    }
+    .info-text{
+        font-size: 22px;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+    }
+    .icons{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #icon-1{
+        width: 57px;
+    }
+    #icon-2{
+        width: 45px;
+        margin-left: 10px;
+    }
+    #icon-3{
+        width: 40px;
+        margin-left: 10px;
+    }
+    #icon-4{
+        width: 40px;
+        margin-left: 10px;
+    }
+    .column-text{
+        margin-left: 20px;
+    }
+    .contact-text{
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    #contact-1{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    #contact-2{
+        margin-top: 44px;
+        margin-bottom: 40px;
+    }
+    #contact-3{
+        margin-top: 44px;
+        margin-bottom: 40px;
+    }
+    #contact-4{
+        margin-top: 44px;
+        margin-bottom: 40px;
+    }
+    .snoska-text{
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
     body{
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .brand{
         font-size: 42px;
@@ -217,11 +274,77 @@ body {
     #hamburger-menu{
         margin-right: 0;
     }
+
+    .big-text{
+        font-size: 120px;
+        margin-top: -40px;
+        margin-left: 0;
+    }
+    .blue-text{
+        font-size: 36px;
+        margin-top: -60px;
+        margin-left: -10px;
+    }
+    .info-text{
+        font-size: 22px;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+    }
+    .icons{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #icon-1{
+        width: 57px;
+    }
+    #icon-2{
+        width: 45px;
+        margin-left: 10px;
+    }
+    #icon-3{
+        width: 40px;
+        margin-left: 10px;
+    }
+    #icon-4{
+        width: 40px;
+        margin-left: 10px;
+    }
+    .column-text{
+        margin-left: 20px;
+    }
+    .contact-text{
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    #contact-1{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    #contact-2{
+        margin-top: 44px;
+        margin-bottom: 40px;
+    }
+    #contact-3{
+        margin-top: 44px;
+        margin-bottom: 40px;
+    }
+    #contact-4{
+        margin-top: 44px;
+        margin-bottom: 40px;
+    }
+    .snoska-text{
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    .white-box{
+        margin-bottom: 15px;
+        padding-bottom: 20px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
     body{
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .brand{
         font-size: 48px;
@@ -238,28 +361,223 @@ body {
     #hamburger-menu{
         margin-right: 70px;
     }
+
+    .big-text{
+        font-size: 52px;
+        margin-top: 0;
+        margin-left: 40px;
+    }
+    .blue-text{
+        font-size: 32px;
+        margin-top: -35px;
+        margin-left: -25px;
+    }
+    .info-text{
+        font-size: 20px;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+    }
+    .icons{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #icon-1{
+        width: 50px;
+    }
+    #icon-2{
+        width: 38px;
+        margin-left: 10px;
+    }
+    #icon-3{
+        width: 33px;
+        margin-left: 10px;
+    }
+    #icon-4{
+        width: 33px;
+        margin-left: 10px;
+    }
+    .column-text{
+        margin-left: 0;
+    }
+    .contact-text{
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+    #contact-1{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    #contact-2{
+        margin-top: -1px;
+        margin-bottom: 40px;
+    }
+    #contact-3{
+        margin-top: -2px;
+        margin-bottom: 40px;
+    }
+    #contact-4{
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .snoska-text{
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    .white-box{
+        margin-bottom: 15px;
+        padding-bottom: 20px;
+        margin-left: 20px;
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .big-text{
+        font-size: 82px;
+        margin-top: -10px;
+        margin-left: 40px;
+    }
+    .blue-text{
+        font-size: 36px;
+        margin-top: -45px;
+        margin-left: -25px;
+    }
+    .white-box{
+        margin-bottom: 39px;
+        padding-bottom: 30px;
+    }
 }
 
 @media (max-width: 576px) {
     body{
         overflow-x: hidden;
     }
+    .brand{
+        font-size: 48px;
+        margin-left: 0;
+    }
     .head-button{
-        text-align: center;
         font-size: 22px;
         letter-spacing: 2px;
     }
     .head-button-black{
-        text-align: center;
         font-size: 22px;
         letter-spacing: 2px;
     }
     #hamburger-menu{
         margin-right: 70px;
     }
+
+    .big-text{
+        font-size: 54px;
+        margin-top: 0;
+        margin-left: -60px;
+        margin-right: -85px;
+    }
+    .blue-text{
+        font-size: 22px;
+        margin-top: -30px;
+        margin-left: 0;
+    }
+    .info-text{
+        font-size: 14px;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+    }
+    .icons{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #icon-1{
+        width: 40px;
+    }
+    #icon-2{
+        width: 32px;
+        margin-left: 5px;
+    }
+    #icon-3{
+        width: 32px;
+        margin-left: 5px;
+    }
+    #icon-4{
+        width: 30px;
+        margin-left: 7px;
+    }
+    .column-text{
+        margin-left: 50px;
+        margin-top: -200px;
+    }
+    .contact-text{
+        font-size: 11px;
+        letter-spacing: 1px;
+        max-width: 120px;
+    }
+    #contact-1{
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+    #contact-2{
+        margin-top: -12px;
+        margin-bottom: 40px;
+    }
+    #contact-3{
+        margin-top: -10px;
+        margin-bottom: 40px;
+    }
+    #contact-4{
+        margin-top: -10px;
+        margin-bottom: 40px;
+    }
+    .snoska-text{
+        font-size: 8px;
+        letter-spacing: 1px;
+        margin-right: 40px;
+        margin-top: -20px;
+    }
+    .white-box{
+        width: fit-content;
+        margin-bottom: 0;
+        padding-bottom: 20px;
+        margin-left: 65px;
+        margin-right: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 }
 
+@media (min-width: 389px) and (max-width: 400px) {
+    .big-text{
+        font-size: 61px;
+        margin-top: 0;
+        margin-left: -74px;
+        margin-right: -95px;
+    }
+    .blue-text{
+        font-size: 25px;
+        margin-top: -35px;
+        margin-left: 0;
+    }
+    .white-box{
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 15px;
+    }
+}
 
+@media (min-width: 376px) and (max-width: 389px) {
+    .big-text{
+        font-size: 60px;
+        margin-top: 0;
+        margin-left: -66px;
+        margin-right: -85px;
+    }
+    .blue-text{
+        font-size: 24px;
+        margin-top: -30px;
+        margin-left: 0;
+    }
+}
 
 /* ЧИСТО ДЛЯ ШАПКИ */
 @media (min-width: 1300px) and (max-width: 1400px) {
@@ -308,7 +626,14 @@ body {
 @media (max-width: 400px) {
     .brand{
         font-size: 30px;
-        margin-left: 46px;
+        margin-left: 68px;
+    }
+}
+
+@media (max-width: 376px) {
+    .brand{
+        font-size: 30px;
+        margin-left: 52px;
     }
 }
 

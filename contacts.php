@@ -107,43 +107,31 @@
 </header>
 <main>
     <div class="container">
-        <img id="background-photo" class="user-select-none"
-             srcset="pics/contacts/background-blue.png 52w, pics/contacts/background-blue.png 40w, pics/contacts/background-blue.png 30w"
-             sizes="(min-width: 1600px) 50px, (max-width: 1600px) 46px, (max-width: 1034px) 30px"
-             src="pics/contacts/background-blue.png">
         <div class="row justify-content-center">
             <div class="white-box col-auto">
                 <p class="big-text user-select-none">Contact me</p>
                 <p class="blue-text user-select-none">& start learning</p>
                 <p class="info-text user-select-none">свяжитесь со мной!<br>вместе мы подберём подходящий<br>курс, количество занятий<br>+ вы получите доступ к личному<br>кабинету</p>
                 <div class="row justify-content-start">
-                    <div class="col-auto">
+                    <div class="col-sm-2 col-md-auto">
                         <a href="https://vk.com/annapokasova" target="_blank">
-                            <img class="icons user-select-none"
-                                 srcset="pics/contacts/icon_logo_vk.png 52w, pics/contacts/icon_logo_vk.png 40w, pics/contacts/icon_logo_vk.png 30w"
-                                 sizes="(min-width: 1600px) 50px, (max-width: 1600px) 35px, (max-width: 1034px) 30px"
+                            <img id="icon-1" class="icons user-select-none"
                                  src="pics/contacts/icon_logo_vk.png">
                         </a><br>
                         <a href="https://api.whatsapp.com/send?phone=79512254921" target="_blank">
                             <img id="icon-2" class="icons user-select-none"
-                                 srcset="pics/contacts/icon_logo_whatsapp.png 52w, pics/contacts/icon_logo_whatsapp.png 40w, pics/contacts/icon_logo_whatsapp.png 30w"
-                                 sizes="(min-width: 1600px) 50px, (max-width: 1600px) 40px, (max-width: 1034px) 30px"
                                  src="pics/contacts/icon_logo_whatsapp.png">
                         </a><br>
                         <a href="https://t.me/annpoks" target="_blank">
                             <img id="icon-3" class="icons user-select-none"
-                                 srcset="pics/contacts/icon_logo_telegram.png 52w, pics/contacts/icon_logo_telegram.png 40w, pics/contacts/icon_logo_telegram.png 30w"
-                                 sizes="(min-width: 1600px) 50px, (max-width: 1600px) 40px, (max-width: 1034px) 30px"
                                  src="pics/contacts/icon_logo_telegram.png">
                         </a><br>
                         <a href="https://instagram.com/annpoks?igshid=MzRlODBiNWFlZA==" target="_blank">
                             <img id="icon-4" class="icons user-select-none"
-                                 srcset="pics/contacts/icon_logo_instagram.png 52w, pics/contacts/icon_logo_instagram.png 40w, pics/contacts/icon_logo_instagram.png 30w"
-                                 sizes="(min-width: 1600px) 50px, (max-width: 1600px) 42px, (max-width: 1034px) 30px"
                                  src="pics/contacts/icon_logo_instagram.png">
                         </a>
                     </div>
-                    <div class="col-auto column-text">
+                    <div class="col-sm-10 col-md-auto column-text">
                         <p id="contact-1" class="contact-text">Вконтакте: Анна покасова</p>
                         <p id="contact-2" class="contact-text">whatsapp</p>
                         <p id="contact-3" class="contact-text">telegram: @annpoks</p>
