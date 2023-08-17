@@ -543,11 +543,18 @@ html{
 @media (max-width: 400px) {
     .brand{
         font-size: 30px;
-        margin-left: 46px;
+        margin-left: 60px;
     }
     .rhombus{
         right: -260px;
         top: -10px;
+    }
+}
+
+@media (max-width: 376px) {
+    .brand{
+        font-size: 30px;
+        margin-left: 46px;
     }
 }
 
