@@ -108,10 +108,6 @@
 </header>
 <main>
     <div class="container">
-        <img id="background-photo" class="user-select-none"
-             srcset="pics/log-in/background-blue.png 52w, pics/log-in/background-blue.png 40w, pics/log-in/background-blue.png 30w"
-             sizes="(min-width: 1600px) 50px, (max-width: 1600px) 46px, (max-width: 1034px) 30px"
-             src="pics/log-in/background-blue.png">
         <div class="row justify-content-center">
             <div class="col-auto">
                 <div class="white-box">

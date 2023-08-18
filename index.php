@@ -167,7 +167,7 @@
                                     <button class="orientated-button blue-button user-select-none" href="schedule.php">записаться</button>
                                 </form>
                             <?php elseif ($_COOKIE['role'] == 'admin'): ?>
-                                <form action="schedule.php">
+                                <form action="sign-up.php">
                                     <button class="orientated-button blue-button user-select-none" href="sign-up.php">sign up</button>
                                 </form>
                             <?php endif;?>
