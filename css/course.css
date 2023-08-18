@@ -790,12 +790,28 @@ html{
         font-size: 36px;
         margin-left: 110px;
     }
+    .rhombus-blue-xs{
+        top: -13px;
+        right: -265px;
+    }
+    .rhombus-blue-xs:before{
+        width: 150px;
+        left: -152px;
+    }
 }
 
 @media (min-width: 400px) and (max-width: 490px) {
     .brand{
         font-size: 36px;
         margin-left: 80px;
+    }
+    .rhombus-blue-xs{
+        top: -13px;
+        right: -265px;
+    }
+    .rhombus-blue-xs:before{
+        width: 150px;
+        left: -152px;
     }
 }
 
@@ -812,7 +828,6 @@ html{
         margin-left: 52px;
     }
 }
-
 
 
 @media (max-width: 350px) {
