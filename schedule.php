@@ -109,10 +109,6 @@
 </header>
 <main>
     <div class="container">
-        <img id="background-photo" class="user-select-none"
-             srcset="pics/contacts/background-blue.png 52w, pics/contacts/background-blue.png 40w, pics/contacts/background-blue.png 30w"
-             sizes="(min-width: 1600px) 50px, (max-width: 1600px) 46px, (max-width: 1034px) 30px"
-             src="pics/contacts/background-blue.png">
         <div class="row justify-content-center">
             <div class="white-box col-auto">
                 <p class="big-text user-select-none">Sign up</p>

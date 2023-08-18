@@ -9,7 +9,7 @@ html{
 }
 
 body {
-    background-image: url('../pics/contacts/background-grey.png');
+    background-image: url('../pics/contacts/background.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -47,15 +47,11 @@ body {
 
 .big-text{
     font-family: 'Yeseva One', sans-serif;
-    font-size: 147px;
     color: black;
-    margin-top: -40px;
 }
 
 .blue-text{
-    margin-top: -60px;
     font-family: 'Yeseva One', sans-serif;
-    font-size: 50px;
     color: #0358E4;
     text-align: center;
 }
@@ -63,22 +59,14 @@ body {
 .white-box{
     position: relative;
     background-color: #FFFFFF;
-    border-radius: 34px !important;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    padding: 25px 100px 200px;
-    margin-top: 12px;
 }
 .info-text{
     font-family: 'Montserrat', sans-serif;
     color: #000;
-    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 110%;
-    letter-spacing: 4px;
     text-transform: uppercase;
-    margin-bottom: 20px;
-    margin-top: 30px;
 }
 
 .blue-button{
@@ -86,23 +74,19 @@ body {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, 0);
-    margin-top: 50px;
     width: auto;
     background-color: #0358E4;
     border: none;
-    padding: 12px 60px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
     color: #FFFFFF;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 3px;
 }
 
 
 /* Адаптация */
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
     body{
         overflow: hidden;
     }
@@ -112,35 +96,42 @@ body {
     }
     .head-button{
         font-size: 22px;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
     }
     .head-button-black{
         font-size: 22px;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
     }
     #hamburger-menu{
         margin-right: 70px;
     }
-}
 
-@media (min-width: 1400px) and (max-width: 1600px) {
-    body{
-        overflow: hidden;
+    .big-text{
+        font-size: 147px;
+        margin-top: -40px;
     }
-    .brand{
-        font-size: 48px;
-        margin-left: 70px;
+    .blue-text{
+        margin-top: -60px;
+        font-size: 50px;
     }
-    .head-button{
-        font-size: 22px;
-        letter-spacing: 2px;
+    .white-box{
+        border-radius: 34px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        padding: 25px 100px 200px;
+        margin-top: 12px;
     }
-    .head-button-black{
-        font-size: 22px;
-        letter-spacing: 2px;
+    .info-text{
+        font-size: 24px;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+        margin-top: 30px;
     }
-    #hamburger-menu{
-        margin-right: 70px;
+    .blue-button{
+        margin-top: 50px;
+        padding: 12px 60px;
+        font-size: 18px;
+        letter-spacing: 3px;
+        border-radius: 15px;
     }
 }
 
@@ -158,6 +149,35 @@ body {
     .head-button-black{
         font-size: 19px;
         letter-spacing: 1px;
+    }
+
+    .big-text{
+        font-size: 147px;
+        margin-top: -40px;
+    }
+    .blue-text{
+        margin-top: -60px;
+        font-size: 50px;
+    }
+    .white-box{
+        border-radius: 34px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        padding: 25px 100px 200px;
+        margin-top: 12px;
+        margin-bottom: 100px;
+    }
+    .info-text{
+        font-size: 24px;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .blue-button{
+        margin-top: 50px;
+        padding: 12px 60px;
+        font-size: 18px;
+        letter-spacing: 3px;
+        border-radius: 15px;
     }
 }
 
@@ -180,6 +200,36 @@ body {
     #hamburger-menu{
         margin-right: 0;
     }
+
+    .big-text{
+        font-size: 117px;
+        margin-top: -20px;
+        margin-left: 85px;
+    }
+    .blue-text{
+        margin-top: -40px;
+        font-size: 40px;
+    }
+    .white-box{
+        border-radius: 34px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        padding: 25px 100px 500px;
+        margin-top: 12px;
+        margin-bottom: 100px;
+    }
+    .info-text{
+        font-size: 24px;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .blue-button{
+        margin-top: 20px;
+        padding: 12px 60px;
+        font-size: 18px;
+        letter-spacing: 3px;
+        border-radius: 15px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
@@ -201,11 +251,42 @@ body {
     #hamburger-menu{
         margin-right: 70px;
     }
+
+    .big-text{
+        font-size: 78px;
+        margin-top: -20px;
+        margin-left: 65px;
+    }
+    .blue-text{
+        margin-top: -30px;
+        font-size: 30px;
+    }
+    .white-box{
+        width: 500px;
+        border-radius: 34px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        padding: 25px 45px 500px;
+        margin-top: 12px;
+        margin-bottom: 100px;
+    }
+    .info-text{
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .blue-button{
+        margin-top: 35px;
+        padding: 12px 60px;
+        font-size: 18px;
+        letter-spacing: 3px;
+        border-radius: 15px;
+    }
 }
 
 @media (max-width: 576px) {
     body{
-        overflow-x: hidden;
+        overflow: hidden;
     }
     .head-button{
         text-align: center;
@@ -219,6 +300,37 @@ body {
     }
     #hamburger-menu{
         margin-right: 70px;
+    }
+
+    .big-text{
+        font-size: 48px;
+        margin-top: -14px;
+        margin-left: 34px;
+    }
+    .blue-text{
+        margin-top: -22px;
+        font-size: 20px;
+    }
+    .white-box{
+        width: 300px;
+        border-radius: 34px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        padding: 25px 20px 500px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+    .info-text{
+        font-size: 16px;
+        letter-spacing: 0;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .blue-button{
+        margin-top: 35px;
+        padding: 12px 40px;
+        font-size: 14px;
+        letter-spacing: 3px;
+        border-radius: 15px;
     }
 }
 
@@ -271,7 +383,14 @@ body {
 @media (max-width: 400px) {
     .brand{
         font-size: 30px;
-        margin-left: 46px;
+        margin-left: 68px;
+    }
+}
+
+@media (max-width: 376px) {
+    .brand{
+        font-size: 30px;
+        margin-left: 52px;
     }
 }
 
