@@ -89,15 +89,15 @@
                             </a>
                             <?php if ($_COOKIE['role'] == 'student'): ?>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color:#F1F1F1">
-                                    <li><a class="dropdown-item head-button user-select-none" href="contacts.php">Контакты</a></li>
-                                    <li><a class="dropdown-item head-button user-select-none" href="schedule.php">Расписание</a></li>
-                                    <li><a class="dropdown-item head-button user-select-none" href="php/exit.php">Выйти из<br><?=$_COOKIE['user']?></a></li>
+                                    <li><a class="dropdown-item head-button-black user-select-none" href="contacts.php">Контакты</a></li>
+                                    <li><a class="dropdown-item head-button-black user-select-none" href="schedule.php">Расписание</a></li>
+                                    <li><a class="dropdown-item head-button-black user-select-none" href="php/exit.php">Выйти из<br><?=$_COOKIE['user']?></a></li>
                                 </ul>
                             <?php elseif ($_COOKIE['role'] == 'admin'): ?>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color:#F1F1F1">
-                                    <li><a class="dropdown-item head-button user-select-none" href="contacts.php">Контакты</a></li>
-                                    <li><a class="dropdown-item head-button user-select-none" href="sign-up.php">Регистрация</a></li>
-                                    <li><a class="dropdown-item head-button user-select-none" href="php/exit.php">Выйти из<br><?=$_COOKIE['user']?></a></li>
+                                    <li><a class="dropdown-item head-button-black user-select-none" href="contacts.php">Контакты</a></li>
+                                    <li><a class="dropdown-item head-button-black user-select-none" href="sign-up.php">Регистрация</a></li>
+                                    <li><a class="dropdown-item head-button-black user-select-none" href="php/exit.php">Выйти из<br><?=$_COOKIE['user']?></a></li>
                                 </ul>
                             <?php endif;?>
                         </li>
