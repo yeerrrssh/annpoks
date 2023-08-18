@@ -31,7 +31,6 @@ body {
 
 .head-button-black{
     font-family: 'Montserrat', sans-serif;
-    color: black;
     margin-top: 10px;
 }
 /* Шапка (END) */
@@ -137,28 +136,7 @@ body {
 
 
 /* Адаптация */
-@media (min-width: 1600px) {
-    body{
-        overflow: hidden;
-    }
-    .brand{
-        font-size: 48px;
-        margin-left: 70px;
-    }
-    .head-button{
-        font-size: 22px;
-        letter-spacing: 3px;
-    }
-    .head-button-black{
-        font-size: 22px;
-        letter-spacing: 3px;
-    }
-    #hamburger-menu{
-        margin-right: 70px;
-    }
-}
-
-@media (min-width: 1400px) and (max-width: 1600px) {
+@media (min-width: 1400px) {
     body{
         overflow: hidden;
     }
@@ -170,7 +148,11 @@ body {
         font-size: 22px;
         letter-spacing: 2px;
     }
+    .dropdown-menu{
+        background-color: #F1F1F1;
+    }
     .head-button-black{
+        color: black;
         font-size: 22px;
         letter-spacing: 2px;
     }
@@ -190,7 +172,11 @@ body {
         font-size: 19px;
         letter-spacing: 1px;
     }
+    .dropdown-menu{
+         background-color: #F1F1F1;
+     }
     .head-button-black{
+        color: black;
         font-size: 19px;
         letter-spacing: 1px;
     }
@@ -208,7 +194,11 @@ body {
         font-size: 18px;
         letter-spacing: 0;
     }
+    .dropdown-menu{
+        background-color: #F1F1F1;
+    }
     .head-button-black{
+        color: black;
         font-size: 18px;
         letter-spacing: 0;
     }
@@ -229,7 +219,12 @@ body {
         font-size: 22px;
         letter-spacing: 2px;
     }
+    .dropdown-menu{
+        border: none;
+        background: none;
+    }
     .head-button-black{
+        color: white;
         font-size: 22px;
         letter-spacing: 2px;
     }
@@ -247,7 +242,12 @@ body {
         font-size: 22px;
         letter-spacing: 2px;
     }
+    .dropdown-menu{
+        border: none;
+        background: none;
+    }
     .head-button-black{
+        color: white;
         text-align: center;
         font-size: 22px;
         letter-spacing: 2px;
@@ -306,7 +306,14 @@ body {
 @media (max-width: 400px) {
     .brand{
         font-size: 30px;
-        margin-left: 46px;
+        margin-left: 68px;
+    }
+}
+
+@media (max-width: 376px) {
+    .brand{
+        font-size: 30px;
+        margin-left: 52px;
     }
 }
 

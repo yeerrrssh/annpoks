@@ -33,7 +33,6 @@ body {
 
 .head-button-black{
     font-family: 'Montserrat', sans-serif;
-    color: black;
     margin-top: 10px;
 }
 /* Шапка (END) */
@@ -98,7 +97,11 @@ body {
         font-size: 22px;
         letter-spacing: 2px;
     }
+    .dropdown-menu{
+        background-color:#F1F1F1;
+    }
     .head-button-black{
+        color: black;
         font-size: 22px;
         letter-spacing: 2px;
     }
@@ -146,7 +149,11 @@ body {
         font-size: 19px;
         letter-spacing: 1px;
     }
+    .dropdown-menu{
+        background-color:#F1F1F1;
+    }
     .head-button-black{
+        color: black;
         font-size: 19px;
         letter-spacing: 1px;
     }
@@ -193,7 +200,11 @@ body {
         font-size: 18px;
         letter-spacing: 0;
     }
+    .dropdown-menu{
+        background-color:#F1F1F1;
+    }
     .head-button-black{
+        color: black;
         font-size: 18px;
         letter-spacing: 0;
     }
@@ -244,12 +255,17 @@ body {
         font-size: 22px;
         letter-spacing: 2px;
     }
+    .dropdown-menu{
+        border: none;
+        background: none;
+    }
     .head-button-black{
+        color: white;
         font-size: 22px;
         letter-spacing: 2px;
     }
     #hamburger-menu{
-        margin-right: 70px;
+        margin-right: 0;
     }
 
     .big-text{
@@ -293,13 +309,18 @@ body {
         font-size: 22px;
         letter-spacing: 2px;
     }
+    .dropdown-menu{
+        border: none;
+        background: none;
+    }
     .head-button-black{
+        color: white;
         text-align: center;
         font-size: 22px;
         letter-spacing: 2px;
     }
     #hamburger-menu{
-        margin-right: 70px;
+        margin-right: 0;
     }
 
     .big-text{
