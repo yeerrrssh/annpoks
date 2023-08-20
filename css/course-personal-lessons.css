@@ -35,29 +35,17 @@ body {
 }
 /* Шапка (END) */
 
-#background-photo{
-    position: absolute;
-    z-index: -100;
-    top: 0;
-    left: 0;
-}
-
 .white-button{
     width: auto;
     height: fit-content;
     background-color: white;
     border: none;
-    padding: 13px 60px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
     color: #0358E4;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 3px;
     position: absolute;
-    top: 90%;
-    left: 30%;
 }
 
 .blue-box{
@@ -65,62 +53,24 @@ body {
     background-color: #0358E4;
     border-radius: 34px !important;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    padding: 30px 55px 30px;
-    margin-top: 10px;
 }
 
 .big-main-text{
     font-family: 'Yeseva One', sans-serif;
-    font-size: 147px;
     color: #F1F1F1;
-    margin-top: -60px;
-    margin-right: -630px;
 }
 .white-text{
     font-family: 'Montserrat', sans-serif;
     color: #F1F1F1;
-    font-size: 23px;
     font-style: normal;
     font-weight: 400;
     line-height: 110%;
-    letter-spacing: 4px;
     text-transform: uppercase;
-    margin-top: -45px;
 }
 .white-text-align-center{
     text-align: center;
 }
-#icons-up{
-    width: 550px;
-    position: absolute;
-    left: 12%;
-    top: 29%;
-}
-#up-left-text{
-    position: absolute;
-    top: 63%;
-    left: 4.5%;
-}
-#up-center-text{
-    position: absolute;
-    top: 56%;
-    left: 34.5%;
-}
-#up-right-text{
-    position: absolute;
-    top: 63%;
-    left: 67%;
-}
-#icon-down{
-    position: absolute;
-    top: 71%;
-    left: 13%;
-}
-#down-text{
-    position: absolute;
-    top: 81%;
-    left: 26%;
-}
+
 
 
 /* Адаптация */
@@ -147,6 +97,63 @@ body {
     #hamburger-menu{
         margin-right: 70px;
     }
+
+    .white-button{
+        padding: 13px 60px;
+        font-size: 18px;
+        letter-spacing: 3px;
+        top: 90%;
+        left: 30%;
+    }
+    .blue-box{
+        padding: 30px 55px 30px;
+        margin-top: 10px;
+    }
+    .big-main-text{
+        font-size: 147px;
+        margin-top: -60px;
+        margin-right: -630px;
+    }
+    #lsns{
+        font-size: 50px
+    }
+    .white-text{
+        font-size: 23px;
+        letter-spacing: 4px;
+        margin-top: -45px;
+    }
+    #icons-up{
+        width: 550px;
+        position: absolute;
+        left: 12%;
+        top: 29%;
+    }
+    #up-left-text{
+        position: absolute;
+        top: 62%;
+        left: 4.5%;
+    }
+    #up-center-text{
+        position: absolute;
+        top: 55%;
+        left: 34.5%;
+    }
+    #up-right-text{
+        position: absolute;
+        top: 62%;
+        left: 67%;
+    }
+    #icon-down{
+        width: 84px;
+        position: absolute;
+        top: 70.5%;
+        left: 13%;
+    }
+    #down-text{
+        position: absolute;
+        top: 80.5%;
+        left: 26%;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -167,6 +174,64 @@ body {
         color: black;
         font-size: 19px;
         letter-spacing: 1px;
+    }
+
+    .white-button{
+        padding: 12px 50px;
+        font-size: 16px;
+        letter-spacing: 3px;
+        top: 90%;
+        left: 30%;
+    }
+    .blue-box{
+        padding: 30px 45px 30px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .big-main-text{
+        font-size: 120px;
+        margin-top: -50px;
+        margin-right: -630px;
+    }
+    #lsns{
+        font-size: 50px
+    }
+    .white-text{
+        font-size: 20px;
+        letter-spacing: 3px;
+        margin-top: -40px;
+    }
+    #icons-up{
+        width: 490px;
+        position: absolute;
+        left: 11%;
+        top: 30%;
+    }
+    #up-left-text{
+        position: absolute;
+        top: 62%;
+        left: 3.5%;
+    }
+    #up-center-text{
+        position: absolute;
+        top: 55%;
+        left: 35%;
+    }
+    #up-right-text{
+        position: absolute;
+        top: 62%;
+        left: 68.5%;
+    }
+    #icon-down{
+        width: 84px;
+        position: absolute;
+        top: 69%;
+        left: 11%;
+    }
+    #down-text{
+        position: absolute;
+        top: 81%;
+        left: 26%;
     }
 }
 
@@ -193,11 +258,70 @@ body {
     #hamburger-menu{
         margin-right: 0;
     }
+
+    .white-button{
+        padding: 10px 40px;
+        font-size: 16px;
+        letter-spacing: 3px;
+        top: 84.5%;
+        left: 30%;
+    }
+    .blue-box{
+        padding: 30px 35px 20px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 25px;
+    }
+    .big-main-text{
+        font-size: 100px;
+        margin-top: -40px;
+        margin-right: -630px;
+    }
+    #lsns{
+        font-size: 50px
+    }
+    .white-text{
+        font-size: 18px;
+        letter-spacing: 3px;
+        margin-top: -35px;
+    }
+    #icons-up{
+        width: 440px;
+        position: absolute;
+        left: 10%;
+        top: 28%;
+    }
+    #up-left-text{
+        position: absolute;
+        top: 59%;
+        left: 2%;
+    }
+    #up-center-text{
+        position: absolute;
+        top: 52.5%;
+        left: 35%;
+    }
+    #up-right-text{
+        position: absolute;
+        top: 59%;
+        left: 70.5%;
+    }
+    #icon-down{
+        width: 70px;
+        position: absolute;
+        top: 66%;
+        left: 10%;
+    }
+    #down-text{
+        position: absolute;
+        top: 77%;
+        left: 25%;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
     body{
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .brand{
         font-size: 48px;
@@ -217,7 +341,72 @@ body {
         letter-spacing: 2px;
     }
     #hamburger-menu{
-        margin-right: 70px;
+        margin-right: 0;
+    }
+
+    .white-button{
+        padding: 12px 50px;
+        font-size: 16px;
+        letter-spacing: 3px;
+        position: relative;
+        top: 100px;
+        left: 100px;
+        margin-bottom: 214px;
+    }
+    .blue-box{
+        padding: 30px 45px 15px;
+        margin-top: 140px;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+    .big-main-text{
+        font-size: 70px;
+        margin-top: -175px;
+        margin-left: -30px;
+        margin-right: -150px;
+    }
+    #lsns{
+        position: relative;
+        left: -226px;
+        bottom: -30px;
+        font-size: 30px
+    }
+    .white-text{
+        font-size: 18px;
+        letter-spacing: 3px;
+        margin-top: 75px;
+    }
+    #icons-up{
+        width: 420px;
+        position: relative;
+        top: 55px;
+    }
+    #up-left-text{
+        position: relative;
+        top: -10px;
+        left: -171px;
+    }
+    #up-center-text{
+        position: relative;
+        top: -158px;
+        left: 2px;
+    }
+    #up-right-text{
+        position: relative;
+        top: -280px;
+        left: 178px;
+    }
+    #icon-down{
+        width: 70px;
+        position: relative;
+        top: -220px;
+        left: -26px;
+    }
+    #down-text{
+        position: relative;
+        top: -346px;
+        left: 56px;
+        margin-bottom: -370px;
     }
 }
 
@@ -241,11 +430,179 @@ body {
         letter-spacing: 2px;
     }
     #hamburger-menu{
-        margin-right: 70px;
+        margin-right: 0;
+    }
+
+    .white-button{
+        padding: 10px 40px;
+        font-size: 15px;
+        letter-spacing: 2px;
+        position: relative;
+        top: 140px;
+        left: 60px;
+        margin-bottom: 214px;
+    }
+    .blue-box{
+        padding: 30px 25px 15px;
+        margin-top: 140px;
+        margin-left: 36px;
+        margin-bottom: 25px;
+    }
+    .big-main-text{
+        font-size: 52px;
+        margin-top: -160px;
+        margin-left: -18px;
+        margin-right: -150px;
+    }
+    #lsns{
+        position: relative;
+        left: -160px;
+        bottom: -35px;
+        font-size: 22px
+    }
+    .white-text{
+        font-size: 15px;
+        letter-spacing: 2px;
+        margin-top: 70px;
+    }
+    #icons-up{
+        width: 300px;
+        position: relative;
+        top: 25px;
+        left: 15px;
+    }
+    #up-left-text{
+        position: relative;
+        top: 10px;
+        left: -86px;
+    }
+    #up-center-text{
+        position: relative;
+        top: -158px;
+        left: 7px;
+    }
+    #up-right-text{
+        position: relative;
+        top: -230px;
+        left: 100px;
+    }
+    #icon-down{
+        width: 56px;
+        position: relative;
+        top: -180px;
+        left: 10px;
+    }
+    #down-text{
+        position: relative;
+        top: -300px;
+        left: 78px;
+        margin-bottom: -370px;
     }
 }
 
+@media (min-width: 388px) and (max-width: 400px){
+    .white-button{
+        left: 82px;
+        margin-bottom: 230px;
+    }
+    #icons-up{
+        width: 300px;
+        left: 30px;
+    }
+    #up-left-text{
+        left: -91px;
+    }
+    #up-center-text{
+        left: 7px;
+    }
+    #up-right-text{
+        left: 95px;
+    }
+    #icon-down{
+        width: 56px;
+        left: 32px;
+    }
+    #down-text{
+        left: 100px;
+        margin-bottom: -370px;
+        margin-right: 40px;
+    }
+    .blue-box{
+        margin-left: 52px!important;
+    }
+}
 
+@media (min-width: 378px) and (max-width: 388px){
+    .white-button{
+        left: 78px;
+    }
+    #icons-up{
+        width: 300px;
+        left: 26px;
+    }
+    #up-left-text{
+        left: -92px;
+    }
+    #up-center-text{
+        left: 6px;
+    }
+    #up-right-text{
+        left: 94px;
+    }
+    #icon-down{
+        width: 56px;
+        left: 25px;
+    }
+    #down-text{
+        left: 93px;
+        margin-bottom: -370px;
+        margin-right: 30px;
+    }
+    .blue-box{
+        margin-left: 52px!important;
+    }
+}
+
+@media (min-width: 370px) and (max-width: 378px){
+    #up-left-text{
+        left: -96px;
+    }
+    #up-center-text{
+        left: -3px;
+    }
+    #up-right-text{
+        left: 90px;
+    }
+    #icon-down{
+        left: 10px;
+    }
+    #down-text{
+        left: 78px;
+        margin-bottom: -370px;
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 363px) and (max-width: 370px){
+    #up-left-text{
+        left: -90px;
+    }
+    #up-center-text{
+        left: 3px;
+    }
+    #up-right-text{
+        left: 96px;
+    }
+    #icon-down{
+        width: 56px;
+        left: 10px;
+    }
+    #down-text{
+        left: 78px;
+        margin-bottom: -370px;
+        margin-right: 20px;
+    }
+}
 
 /* ЧИСТО ДЛЯ ШАПКИ */
 @media (min-width: 1300px) and (max-width: 1400px) {
@@ -282,6 +639,7 @@ body {
         font-size: 36px;
         margin-left: 110px;
     }
+
 }
 
 @media (min-width: 400px) and (max-width: 490px) {

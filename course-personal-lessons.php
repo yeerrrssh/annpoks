@@ -107,18 +107,14 @@
 </header>
 <main>
     <div class="container">
-        <img id="background-photo" class="user-select-none"
-             srcset="pics/course-personal-lessons/background-dark.png 52w, pics/course-personal-lessons/background-dark.png 40w, pics/course-personal-lessons/background-dark.png 30w"
-             sizes="(min-width: 1600px) 50px, (max-width: 1600px) 46px, (max-width: 1034px) 30px"
-             src="pics/course-personal-lessons/background-dark.png">
         <div class="row justify-content-center">
-            <div class="col-5">
+            <div class="col-sm-auto col-lg-5">
                 <div class="blue-box">
-                    <p class="big-main-text user-select-none">Personal<span style="font-size: 50px"> lessons</span></p>
+                    <p class="big-main-text user-select-none">Personal<span id="lsns"> lessons</span></p>
                     <p class="white-text user-select-none">помогают<br>достигнуть<br>индивидуальных<br>целей<br><br>материалы,<br>ориентированные<br>на ваши интересы<br><br>предполагают<br>интенсивное<br>прохождение<br>материала<br><br>быстрая обратная<br>связь</p>
                 </div>
             </div>
-            <div class="col-7" style="position: relative">
+            <div class="col-sm-auto col-lg-7" style="position: relative">
                 <div class="justify-content-center">
                     <img id="icons-up" class="user-select-none"
                          src="pics/course-personal-lessons/icons-up.svg">
@@ -126,8 +122,6 @@
                     <p id="up-center-text" class="white-text white-text-align-center user-select-none">English file<br>starlight<br>spotlight<br>forward</p>
                     <p id="up-right-text" class="white-text white-text-align-center user-select-none">miro<br>jamboard</p>
                     <img id="icon-down" class="user-select-none"
-                         srcset="pics/course-personal-lessons/down-icon.svg 52w, pics/course-personal-lessons/down-icon.svg 40w, pics/course-personal-lessons/down-icon.svg 30w"
-                         sizes="(min-width: 1600px) 50px, (max-width: 1600px) 36px, (max-width: 1034px) 30px"
                          src="pics/course-personal-lessons/down-icon.svg">
                     <p id="down-text" class="white-text user-select-none">+ Youtube, quizizz, wordwall,<br>british council, etc.</p>
                     <form action="contacts.php">
