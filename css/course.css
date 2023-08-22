@@ -516,8 +516,12 @@ html{
         font-size: 22px;
         letter-spacing: 2px;
     }
+    .dropdown-menu{
+        border: none;
+        background: none;
+    }
     #hamburger-menu{
-        margin-right: 70px;
+        margin-right: 0;
     }
 
     .courses-page-text{
@@ -624,8 +628,12 @@ html{
         font-size: 22px;
         letter-spacing: 2px;
     }
+    .dropdown-menu{
+        border: none;
+        background: none;
+    }
     #hamburger-menu{
-        margin-right: 70px;
+        margin-right: 0;
     }
 
     .courses-page-text{
