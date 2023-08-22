@@ -107,25 +107,19 @@
 </header>
 <main>
     <div class="container">
-        <img id="background-photo" class="user-select-none"
-             srcset="pics/course-group-lessons/background-blue.png 52w, pics/course-group-lessons/background-blue.png 40w, pics/course-group-lessons/background-blue.png 30w"
-             sizes="(min-width: 1600px) 50px, (max-width: 1600px) 46px, (max-width: 1034px) 30px"
-             src="pics/course-group-lessons/background-blue.png">
         <div class="row justify-content-center">
-            <div class="col-3">
+            <div class="btn-left col-lg-3">
                 <form action="contacts.php">
                     <button class="white-button user-select-none" href="contacts.php">записаться</button>
                 </form>
             </div>
-            <div class="white-box col-4">
-                <p class="big-main-text user-select-none">Group<span style="font-size: 50px"> lessons</span></p>
+            <div class="white-box col-sm-auto col-lg-4">
+                <p class="big-main-text user-select-none">Group<span id="lsns"> lessons</span></p>
                 <p class="blue-text user-select-none">Позволяют<br>ученикам обучать<br>друг друга,<br>работать вместе<br>для достижения<br>общей цели<br><br>повышают<br>уверенность<br>учащихся<br><br>улучшают<br>дружеские<br>отношения и<br>коммуникативные<br>способности</p>
             </div>
-            <div class="col-5">
+            <div class="col-sm-auto col-lg-5">
                 <div class="row justify-content-center">
                     <img id="icons-up" class="user-select-none"
-                         srcset="pics/course-group-lessons/icons-up.svg 52w, pics/course-group-lessons/icons-up.svg 40w, pics/course-group-lessons/icons-up.svg 30w"
-                         sizes="(min-width: 1600px) 50px, (max-width: 1600px) 35px, (max-width: 1034px) 30px"
                          src="pics/course-group-lessons/icons-up.svg">
                 </div>
                 <div class="row justify-content-center">
@@ -139,12 +133,8 @@
                 <div class="row justify-content-center mt-4">
                     <div class="col-auto">
                         <img id="icon-center" class="user-select-none"
-                             srcset="pics/course-group-lessons/icon-center.svg 52w, pics/course-group-lessons/icon-center.svg 40w, pics/course-group-lessons/icon-center.svg 30w"
-                             sizes="(min-width: 1600px) 50px, (max-width: 1600px) 35px, (max-width: 1034px) 30px"
                              src="pics/course-group-lessons/icon-center.svg"><br>
                         <img id="icon-down" class="user-select-none"
-                             srcset="pics/course-group-lessons/icon-down.svg 52w, pics/course-group-lessons/icon-down.svg 40w, pics/course-group-lessons/icon-down.svg 30w"
-                             sizes="(min-width: 1600px) 50px, (max-width: 1600px) 35px, (max-width: 1034px) 30px"
                              src="pics/course-group-lessons/icon-down.svg">
                     </div>
                     <div class="col-auto">
@@ -152,6 +142,11 @@
                         <p id="down-right-text" class="white-text user-select-none">+ устные и<br>письменные<br>командные<br>контрольные<br>точки</p>
                     </div>
                 </div>
+            </div>
+            <div class="btn-down col-12">
+                <form action="contacts.php">
+                    <button class="white-button user-select-none" href="contacts.php">записаться</button>
+                </form>
             </div>
         </div>
     </div>

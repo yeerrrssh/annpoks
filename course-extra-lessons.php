@@ -107,10 +107,6 @@
 </header>
 <main>
     <div class="container-fluid">
-        <img id="background-photo" class="user-select-none"
-             srcset="pics/course-extra-lessons/background-dark.png 52w, pics/course-extra-lessons/background-dark.png 40w, pics/course-extra-lessons/background-dark.png 30w"
-             sizes="(min-width: 1600px) 50px, (max-width: 1600px) 46px, (max-width: 1034px) 30px"
-             src="pics/course-extra-lessons/background-dark.png">
         <div class="row justify-content-center">
             <div class="col-4" style="position: relative">
                 <img id="sheldon-photo" class="user-select-none"
