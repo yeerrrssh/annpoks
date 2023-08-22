@@ -108,26 +108,48 @@
 <main>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-sm-auto col-lg-5">
-                <div class="blue-box">
-                    <p class="big-main-text user-select-none">Personal<span id="lsns"> lessons</span></p>
-                    <p class="white-text user-select-none">помогают<br>достигнуть<br>индивидуальных<br>целей<br><br>материалы,<br>ориентированные<br>на ваши интересы<br><br>предполагают<br>интенсивное<br>прохождение<br>материала<br><br>быстрая обратная<br>связь</p>
-                </div>
+            <div class="blue-box col-sm-auto col-lg-5">
+                <p class="big-main-text user-select-none">Personal<span id="lsns"> lessons</span></p>
+                <p class="white-text user-select-none">помогают<br>достигнуть<br>индивидуальных<br>целей<br><br>материалы,<br>ориентированные<br>на ваши интересы<br><br>предполагают<br>интенсивное<br>прохождение<br>материала<br><br>быстрая обратная<br>связь</p>
             </div>
             <div class="col-sm-auto col-lg-7" style="position: relative">
-                <div class="justify-content-center">
-                    <img id="icons-up" class="user-select-none"
-                         src="pics/course-personal-lessons/icons-up.svg">
-                    <p id="up-left-text" class="white-text white-text-align-center user-select-none">zoom<br>google meet</p>
-                    <p id="up-center-text" class="white-text white-text-align-center user-select-none">English file<br>starlight<br>spotlight<br>forward</p>
-                    <p id="up-right-text" class="white-text white-text-align-center user-select-none">miro<br>jamboard</p>
-                    <img id="icon-down" class="user-select-none"
-                         src="pics/course-personal-lessons/down-icon.svg">
-                    <p id="down-text" class="white-text user-select-none">+ Youtube, quizizz, wordwall,<br>british council, etc.</p>
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <img id="icons-up" class="user-select-none"
+                             src="pics/course-personal-lessons/icons-up.svg">
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <p id="up-left-text" class="white-text white-text-align-center user-select-none">zoom<br>google meet</p>
+                    </div>
+                    <div class="col-auto">
+                        <p id="up-center-text" class="white-text white-text-align-center user-select-none">English file<br>starlight<br>spotlight<br>forward</p>
+                    </div>
+                    <div class="col-auto">
+                        <p id="up-right-text" class="white-text white-text-align-center user-select-none">miro<br>jamboard</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <img id="icon-down" class="user-select-none"
+                            src="pics/course-personal-lessons/down-icon.svg">
+                    </div>
+                    <div class="col-auto">
+                        <p id="down-text" class="white-text user-select-none">+ Youtube, quizizz, wordwall,<br>british council, etc.</p>
+                        <p id="down-text-sm" class="white-text user-select-none">+ Youtube, quizizz,<br>wordwall, british<br>council, etc.</p>
+                    </div>
+                </div>
+                <div class="btn-normal">
                     <form action="contacts.php">
                         <button class="white-button user-select-none" href="contacts.php">записаться</button>
                     </form>
                 </div>
+            </div>
+            <div class="btn-center">
+                <form action="contacts.php">
+                    <button class="white-button user-select-none" href="contacts.php">записаться</button>
+                </form>
             </div>
         </div>
     </div>
