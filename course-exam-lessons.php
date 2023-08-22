@@ -115,8 +115,10 @@
             </div>
             <div class="right-area col-auto">
                 <div class="row justify-content-center">
-                    <img id="icons-up" class="user-select-none"
-                         src="pics/course-exam-course/icons-up.svg">
+                    <div class="col-auto">
+                        <img id="icons-up" class="user-select-none"
+                             src="pics/course-exam-course/icons-up.svg">
+                    </div>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-4">
@@ -132,22 +134,24 @@
                 <div class="row justify-content-center mt-4">
                     <div class="col-auto">
                         <img id="icon-center" class="user-select-none"
-                             srcset="pics/course-group-lessons/icon-center.svg 52w, pics/course-group-lessons/icon-center.svg 40w, pics/course-group-lessons/icon-center.svg 30w"
-                             sizes="(min-width: 1600px) 50px, (max-width: 1600px) 35px, (max-width: 1034px) 30px"
                              src="pics/course-group-lessons/icon-center.svg"><br>
                         <img id="icon-down" class="user-select-none"
-                             srcset="pics/course-group-lessons/icon-down.svg 52w, pics/course-group-lessons/icon-down.svg 40w, pics/course-group-lessons/icon-down.svg 30w"
-                             sizes="(min-width: 1600px) 50px, (max-width: 1600px) 35px, (max-width: 1034px) 30px"
                              src="pics/course-group-lessons/icon-down.svg">
                     </div>
                     <div class="col-auto">
                         <p id="center-right-text" class="white-text user-select-none">+ Youtube, quizizz, wordwall,<br>british council, etc.</p>
                         <p id="down-right-text" class="white-text user-select-none">+ устные и письменные<br>контрольные точки</p>
+                        <p id="center-right-text-sm" class="white-text user-select-none">+ Youtube, quizizz,<br>wordwall, british<br>council, etc.</p>
+                        <p id="down-right-text-sm" class="white-text user-select-none">+ устные и<br>письменные<br>контрольные<br>точки</p>
                     </div>
                 </div>
-                <form action="contacts.php">
-                    <button class="white-button user-select-none" href="contacts.php">записаться</button>
-                </form>
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <form action="contacts.php">
+                            <button class="white-button user-select-none" href="contacts.php">записаться</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
