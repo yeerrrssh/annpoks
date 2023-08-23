@@ -82,7 +82,14 @@ body {
     font-weight: 600;
     text-transform: uppercase;
 }
-
+.info-text-mini{
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: uppercase;
+}
 
 /* Адаптация */
 @media (min-width: 1400px) {
@@ -111,11 +118,13 @@ body {
 
     .big-text{
         font-size: 147px;
-        margin-top: -40px;
+        margin-top: -50px;
+        text-align: center;
     }
     .blue-text{
         margin-top: -60px;
         font-size: 50px;
+        text-align: center;
     }
     .white-box{
         border-radius: 34px;
@@ -127,14 +136,26 @@ body {
         font-size: 24px;
         letter-spacing: 4px;
         margin-bottom: 20px;
-        margin-top: 30px;
+        margin-top: 20px;
+    }
+    .info-text-mini{
+        font-size: 12px;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+        margin-top: 120px;
     }
     .blue-button{
-        margin-top: 50px;
+        margin-top: 10px;
         padding: 12px 60px;
         font-size: 18px;
         letter-spacing: 3px;
         border-radius: 15px;
+    }
+    .text-bs{
+        display: compact;
+    }
+    .text-sm{
+        display: none;
     }
 }
 
@@ -160,11 +181,13 @@ body {
 
     .big-text{
         font-size: 147px;
-        margin-top: -40px;
+        margin-top: -50px;
+        text-align: center;
     }
     .blue-text{
         margin-top: -60px;
         font-size: 50px;
+        text-align: center;
     }
     .white-box{
         border-radius: 34px;
@@ -174,23 +197,35 @@ body {
         margin-bottom: 100px;
     }
     .info-text{
-        font-size: 24px;
+        font-size: 22px;
         letter-spacing: 4px;
         margin-bottom: 20px;
-        margin-top: 30px;
+        margin-top: -10px;
+    }
+    .info-text-mini{
+        font-size: 12px;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+        margin-top: 100px;
     }
     .blue-button{
-        margin-top: 50px;
+        margin-top: 0;
         padding: 12px 60px;
         font-size: 18px;
         letter-spacing: 3px;
         border-radius: 15px;
     }
+    .text-bs{
+        display: compact;
+    }
+    .text-sm{
+        display: none;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
     body{
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .brand{
         font-size: 42px;
@@ -214,19 +249,20 @@ body {
 
     .big-text{
         font-size: 117px;
-        margin-top: -20px;
-        margin-left: 85px;
+        margin-top: -40px;
+        text-align: center;
     }
     .blue-text{
-        margin-top: -40px;
+        margin-top: -45px;
         font-size: 40px;
+        text-align: center;
     }
     .white-box{
-        border-radius: 34px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-        padding: 25px 100px 500px;
+        border-radius: 34px 34px 0 0;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+        padding: 25px 100px 120px;
         margin-top: 12px;
-        margin-bottom: 100px;
+        margin-bottom: 0;
     }
     .info-text{
         font-size: 24px;
@@ -234,18 +270,30 @@ body {
         margin-bottom: 20px;
         margin-top: 30px;
     }
+    .info-text-mini{
+        font-size: 12px;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+        margin-top: 130px;
+    }
     .blue-button{
-        margin-top: 20px;
+        margin-top: 10px;
         padding: 12px 60px;
         font-size: 18px;
         letter-spacing: 3px;
         border-radius: 15px;
     }
+    .text-bs{
+        display: compact;
+    }
+    .text-sm{
+        display: none;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
     body{
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .brand{
         font-size: 48px;
@@ -278,12 +326,12 @@ body {
         font-size: 30px;
     }
     .white-box{
-        width: 500px;
-        border-radius: 34px;
+        width: 510px;
+        border-radius: 34px 34px 0 0;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-        padding: 25px 45px 500px;
+        padding: 25px 45px 50px;
         margin-top: 12px;
-        margin-bottom: 100px;
+        margin-bottom: 0;
     }
     .info-text{
         font-size: 17px;
@@ -291,12 +339,24 @@ body {
         margin-bottom: 20px;
         margin-top: 30px;
     }
+    .info-text-mini{
+        font-size: 12px;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+        margin-top: 130px;
+    }
     .blue-button{
-        margin-top: 35px;
+        margin-top: 15px;
         padding: 12px 60px;
         font-size: 18px;
         letter-spacing: 3px;
         border-radius: 15px;
+    }
+    .text-bs{
+        display: none;
+    }
+    .text-sm{
+        display: compact;
     }
 }
 
@@ -325,7 +385,7 @@ body {
 
     .big-text{
         font-size: 48px;
-        margin-top: -14px;
+        margin-top: -20px;
         margin-left: 34px;
     }
     .blue-text{
@@ -334,24 +394,35 @@ body {
     }
     .white-box{
         width: 300px;
-        border-radius: 34px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-        padding: 25px 20px 500px;
+        border-radius: 34px 34px 0 0;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+        padding: 25px 20px 160px;
         margin-top: 20px;
-        margin-bottom: 100px;
     }
     .info-text{
         font-size: 16px;
         letter-spacing: 0;
         margin-bottom: 20px;
-        margin-top: 30px;
+        margin-top: 25px;
+    }
+    .info-text-mini{
+        font-size: 10px;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+        margin-top: 115px;
     }
     .blue-button{
-        margin-top: 35px;
+        margin-top: 10px;
         padding: 12px 40px;
         font-size: 14px;
         letter-spacing: 3px;
         border-radius: 15px;
+    }
+    .text-bs{
+        display: none;
+    }
+    .text-sm{
+        display: compact;
     }
 }
 
