@@ -7,7 +7,8 @@
         name="keywords">
   <meta content="Высококвалифицированный репетитор по английскому языку в городе Кемерово -
           Анна Сергеевна Покасова" name="description">
-  <title>Ann_poks</title>
+  <title>Индивидуальные занятия</title>
+    <link rel="icon" href="pics/AP.svg" type="image/svg">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
@@ -88,7 +89,7 @@
                             <?php if ($_COOKIE['role'] == 'student'): ?>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <li><a class="dropdown-item head-button-black user-select-none" href="contacts.php">Контакты</a></li>
-                                    <li><a class="dropdown-item head-button-black user-select-none" href="schedule.php">Расписание</a></li>
+                                    <li><a class="dropdown-item head-button-black user-select-none" href="schedule.php">Записаться</a></li>
                                     <li><a class="dropdown-item head-button-black user-select-none" href="php/exit.php">Выйти из<br><?=$_COOKIE['user']?></a></li>
                                 </ul>
                             <?php elseif ($_COOKIE['role'] == 'admin'): ?>
