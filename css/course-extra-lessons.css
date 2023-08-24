@@ -47,88 +47,32 @@ body {
     height: fit-content;
     background-color: white;
     border: none;
-    padding: 13px 60px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
     color: #0358E4;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 3px;
 }
 
 .blue-box{
     width: fit-content;
     background-color: #0358E4;
-    border-radius: 34px !important;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    padding: 30px 55px 100px;
-    margin-top: 10px;
 }
 
 .big-main-text{
     font-family: 'Yeseva One', sans-serif;
-    font-size: 147px;
     color: #F1F1F1;
-    margin-top: -60px;
-    margin-left: -330px;
 }
 .white-text{
     font-family: 'Montserrat', sans-serif;
     color: #F1F1F1;
-    font-size: 23px;
     font-style: normal;
     font-weight: 400;
     line-height: 110%;
-    letter-spacing: 4px;
     text-transform: uppercase;
-    margin-top: -5px;
 }
 .white-text-align-center{
     text-align: center;
-}
-#sheldon-photo{
-    position: absolute;
-    z-index: -20;
-    top: 12%;
-    left: -10px;
-}
-#sheldon-text{
-    position: absolute;
-    top: 67%;
-    left: 24%;
-}
-#adventure-time-photo{
-    position: absolute;
-    z-index: -20;
-    top: 10%;
-    right: 0;
-}
-#adventure-time-text{
-     position: absolute;
-     top: 67.5%;
-     left: 12.5%;
-}
-#left-button{
-    position: absolute;
-    top: 77%;
-    left: 28%;
-}
-#right-button{
-    position: absolute;
-    top: 77%;
-    left: 8%;
-}
-
-#left-rhombus{
-    position: absolute;
-    bottom: 0;
-    left: 12%;
-}
-#right-rhombus{
-    position: absolute;
-    bottom: 0;
-    right: 12%;
 }
 
 
@@ -156,6 +100,88 @@ body {
     #hamburger-menu{
         margin-right: 70px;
     }
+
+    .white-button{
+        padding: 13px 60px;
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+    .blue-box{
+        border-radius: 34px 34px 0 0;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        padding: 30px 55px 100px;
+        margin-top: 0;
+    }
+    .big-main-text{
+        font-size: 147px;
+        margin-top: -60px;
+        margin-left: -330px;
+    }
+    #crs{
+        font-size: 50px;
+    }
+    .white-text{
+        font-size: 23px;
+        letter-spacing: 4px;
+        margin-top: -15px;
+    }
+    #sheldon-photo{
+        width: 560px;
+        position: relative;
+        z-index: -20;
+        margin-top: 78px;
+        margin-left: -60px;
+    }
+    #sheldon-text{
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    #adventure-time-photo{
+        width: 560px;
+        position: relative;
+        z-index: -20;
+        margin-top: 75px;
+        margin-left: -15px;
+    }
+    #adventure-time-text{
+        margin-top: 15px;
+        margin-left: -15px;
+    }
+    #left-button{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #right-button{
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+    #left-rhombus{
+        display: inline;
+        position: absolute;
+        bottom: 0;
+        left: 3%;
+    }
+    #right-rhombus{
+        display: inline;
+        position: absolute;
+        bottom: 0;
+        right: 3%;
+    }
+    .left-right-part-lg{
+        display: inline;
+    }
+    .left-right-part-sm{
+        display: none;
+    }
+    .rhombus-sm{
+        display: none;
+    }
+    .big-screen{
+        display: compact;
+    }
+    .small-screen{
+        display: none;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -176,6 +202,88 @@ body {
         color: black;
         font-size: 19px;
         letter-spacing: 1px;
+    }
+
+    .white-button{
+        padding: 12px 50px;
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+    .blue-box{
+        border-radius: 34px 34px 0 0;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        padding: 30px 45px 150px;
+        margin-top: 0;
+    }
+    .big-main-text{
+        font-size: 120px;
+        margin-top: -60px;
+        margin-left: -330px;
+    }
+    #crs{
+        font-size: 50px;
+    }
+    .white-text{
+        font-size: 20px;
+        letter-spacing: 3px;
+        margin-top: -25px;
+    }
+    #sheldon-photo{
+        width: 510px;
+        position: relative;
+        z-index: -20;
+        margin-top: 58px;
+        margin-left: -60px;
+    }
+    #sheldon-text{
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    #adventure-time-photo{
+        width: 510px;
+        position: relative;
+        z-index: -20;
+        margin-top: 55px;
+        margin-left: -15px;
+    }
+    #adventure-time-text{
+        margin-top: 15px;
+        margin-left: -15px;
+    }
+    #left-button{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #right-button{
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+    #left-rhombus{
+        display: inline;
+        position: absolute;
+        bottom: 0;
+        left: 3%;
+    }
+    #right-rhombus{
+        display: inline;
+        position: absolute;
+        bottom: 0;
+        right: 3%;
+    }
+    .left-right-part-lg{
+        display: inline;
+    }
+    .left-right-part-sm{
+        display: none;
+    }
+    .rhombus-sm{
+        display: none;
+    }
+    .big-screen{
+        display: compact;
+    }
+    .small-screen{
+        display: none;
     }
 }
 
@@ -202,11 +310,93 @@ body {
     #hamburger-menu{
         margin-right: 0;
     }
+
+    .white-button{
+        padding: 10px 40px;
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+    .blue-box{
+        border-radius: 34px 34px 0 0;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        padding: 30px 35px 170px;
+        margin-top: 0;
+    }
+    .big-main-text{
+        font-size: 100px;
+        margin-top: -50px;
+        margin-left: -210px;
+    }
+    #crs{
+        font-size: 50px;
+    }
+    .white-text{
+        font-size: 18px;
+        letter-spacing: 3px;
+        margin-top: -25px;
+    }
+    #sheldon-photo{
+        width: 440px;
+        position: relative;
+        z-index: -20;
+        margin-top: 52px;
+        margin-left: -60px;
+    }
+    #sheldon-text{
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    #adventure-time-photo{
+        width: 440px;
+        position: relative;
+        z-index: -20;
+        margin-top: 50px;
+        margin-left: -15px;
+    }
+    #adventure-time-text{
+        margin-top: 15px;
+        margin-left: -15px;
+    }
+    #left-button{
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    #right-button{
+        margin-left: -10px;
+        margin-top: 5px;
+    }
+    #left-rhombus{
+        display: inline;
+        position: absolute;
+        bottom: 0;
+        left: 3%;
+    }
+    #right-rhombus{
+        display: inline;
+        position: absolute;
+        bottom: 0;
+        right: 3%;
+    }
+    .left-right-part-lg{
+        display: inline;
+    }
+    .left-right-part-sm{
+        display: none;
+    }
+    .rhombus-sm{
+        display: none;
+    }
+    .big-screen{
+        display: compact;
+    }
+    .small-screen{
+        display: none;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
     body{
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .brand{
         font-size: 48px;
@@ -227,6 +417,99 @@ body {
     }
     #hamburger-menu{
         margin-right: 0;
+    }
+
+    .white-button{
+        padding: 12px 50px;
+        font-size: 16px;
+        letter-spacing: 3px;
+        position: relative;
+    }
+    .blue-box{
+        border-radius: 34px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        padding: 30px 45px 15px;
+        margin-top: 170px;
+    }
+    .big-main-text{
+        font-size: 70px;
+        margin-top: -200px;
+        margin-left: 0;
+        text-align: center;
+    }
+    #crs{
+        font-size: 30px;
+        text-align: center;
+        margin-top: -36px;
+    }
+    .white-text{
+        font-size: 18px;
+        letter-spacing: 3px;
+        margin-top: 70px;
+    }
+    #sheldon-photo{
+        width: 428px;
+        position: relative;
+        z-index: -20;
+        margin-top: 60px;
+    }
+    #sheldon-text{
+        margin-top: 15px;
+    }
+    #adventure-time-photo{
+        width: 428px;
+        position: relative;
+        z-index: -20;
+        margin-top: 50px;
+    }
+    #adventure-time-text{
+        margin-top: 15px;
+    }
+    #left-button{
+        margin-top: 5px;
+    }
+    #right-button{
+        margin-top: 5px;
+        margin-bottom: 50px;
+    }
+    #left-rhombus{
+        display: none;
+    }
+    #right-rhombus{
+        display: none;
+    }
+    .left-right-part-lg{
+        display: none;
+    }
+    .left-right-part-sm{
+        display: inline;
+    }
+    .form-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .rhombus-sm{
+        display: inline;
+    }
+    #left-rhombus-sm{
+        position: absolute;
+        bottom: 0;
+        left: 4px;
+    }
+    #right-rhombus-sm{
+        position: absolute;
+        bottom: 0;
+        right: 4px;
+    }
+    .rhombus-place{
+        position: relative;
+    }
+    .big-screen{
+        display: none;
+    }
+    .small-screen{
+        display: compact;
     }
 }
 
@@ -251,6 +534,101 @@ body {
     }
     #hamburger-menu{
         margin-right: 0;
+    }
+
+    .white-button{
+        padding: 10px 40px;
+        font-size: 15px;
+        letter-spacing: 2px;
+        position: relative;
+    }
+    .blue-box{
+        border-radius: 34px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        padding: 30px 25px 10px;
+        margin-top: 130px;
+    }
+    .big-main-text{
+        font-size: 52px;
+        margin-top: -150px;
+        margin-left: 0;
+        text-align: center;
+    }
+    #crs{
+        font-size: 22px;
+        text-align: center;
+        margin-top: -36px;
+    }
+    .white-text{
+        font-size: 15px;
+        letter-spacing: 2px;
+        margin-top: 55px;
+    }
+    #sheldon-photo{
+        width: 300px;
+        position: relative;
+        z-index: -20;
+        margin-top: 60px;
+    }
+    #sheldon-text{
+        margin-top: 15px;
+    }
+    #adventure-time-photo{
+        width: 300px;
+        position: relative;
+        z-index: -20;
+        margin-top: 50px;
+    }
+    #adventure-time-text{
+        margin-top: 15px;
+    }
+    #left-button{
+        margin-top: 5px;
+    }
+    #right-button{
+        margin-top: 5px;
+        margin-bottom: 50px;
+    }
+    #left-rhombus{
+        display: none;
+    }
+    #right-rhombus{
+        display: none;
+    }
+    .left-right-part-lg{
+        display: none;
+    }
+    .left-right-part-sm{
+        display: inline;
+    }
+    .form-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .rhombus-sm{
+        display: inline;
+    }
+    #left-rhombus-sm{
+        position: absolute;
+        bottom: 0;
+        left: 4px;
+        height: 791px !important;
+    }
+    #right-rhombus-sm{
+        position: absolute;
+        bottom: 0;
+        right: 4px;
+        height: 791px !important;
+    }
+    .rhombus-place{
+        position: relative;
+    }
+    .big-screen{
+        display: none;
+    }
+    .small-screen{
+        display: compact;
     }
 }
 

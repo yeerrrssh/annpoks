@@ -86,7 +86,7 @@
                                 БОЛЬШЕ
                             </a>
                             <?php if ($_COOKIE['role'] == 'student'): ?>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color:#F1F1F1">
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <li><a class="dropdown-item head-button-black user-select-none" href="contacts.php">Контакты</a></li>
                                     <li><a class="dropdown-item head-button-black user-select-none" href="schedule.php">Расписание</a></li>
                                     <li><a class="dropdown-item head-button-black user-select-none" href="php/exit.php">Выйти из<br><?=$_COOKIE['user']?></a></li>
@@ -108,39 +108,73 @@
 <main>
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-4" style="position: relative">
+            <div class="left-right-part-lg col-sm-auto col-lg-4" style="position: relative">
                 <img id="sheldon-photo" class="user-select-none"
-                     srcset="pics/course-extra-lessons/sheldon.png 52w, pics/course-extra-lessons/sheldon.png 40w, pics/course-extra-lessons/sheldon.png 30w"
-                     sizes="(min-width: 1600px) 50px, (max-width: 1600px) 40px, (max-width: 1034px) 30px"
                      src="pics/course-extra-lessons/sheldon.png">
-                <p id="sheldon-text" class="white-text white-text-align-center user-select-none">young sheldon crash<br>course</p>
-                <form action="contacts.php">
-                    <button id="left-button" class="white-button user-select-none" href="contacts.php">записаться</button>
-                </form>
-                <svg id="left-rhombus" xmlns="http://www.w3.org/2000/svg" width="20" height="570" viewBox="0 0 24 712" fill="none">
-                    <path d="M12 0.453003L0.453029 12L12 23.547L23.547 12L12 0.453003ZM14 794L14 12L10 12L10 794L14 794Z" fill="#F1F1F1"/>
-                </svg>
-            </div>
-            <div class="col-4">
-                <div class="blue-box ms-4">
-                    <p class="big-main-text user-select-none">Extra<span style="font-size: 50px"> course</span></p>
-                    <p class="white-text user-select-none">погружение в<br>английскую<br>культуру и сленг<br>через сериалы и<br>анимации<br><br>развлекательный<br>формат<br><br>упор на<br>разговорную<br>практику<br><br>игры, кейсы и<br>основы<br>retelling’а</p>
+                <div class="row justify-content-center">
+                    <p id="sheldon-text" class="white-text white-text-align-center user-select-none">young sheldon crash<br>course</p>
+                    <div class="col-auto">
+                        <form action="contacts.php">
+                            <button id="left-button" class="white-button user-select-none" href="contacts.php">записаться</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-            <div class="col-4" style="position: relative">
+            <div class="blue-box col-sm-auto col-lg-4">
+                <p class="big-screen big-main-text user-select-none">Extra<span id="crs"> course</span></p>
+                <p class="small-screen big-main-text user-select-none">Extra</p>
+                <p id="crs" class="small-screen big-main-text user-select-none">course</p>
+                <p class="white-text user-select-none">погружение в<br>английскую<br>культуру и сленг<br>через сериалы и<br>анимации<br><br>развлекательный<br>формат<br><br>упор на<br>разговорную<br>практику<br><br>игры, кейсы и<br>основы<br>retelling’а</p>
+            </div>
+            <div class="left-right-part-lg col-sm-auto col-lg-4" style="position: relative">
                 <img id="adventure-time-photo" class="user-select-none"
-                     srcset="pics/course-extra-lessons/adventure-time.png 52w, pics/course-extra-lessons/adventure-time.png 40w, pics/course-extra-lessons/adventure-time.png 30w"
-                     sizes="(min-width: 1600px) 50px, (max-width: 1600px) 41px, (max-width: 1034px) 30px"
                      src="pics/course-extra-lessons/adventure-time.png">
-                <p id="adventure-time-text" class="white-text white-text-align-center user-select-none">adventure time<br>crash course</p>
-                <form action="contacts.php">
-                    <button id="right-button" class="white-button user-select-none" href="contacts.php">записаться</button>
-                </form>
-                <svg id="right-rhombus" xmlns="http://www.w3.org/2000/svg" width="20" height="570" viewBox="0 0 24 712" fill="none">
-                    <path d="M12 0.453003L0.453029 12L12 23.547L23.547 12L12 0.453003ZM14 794L14 12L10 12L10 794L14 794Z" fill="#F1F1F1"/>
-                </svg>
+                <div class="row justify-content-center">
+                    <p id="adventure-time-text" class="white-text white-text-align-center user-select-none">adventure time crash<br>course</p>
+                    <div class="col-auto">
+                        <form action="contacts.php">
+                            <button id="right-button" class="white-button user-select-none" href="contacts.php">записаться</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="left-right-part-sm col-12">
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <img id="sheldon-photo" class="user-select-none"
+                             src="pics/course-extra-lessons/sheldon.png">
+                        <p id="sheldon-text" class="white-text white-text-align-center user-select-none">young sheldon crash<br>course</p>
+                        <form class="form-box" action="contacts.php">
+                            <button id="left-button" class="white-button user-select-none" href="contacts.php">записаться</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="left-right-part-sm col-12">
+                <div class="row justify-content-center">
+                    <div class="col-auto rhombus-place">
+                        <img id="adventure-time-photo" class="user-select-none"
+                             src="pics/course-extra-lessons/adventure-time.png">
+                        <p id="adventure-time-text" class="white-text white-text-align-center user-select-none">adventure time crash<br>course</p>
+                        <form class="form-box" action="contacts.php">
+                            <button id="right-button" class="white-button user-select-none" href="contacts.php">записаться</button>
+                        </form>
+                        <svg id="left-rhombus-sm" class="rhombus-sm" xmlns="http://www.w3.org/2000/svg" width="16" height="993" viewBox="0 0 12 767" fill="none">
+                            <path d="M6.00003 0.226501L0.226531 6L6.00003 11.7735L11.7735 6L6.00003 0.226501ZM7 788L7.00003 6L5.00003 6L5 788L7 788Z" fill="#F1F1F1"/>
+                        </svg>
+                        <svg id="right-rhombus-sm" class="rhombus-sm" xmlns="http://www.w3.org/2000/svg" width="16" height="993" viewBox="0 0 12 767" fill="none">
+                            <path d="M6.00003 0.226501L0.226531 6L6.00003 11.7735L11.7735 6L6.00003 0.226501ZM7 788L7.00003 6L5.00003 6L5 788L7 788Z" fill="#F1F1F1"/>
+                        </svg>
+                    </div>
+                </div>
             </div>
         </div>
+        <svg id="left-rhombus" xmlns="http://www.w3.org/2000/svg" width="20" height="500" viewBox="0 0 24 712" fill="none">
+            <path d="M12 0.453003L0.453029 12L12 23.547L23.547 12L12 0.453003ZM14 794L14 12L10 12L10 794L14 794Z" fill="#F1F1F1"/>
+        </svg>
+        <svg id="right-rhombus" xmlns="http://www.w3.org/2000/svg" width="20" height="500" viewBox="0 0 24 712" fill="none">
+            <path d="M12 0.453003L0.453029 12L12 23.547L23.547 12L12 0.453003ZM14 794L14 12L10 12L10 794L14 794Z" fill="#F1F1F1"/>
+        </svg>
     </div>
 </main>
 </body>
