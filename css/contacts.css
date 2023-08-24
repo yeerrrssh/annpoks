@@ -351,10 +351,12 @@ body {
         margin-left: 0;
     }
     .head-button{
+        text-align: center;
         font-size: 22px;
         letter-spacing: 2px;
     }
     .head-button-black{
+        text-align: center;
         font-size: 22px;
         letter-spacing: 2px;
     }
@@ -458,10 +460,12 @@ body {
         margin-left: 0;
     }
     .head-button{
+        text-align: center;
         font-size: 22px;
         letter-spacing: 2px;
     }
     .head-button-black{
+        text-align: center;
         font-size: 22px;
         letter-spacing: 2px;
     }
@@ -538,6 +542,7 @@ body {
         letter-spacing: 1px;
         margin-right: 40px;
         margin-top: -20px;
+        margin-bottom: 50px;
     }
     .white-box{
         width: fit-content;
