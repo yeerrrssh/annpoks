@@ -29,61 +29,35 @@ html{
 /* Главная страница наполнение (START) */
 #home-page-text{
     font-family: 'Yeseva One', sans-serif;
-    font-size: 144px;
-    margin-top: 40px;
-    margin-bottom: 0;
-    padding-bottom: 0;
 }
 
 #home-page-text-brand{
-    margin-top: -65px;
     font-family: 'Yeseva One', sans-serif;
-    font-size: 48px;
     color: #0358E4;
     text-align: right;
-    margin-right: 80px;
 }
 
 #home-page-text-slogan{
     font-family: 'Yeseva One', sans-serif;
-    font-size: 48px;
     color: black;
-    margin-top: 50px;
 }
 
 .home-page-text-mini{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 15px;
     color: black;
-    letter-spacing: 2px;
     text-transform: uppercase;
-    margin: 0;
-}
-#home-page-text-mini-1{
-    margin-top: -10px;
-}
-#home-page-text-mini-2{
-    margin-top: -5px;
 }
 
 .blue-button{
     width: auto;
     background-color: #0358E4;
     border: none;
-    padding: 12px 60px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
     color: #FFFFFF;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-.icons{
-    margin-right: 20px;
-    margin-top: 0;
 }
 
 #photo-block{
@@ -98,15 +72,8 @@ html{
 
 .circle {
     position: relative;
-    width: 580px;
-    height: 580px;
-    border-radius: 580px;
-    border: 20px solid #0358E4;
     background: none;
     z-index: 2;
-    top: 160px;
-    left: 200px;
-
 }
 
 #home-photo-block{
@@ -116,9 +83,6 @@ html{
 .orientated-button{
     position: relative;
     z-index: 3;
-    top: -50px;
-    left: 320px;
-    padding: 12px 70px;
 }
 
 /* Факин подчеркивание слогана (START)*/
@@ -137,7 +101,7 @@ html{
     height: 0;
     position: absolute;
     left: -8px;
-    top: 7px;
+    top: 8px;
     border: 8px solid transparent;
     border-top-color: black;
 }
@@ -145,7 +109,7 @@ html{
     content: "";
     position: absolute;
     left: -200px;
-    top: 6px;
+    top: 7px;
     border: 3px solid transparent;
     border-top-color: black;
     color: black;
@@ -157,40 +121,28 @@ html{
 .snoska-text{
     font-family: 'Montserrat', sans-serif;
     color: #000;
-    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 110%;
-    letter-spacing: 2px;
     text-transform: uppercase;
 }
-#snoska{
-    position: absolute !important;
-    bottom: 0 !important;
-    left: 9.5% !important;
-    font-size: 10px !important;
+
+#icon-1{
+    width: 36px;
+}
+#icon-2{
+    width: 48px;
+}
+#icon-3{
+    width: 38px;
+}
+#icon-4{
+    width: 35px;
 }
 /* Главная страница наполнение (END) */
 
 /* Адаптация */
-@media (min-width: 1600px) {
-    body{
-        overflow: hidden;
-    }
-    .brand{
-        font-size: 48px;
-        margin-left: 70px;
-    }
-    .head-button{
-        font-size: 22px;
-        letter-spacing: 3px;
-    }
-    #hamburger-menu{
-        margin-right: 70px;
-    }
-}
-
-@media (min-width: 1400px) and (max-width: 1600px) {
+@media (min-width: 1400px) {
     body{
         overflow: hidden;
     }
@@ -205,6 +157,81 @@ html{
     #hamburger-menu{
         margin-right: 70px;
     }
+
+    #home-page-text{
+        font-size: 144px;
+        margin-top: 40px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    #home-page-text-brand{
+        margin-top: -65px;
+        font-size: 48px;
+        margin-right: 80px;
+    }
+    #home-page-text-slogan{
+        font-size: 48px;
+        margin-top: 50px;
+    }
+    .home-page-text-mini{
+        font-size: 15px;
+        letter-spacing: 2px;
+        margin: 0;
+    }
+    #home-page-text-mini-1{
+        margin-top: -10px;
+    }
+    #home-page-text-mini-2{
+        margin-top: -5px;
+    }
+    .blue-button{
+        padding: 12px 60px;
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+    .icons{
+        margin-right: 20px;
+        margin-top: 0;
+    }
+    .circle {
+        width: 580px;
+        height: 580px;
+        border-radius: 580px;
+        border: 20px solid #0358E4;
+        top: 160px;
+        left: 200px;
+    }
+    .orientated-button{
+        top: -50px;
+        left: 320px;
+        padding: 12px 70px;
+    }
+    .snoska-text{
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    #snoska{
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    #icon-1{
+        width: 36px;
+    }
+    #icon-2{
+        width: 48px;
+    }
+    #icon-3{
+        width: 38px;
+    }
+    #icon-4{
+        width: 35px;
+    }
+    #photo{
+        width: 446px;
+    }
+    .down-part{
+        display: none;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -217,6 +244,83 @@ html{
     .head-button{
         font-size: 19px;
         letter-spacing: 1px;
+    }
+
+    #home-page-text{
+        font-size: 120px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    #home-page-text-brand{
+        margin-top: -65px;
+        font-size: 48px;
+        margin-right: 80px;
+    }
+    #home-page-text-slogan{
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    .rhombus{
+        right: -355px;
+    }
+    .home-page-text-mini{
+        font-size: 15px;
+        letter-spacing: 2px;
+        margin: 0;
+    }
+    #home-page-text-mini-1{
+        margin-top: -10px;
+    }
+    #home-page-text-mini-2{
+        margin-top: -5px;
+    }
+    .blue-button{
+        padding: 12px 50px;
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+    .icons{
+        margin-right: 20px;
+        margin-top: 0;
+    }
+    .circle {
+        width: 510px;
+        height: 510px;
+        border-radius: 510px;
+        border: 18px solid #0358E4;
+        top: 180px;
+        left: 160px;
+    }
+    .orientated-button{
+        top: -100px;
+        left: 250px;
+        padding: 12px 60px;
+    }
+    .snoska-text{
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    #snoska{
+        margin-top: 20px;
+    }
+    #icon-1{
+        width: 36px;
+    }
+    #icon-2{
+        width: 48px;
+    }
+    #icon-3{
+        width: 38px;
+    }
+    #icon-4{
+        width: 35px;
+    }
+    #photo{
+        width: 380px;
+    }
+    .down-part{
+        display: none;
     }
 }
 
@@ -235,11 +339,92 @@ html{
     #hamburger-menu{
         margin-right: 0;
     }
+
+    #home-page-text{
+        font-size: 100px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    #home-page-text-brand{
+        margin-top: -53px;
+        font-size: 40px;
+        margin-right: 67px;
+    }
+    #home-page-text-slogan{
+        font-size: 32px;
+        margin-top: 20px;
+    }
+    .rhombus{
+        right: -300px;
+    }
+    .home-page-text-mini{
+        font-size: 14px;
+        letter-spacing: 2px;
+        margin: 0;
+    }
+    #home-page-text-mini-1{
+        margin-top: -10px;
+        margin-right: -50px;
+    }
+    #home-page-text-mini-2{
+        margin-top: -5px;
+        margin-right: -50px;
+    }
+    .blue-button{
+        padding: 10px 40px;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .icons{
+        margin-right: 20px;
+        margin-top: -10px;
+    }
+    .circle {
+        width: 510px;
+        height: 510px;
+        border-radius: 510px;
+        border: 18px solid #0358E4;
+        top: 180px;
+        left: 160px;
+    }
+    .orientated-button{
+        top: -160px;
+        left: 220px;
+        padding: 10px 40px;
+    }
+    .snoska-text{
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    #snoska{
+        margin-top: 20px;
+        margin-right: -70px;
+    }
+    #icon-1{
+        width: 32px;
+    }
+    #icon-2{
+        width: 44px;
+    }
+    #icon-3{
+        width: 34px;
+    }
+    #icon-4{
+        width: 31px;
+    }
+    #photo{
+        width: 312px;
+        margin-left: 40px;
+    }
+    .down-part{
+        display: none;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
     body{
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .brand{
         font-size: 48px;
@@ -256,11 +441,87 @@ html{
     #hamburger-menu{
         margin-right: 0;
     }
+
+    #home-page-text{
+        font-size: 70px;
+    }
+    #home-page-text-brand{
+        margin-top: -53px;
+        font-size: 30px;
+        margin-right: 67px;
+    }
+    #home-page-text-slogan{
+        font-size: 26px;
+        margin-top: 20px;
+    }
+    .rhombus{
+        right: -250px;
+    }
+    .home-page-text-mini{
+        font-size: 14px;
+        letter-spacing: 2px;
+        margin: 0;
+    }
+    #home-page-text-mini-1{
+        margin-top: -10px;
+        margin-right: -50px;
+    }
+    #home-page-text-mini-2{
+        margin-top: -5px;
+        margin-right: -50px;
+    }
+    .blue-button{
+        padding: 12px 40px;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    .icons{
+        margin-right: 20px;
+        margin-top: -18px;
+    }
+    .circle {
+        width: 300px;
+        height: 300px;
+        border-radius: 300px;
+        border: 15px solid #0358E4;
+        top: 0;
+        left: 350px;
+        margin-bottom: -100px;
+    }
+    .orientated-button{
+        top: -80px;
+        left: 260px;
+        padding: 10px 40px;
+    }
+    .snoska-text{
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+    #snoska{
+        margin-top: 10px;
+        margin-right: -70px;
+        margin-left: 8px;
+    }
+    #icon-1{
+        width: 30px;
+    }
+    #icon-2{
+        width: 42px;
+    }
+    #icon-3{
+        width: 32px;
+    }
+    #icon-4{
+        width: 29px;
+    }
+    #home-photo-block{
+        display: none;
+    }
 }
 
 @media (max-width: 576px) {
     body{
-        overflow-x: hidden;
+        overflow: hidden;
     }
     .head-button{
         text-align: center;
@@ -273,6 +534,102 @@ html{
     }
     #hamburger-menu{
         margin-right: 0;
+    }
+
+    #home-page-text{
+        font-size: 52px;
+        text-align: center;
+        position: relative;
+        left: -10px;
+    }
+    #home-page-text-brand{
+        margin-top: -40px;
+        font-size: 22px;
+        text-align: center;
+        position: relative;
+        right: -40px;
+    }
+    #home-page-text-slogan{
+        font-size: 22px;
+        margin-top: 20px;
+        text-align: center;
+        position: relative;
+        left: -10px;
+        margin-bottom: 20px;
+    }
+    .rhombus{
+        right: -250px;
+    }
+    .rhombus:before{
+        width: 150px;
+        left: -152px;
+    }
+    .home-page-text-mini{
+        font-size: 13px;
+        letter-spacing: 2px;
+        margin-left: 20px;
+    }
+    #home-page-text-mini-1{
+        margin-top: -10px;
+    }
+    #home-page-text-mini-2{
+        margin-top: -15px;
+    }
+    .blue-button{
+        padding: 12px 45px;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    .icons{
+        margin-right: 20px;
+        margin-top: -18px;
+    }
+    .circle {
+        width: 530px;
+        height: 530px;
+        border-radius: 500px;
+        border: 14px solid #0358E4;
+        top: -15px;
+        left: 60px;
+    }
+    .orientated-button{
+        width: 160px;
+        top: -470px;
+        right: -190px;
+        padding: 10px 20px;
+    }
+    .snoska-text{
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+    #snoska{
+        margin-top: 10px;
+        margin-left: 26px;
+    }
+    #icon-1{
+        width: 30px;
+        margin-left: 18px;
+    }
+    #icon-2{
+        width: 42px;
+    }
+    #icon-3{
+        width: 32px;
+    }
+    #icon-4{
+        width: 29px;
+    }
+    #home-photo-block{
+        display: none;
+    }
+    #form-aria{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #cntr-btn{
+        position: relative;
+        left: -5px;
     }
 }
 
@@ -321,7 +678,14 @@ html{
 @media (max-width: 400px) {
     .brand{
         font-size: 30px;
-        margin-left: 46px;
+        margin-left: 72px;
+    }
+}
+
+@media (max-width: 376px) {
+    .brand{
+        font-size: 30px;
+        margin-left: 58px;
     }
 }
 

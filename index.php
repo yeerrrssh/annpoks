@@ -108,7 +108,7 @@
     <main>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-6">
+                <div class="col-sm-auto col-lg-6">
                     <div class="ms-3">
                         <p id="home-page-text" class="user-select-none">English</p>
                         <p id="home-page-text-brand" class="justify-content-end user-select-none">annpoks</p>
@@ -116,44 +116,52 @@
                         <div class="rhombus user-select-none"></div>
                         <p id="home-page-text-mini-1" class="home-page-text-mini user-select-none">выберите из более 6 направлений обучения,</p>
                         <p id="home-page-text-mini-2" class="home-page-text-mini user-select-none">ориентированных на ваши цели и интересы</p>
-                        <form action="course.php">
-                            <button class="blue-button user-select-none mt-3" href="course.php">выбрать & начать</button>
+                        <form id="form-aria" action="course.php">
+                            <button id="cntr-btn" class="blue-button user-select-none mt-3" href="course.php">выбрать & начать</button>
                         </form>
                         <div class="mt-5">
                             <a href="https://instagram.com/annpoks?igshid=MzRlODBiNWFlZA==" target="_blank">
-                                <img class="icons user-select-none"
-                                 srcset="pics/index/icon_logo_instagram.png 52w, pics/index/icon_logo_instagram.png 40w, pics/index/icon_logo_instagram.png 30w"
-                                 sizes="(min-width: 1600px) 50px, (max-width: 1600px) 35px, (max-width: 1034px) 30px"
+                                <img id="icon-1" class="icons user-select-none"
                                  src="pics/index/icon_logo_instagram.png">
                             </a>
                             <a href="https://vk.com/annapokasova" target="_blank">
-                                <img class="icons user-select-none"
-                                 srcset="pics/index/icon_logo_vk.png 52w, pics/index/icon_logo_vk.png 40w, pics/index/icon_logo_vk.png 30w"
-                                 sizes="(min-width: 1600px) 50px, (max-width: 1600px) 35px, (max-width: 1034px) 30px"
+                                <img id="icon-2" class="icons user-select-none"
                                  src="pics/index/icon_logo_vk.png">
                             </a>
                             <a href="https://api.whatsapp.com/send?phone=79512254921" target="_blank">
-                                <img class="icons user-select-none"
-                                 srcset="pics/index/icon_logo_whatsapp.png 52w, pics/index/icon_logo_whatsapp.png 40w, pics/index/icon_logo_whatsapp.png 30w"
-                                 sizes="(min-width: 1600px) 50px, (max-width: 1600px) 35px, (max-width: 1034px) 30px"
+                                <img id="icon-3" class="icons user-select-none"
                                  src="pics/index/icon_logo_whatsapp.png">
                             </a>
                             <a href="https://t.me/annpoks" target="_blank">
-                                <img class="icons user-select-none"
-                                 srcset="pics/index/icon_logo_telegram.png 52w, pics/index/icon_logo_telegram.png 40w, pics/index/icon_logo_telegram.png 30w"
-                                 sizes="(min-width: 1600px) 50px, (max-width: 1600px) 35px, (max-width: 1034px) 30px"
+                                <img id="icon-4" class="icons user-select-none"
                                  src="pics/index/icon_logo_telegram.png">
                             </a>
                             <p id="snoska" class="snoska-text user-select-none"><span style="font-size: 20px;">↑</span> признана экстремистской организацией на территории РФ</p>
+                            <div class="down-part">
+                                <div class="circle user-select-none"></div>
+                                <?php
+                                if ($_COOKIE['user'] == ''):
+                                    ?>
+                                    <form action="log-in.php">
+                                        <button class="orientated-button blue-button user-select-none" href="log-in.php">log in</button>
+                                    </form>
+                                <?php elseif ($_COOKIE['role'] == 'student'): ?>
+                                    <form action="schedule.php">
+                                        <button class="orientated-button blue-button user-select-none" href="schedule.php">записаться</button>
+                                    </form>
+                                <?php elseif ($_COOKIE['role'] == 'admin'): ?>
+                                    <form action="sign-up.php">
+                                        <button class="orientated-button blue-button user-select-none" href="sign-up.php">sign up</button>
+                                    </form>
+                                <?php endif;?>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-sm-auto col-lg-6">
                     <div class="ms-3">
                         <div id="home-photo-block">
-                            <img class="photos user-select-none"
-                                 srcset="pics/index/home-page-background-photo.png 52w, pics/index/home-page-background-photo.png 40w, pics/index/home-page-background-photo.png 30w"
-                                 sizes="(min-width: 1600px) 50px, (max-width: 1600px) 35px, (max-width: 1034px) 30px"
+                            <img id="photo" class="photos user-select-none"
                                  src="pics/index/home-page-background-photo.png">
                             <div class="circle user-select-none"></div>
                             <?php

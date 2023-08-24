@@ -630,14 +630,14 @@ body {
 @media (max-width: 400px) {
     .brand{
         font-size: 30px;
-        margin-left: 68px;
+        margin-left: 72px;
     }
 }
 
 @media (max-width: 376px) {
     .brand{
         font-size: 30px;
-        margin-left: 52px;
+        margin-left: 58px;
     }
 }
 
