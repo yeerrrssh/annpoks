@@ -23,8 +23,22 @@ html{
     color: black;
     margin-top: 10px;
 }
-
 /* Шапка (END) */
+
+@keyframes main-photo-sm {
+    0%{
+        top: 100%;
+        width: 400px;
+    }
+    50%{
+        top: 70px;
+        width: 400px;
+    }
+    100%{
+        top: -100%;
+        width: 400px;
+    }
+}
 
 /* Главная страница наполнение (START) */
 #home-page-text{
@@ -66,7 +80,6 @@ html{
 
 .photos{
     position: absolute;
-    background: lightgray 50%;
     z-index: 1;
 }
 
@@ -232,6 +245,9 @@ html{
     .down-part{
         display: none;
     }
+    #photo-animation{
+        display: none;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -320,6 +336,9 @@ html{
         width: 380px;
     }
     .down-part{
+        display: none;
+    }
+    #photo-animation{
         display: none;
     }
 }
@@ -420,6 +439,9 @@ html{
     .down-part{
         display: none;
     }
+    #photo-animation{
+        display: none;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
@@ -515,6 +537,9 @@ html{
         width: 29px;
     }
     #home-photo-block{
+        display: none;
+    }
+    #photo-animation{
         display: none;
     }
 }
@@ -630,6 +655,18 @@ html{
     #cntr-btn{
         position: relative;
         left: -5px;
+    }
+    #photo-animation{
+        width: 420px !important;
+        animation-name: main-photo-sm;
+        animation-duration: 5s;
+        animation-timing-function: cubic-bezier(0.9,0,0,0.9);
+        animation-fill-mode: forwards;
+        position: absolute;
+        z-index: 200;
+    }
+    .row > *{
+        max-width: 110%;
     }
 }
 

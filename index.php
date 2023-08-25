@@ -182,6 +182,8 @@
                         </div>
                     </div>
                 </div>
+                <img id="photo-animation" class="photos user-select-none"
+                     src="pics/index/home-page-background-photo.png">
             </div>
         </div>
     </main>
