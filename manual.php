@@ -84,13 +84,13 @@
                                 БОЛЬШЕ
                             </a>
                             <?php if ($_COOKIE['role'] == 'student'): ?>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color:#F1F1F1">
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background: none">
                                     <li><a class="dropdown-item head-button user-select-none" href="contacts.php">Контакты</a></li>
                                     <li><a class="dropdown-item head-button user-select-none" href="schedule.php">Записаться</a></li>
                                     <li><a class="dropdown-item head-button user-select-none" href="php/exit.php">Выйти из<br><?=$_COOKIE['user']?></a></li>
                                 </ul>
                             <?php elseif ($_COOKIE['role'] == 'admin'): ?>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color:#F1F1F1">
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background: none">
                                     <li><a class="dropdown-item head-button user-select-none" href="contacts.php">Контакты</a></li>
                                     <li><a class="dropdown-item head-button user-select-none" href="sign-up.php">Регистрация</a></li>
                                     <li><a class="dropdown-item head-button user-select-none" href="php/exit.php">Выйти из<br><?=$_COOKIE['user']?></a></li>
@@ -106,15 +106,14 @@
 <main>
     <div class="container">
         <img id="triangle" class="user-select-none"
-             srcset="pics/manual/Polygon-3.svg 52w, pics/manual/Polygon-3.svg 40w, pics/manual/Polygon-3.svg 30w"
-             sizes="(min-width: 1600px) 50px, (max-width: 1600px) 40px, (max-width: 1034px) 30px"
              src="pics/manual/Polygon-3.svg">
         <div class="row justify-content-center">
-            <div class="col-6">
+            <div class="col-sm-auto col-lg-6">
                 <div class="ms-3">
                     <p class="big-text user-select-none">How</p>
+                    <div id="rhombus-sm" class="rhombus-right user-select-none"></div>
                     <p class="black-text user-select-none">to get started learning</p>
-                    <div class="rhombus-right user-select-none"></div>
+                    <div id="rhombus" class="rhombus-right user-select-none"></div>
 
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
@@ -126,12 +125,10 @@
                                 </div>
                                 <div class="white-box-1">
                                     <img class="window user-select-none" srcset="pics/manual/window-1-1.PNG 52w, pics/manual/window-1-1.PNG 40w, pics/manual/window-1-1.PNG 30w"
-                                         sizes="(min-width: 1600px) 50px, (max-width: 1600px) 24px, (max-width: 1034px) 30px"
                                          src="pics/manual/window-1-1.PNG">
                                 </div>
                                 <div id="second-box" class="white-box-1">
                                     <img class="window user-select-none" srcset="pics/manual/window-1-2.PNG 52w, pics/manual/window-1-2.PNG 40w, pics/manual/window-1-2.PNG 30w"
-                                         sizes="(min-width: 1600px) 50px, (max-width: 1600px) 24px, (max-width: 1034px) 30px"
                                          src="pics/manual/window-1-2.PNG">
                                 </div>
                             </div>
@@ -142,8 +139,7 @@
                                     <p class="white-info-text user-select-none">получите логин и пароль,<br>бронируйте дату и время<br>занятий в личном кабинете</p>
                                 </div>
                                 <div class="white-box-23">
-                                    <img class="window user-select-none" srcset="pics/manual/window-2.PNG 52w, pics/manual/window-2.PNG 40w, pics/manual/window-2.PNG 30w"
-                                         sizes="(min-width: 1600px) 50px, (max-width: 1600px) 16px, (max-width: 1034px) 30px"
+                                    <img class="window-2 user-select-none" srcset="pics/manual/window-2.PNG 52w, pics/manual/window-2.PNG 40w, pics/manual/window-2.PNG 30w"
                                          src="pics/manual/window-2.PNG">
                                 </div>
                             </div>
@@ -154,8 +150,7 @@
                                     <p class="white-info-text user-select-none">подготовьтесь к занятию<br>я отправлю вам ссылку на zoom<br>конференцию</p>
                                 </div>
                                 <div class="white-box-23">
-                                    <img class="window user-select-none" srcset="pics/manual/window-3.PNG 52w, pics/manual/window-3.PNG 40w, pics/manual/window-3.PNG 30w"
-                                         sizes="(min-width: 1600px) 50px, (max-width: 1600px) 16px, (max-width: 1034px) 30px"
+                                    <img class="window-3 user-select-none" srcset="pics/manual/window-3.PNG 52w, pics/manual/window-3.PNG 40w, pics/manual/window-3.PNG 30w"
                                          src="pics/manual/window-3.PNG">
                                 </div>
                             </div>
@@ -172,13 +167,54 @@
                         </button>
                     </div>
 
+                    <div class="row justify-content-center small-screen">
+                        <div class="small-col col-auto">
+                            <p class="white-main-text user-select-none">Шаг 1</p>
+                            <div class="white-not-button user-select-none">знакомство</div>
+                            <div class="row justify-content-end">
+                                <p class="white-info-text user-select-none">выберите подходящий курс и свяжитесь со мной</p>
+                            </div>
+                            <div class="white-box-1">
+                                <img class="window user-select-none" srcset="pics/manual/window-1-1.PNG 52w, pics/manual/window-1-1.PNG 40w, pics/manual/window-1-1.PNG 30w"
+                                     src="pics/manual/window-1-1.PNG">
+                            </div>
+                            <div id="second-box" class="white-box-1">
+                                <img class="window user-select-none" srcset="pics/manual/window-1-2.PNG 52w, pics/manual/window-1-2.PNG 40w, pics/manual/window-1-2.PNG 30w"
+                                     src="pics/manual/window-1-2.PNG">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center small-screen">
+                        <div class="small-col col-auto">
+                            <p class="white-main-text user-select-none">Шаг 2</p>
+                            <div class="white-not-button user-select-none">доступ</div>
+                            <div class="row justify-content-end">
+                                <p class="white-info-text user-select-none">получите логин и пароль, бронируйте дату и время занятий в личном кабинете</p>
+                            </div>
+                            <div class="white-box-23">
+                                <img class="window-2 user-select-none" srcset="pics/manual/window-2.PNG 52w, pics/manual/window-2.PNG 40w, pics/manual/window-2.PNG 30w"
+                                     src="pics/manual/window-2.PNG">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center small-screen">
+                        <div class="small-col col-auto">
+                            <p class="white-main-text user-select-none">Шаг 3</p>
+                            <div class="white-not-button user-select-none">уроки</div>
+                            <div class="row justify-content-end">
+                                <p class="white-info-text user-select-none">подготовьтесь к занятию я отправлю вам ссылку на zoom конференцию</p>
+                            </div>
+                            <div class="white-box-23">
+                                <img class="window-3 user-select-none" srcset="pics/manual/window-3.PNG 52w, pics/manual/window-3.PNG 40w, pics/manual/window-3.PNG 30w"
+                                     src="pics/manual/window-3.PNG">
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-sm-auto col-lg-6">
                 <img class="photo user-select-none"
-                     srcset="pics/manual/photo-manual.png 52w, pics/manual/photo-manual.png 40w, pics/manual/photo-manual.png 30w"
-                     sizes="(min-width: 1600px) 50px, (max-width: 1600px) 38px, (max-width: 1034px) 30px"
                      src="pics/manual/photo-manual.png">
             </div>
         </div>
