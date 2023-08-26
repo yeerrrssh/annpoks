@@ -27,16 +27,65 @@ html{
 
 @keyframes main-photo-sm {
     0%{
-        top: 100%;
-        width: 400px;
-    }
-    50%{
         top: 70px;
         width: 400px;
+        opacity: 100%;
+        left: 0;
+        border-radius: 2%;
     }
     100%{
-        top: -100%;
-        width: 400px;
+        top: 70px;
+        width: 200px;
+        opacity: 80%;
+        left: 100%;
+        border-radius: 60%;
+    }
+}
+
+@keyframes all-elements {
+    0%{
+        opacity: 0;
+        margin-left: -10px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 0;
+    }
+}
+
+@keyframes mini-text {
+    0%{
+        opacity: 0;
+        margin-left: 10px;
+        margin-right: 25px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 20px;
+    }
+}
+
+@keyframes first-icon {
+    0%{
+        opacity: 0;
+        margin-left: 8px;
+        margin-right: 25px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 18px;
+    }
+}
+
+@keyframes snoska {
+    0%{
+        opacity: 0;
+        margin-left: 16px;
+        margin-right: 25px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 26px;
     }
 }
 
@@ -566,6 +615,12 @@ html{
         text-align: center;
         position: relative;
         left: -10px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 1.7s;
+        opacity: 0;
     }
     #home-page-text-brand{
         margin-top: -40px;
@@ -573,6 +628,12 @@ html{
         text-align: center;
         position: relative;
         right: -40px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 1.8s;
+        opacity: 0;
     }
     #home-page-text-slogan{
         font-size: 22px;
@@ -581,18 +642,37 @@ html{
         position: relative;
         left: -10px;
         margin-bottom: 20px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 1.8s;
+        opacity: 0;
     }
     .rhombus{
-        right: -250px;
+        right: -260px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 1.8s;
+        opacity: 0;
     }
     .rhombus:before{
         width: 150px;
         left: -152px;
     }
     .home-page-text-mini{
+        margin-right: 10px;
         font-size: 13px;
         letter-spacing: 2px;
         margin-left: 20px;
+
+        animation-name: mini-text;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 1.8s;
+        opacity: 0;
     }
     #home-page-text-mini-1{
         margin-top: -10px;
@@ -604,6 +684,12 @@ html{
         padding: 12px 45px;
         font-size: 14px;
         letter-spacing: 2px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 1.8s;
+        opacity: 0;
     }
     .icons{
         margin-right: 20px;
@@ -616,6 +702,12 @@ html{
         border: 14px solid #0358E4;
         top: -15px;
         left: 60px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 1.8s;
+        opacity: 0;
     }
     .orientated-button{
         width: 160px;
@@ -625,24 +717,54 @@ html{
     }
     .snoska-text{
         font-size: 10px;
-        letter-spacing: 1px;
+        letter-spacing: 1.8px;
     }
     #snoska{
         margin-top: 10px;
         margin-left: 26px;
+
+        animation-name: snoska;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 1.98s;
+        opacity: 0;
     }
     #icon-1{
         width: 30px;
         margin-left: 18px;
+
+        animation-name: first-icon;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 2s;
+        opacity: 0;
     }
     #icon-2{
         width: 42px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 1.92s;
+        opacity: 0;
     }
     #icon-3{
         width: 32px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 1.94s;
+        opacity: 0;
     }
     #icon-4{
         width: 29px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 1.96s;
+        opacity: 0;
     }
     #home-photo-block{
         display: none;
@@ -658,9 +780,11 @@ html{
     }
     #photo-animation{
         width: 420px !important;
+        border-radius: 2%;
         animation-name: main-photo-sm;
-        animation-duration: 5s;
-        animation-timing-function: cubic-bezier(0.9,0,0,0.9);
+        animation-duration: 2s;
+        animation-timing-function: cubic-bezier(0.5,0.2,0,1);
+        animation-delay: 1.2s;
         animation-fill-mode: forwards;
         position: absolute;
         z-index: 200;
@@ -670,6 +794,21 @@ html{
     }
 }
 
+
+@media (min-width: 388px) and (max-width: 400px){
+    .blue-button {
+        padding: 12px 61px;
+    }
+    .orientated-button{
+        width: 160px;
+        top: -470px;
+        right: -190px;
+        padding: 10px 20px;
+    }
+    .home-page-text-mini{
+        margin-right: 16px;
+    }
+}
 
 
 /* ЧИСТО ДЛЯ ШАПКИ */
