@@ -782,8 +782,8 @@ html{
         width: 420px !important;
         border-radius: 2%;
         animation-name: main-photo-sm;
-        animation-duration: 2s;
-        animation-timing-function: cubic-bezier(0.5,0.2,0,1);
+        animation-duration: 1.5s;
+        animation-timing-function: cubic-bezier(0.5,0.2,0,0.8);
         animation-delay: 1.2s;
         animation-fill-mode: forwards;
         position: absolute;
