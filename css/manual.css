@@ -572,8 +572,13 @@ html{
 }
 
 @media (max-width: 576px) {
-    body{
+    body {
+        position: fixed;
         overflow-x: hidden;
+        width: 100%;
+    }
+    @viewport {
+        user-zoom: fixed;
     }
     .head-button{
         text-align: center;
