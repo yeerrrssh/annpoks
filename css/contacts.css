@@ -453,7 +453,10 @@ body {
 
 @media (max-width: 576px) {
     body{
-        overflow-x: hidden;
+        overflow: hidden;
+    }
+    .container{
+        overflow: hidden;
     }
     .brand{
         font-size: 48px;
@@ -465,6 +468,7 @@ body {
         letter-spacing: 2px;
     }
     .head-button-black{
+        color: white;
         text-align: center;
         font-size: 22px;
         letter-spacing: 2px;
@@ -547,7 +551,7 @@ body {
     .white-box{
         width: fit-content;
         margin-bottom: 0;
-        padding-bottom: 20px;
+        padding-bottom: 50px;
         margin-left: 65px;
         margin-right: 50px;
         padding-left: 25px;

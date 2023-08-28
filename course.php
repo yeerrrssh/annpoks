@@ -112,7 +112,9 @@
                     <div class="row justify-content-center">
                         <p class="courses-page-text user-select-none ms-5">Courses</p>
                         <div class="col-sm-auto col-lg-5">
-                            <div class="rhombus-blue-xs user-select-none"></div>
+                            <svg class="rhombus-blue-xs" xmlns="http://www.w3.org/2000/svg" width="185" height="12" viewBox="0 0 185 12" fill="none">
+                                <path d="M184.773 6L179 0.226497L173.227 6L179 11.7735L184.773 6ZM0 7H179V5H0L0 7Z" fill="#0358E4"/>
+                            </svg>
                             <a href="course-group-lessons.php">
                                 <img id="first-photo" class="blue-photo user-select-none"
                                      src="pics/course/group-lessons-logo.png">

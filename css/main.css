@@ -594,8 +594,13 @@ html{
 }
 
 @media (max-width: 576px) {
-    body{
+    body {
+        position: fixed;
         overflow: hidden;
+        width: 100%;
+    }
+    @viewport {
+        user-zoom: fixed;
     }
     .head-button{
         text-align: center;
@@ -712,7 +717,7 @@ html{
     .orientated-button{
         width: 160px;
         top: -470px;
-        right: -190px;
+        right: -170px;
         padding: 10px 20px;
     }
     .snoska-text{

@@ -10,6 +10,8 @@
     <link rel="icon" href="pics/AP.svg" type="image/svg">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta name=”viewport” content=”user-scalable=no” />
+
     <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
     <script src="bootstrap/dist/js/bootstrap.js"></script>
     <script src="bootstrap/dist/js/bootstrap.bundle.js"></script>

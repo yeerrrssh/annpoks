@@ -193,36 +193,6 @@ html{
     border-radius: 5px;
     width: 265px;
 }
-.rhombus-blue-xs {
-    width: 0;
-    height: 0;
-    border: 8px solid transparent;
-    border-bottom-color: #0358E4;
-    position: relative;
-    top: -15px;
-    right: -260px;
-}
-.rhombus-blue-xs:after {
-    content: "";
-    width: 0;
-    height: 0;
-    position: absolute;
-    left: -8px;
-    top: 30px;
-    border: 8px solid transparent;
-    border-top-color: #0358E4;
-}
-.rhombus-blue-xs:before {
-    content: "";
-    position: absolute;
-    left: -267px;
-    top: 28px;
-    border: 3px solid transparent;
-    border-top-color: #0358E4;
-    color: #0358E4;
-    border-radius: 5px;
-    width: 265px;
-}
 /* Факин подчеркивание синее (END)*/
 /* Страница с курсами (END) */
 
@@ -541,14 +511,14 @@ html{
     }
     .rhombus-blue-xs{
         display: inline;
-        right: -360px;
-        top: -30px;
+        right: -300px;
+        margin-top: -15px;
     }
     #first-photo{
         width: 360px;
         height: 250px;
         margin-top: 24px;
-        margin-left: -16px;
+        margin-left: -185px;
     }
     #blue-filter-mini{
         width: 360px;
@@ -644,31 +614,23 @@ html{
     }
     .rhombus-blue{
         display: none;
-        right: -175px;
-        top: -100px;
-    }
-    .rhombus-blue:before{
-        width: 170px;
-        left: -172px;
     }
     .rhombus-blue-xs{
         display: inline;
-        right: -265px;
-    }
-    .rhombus-blue-xs:before{
-        width: 150px;
-        left: -152px;
+        position: absolute;
+        right: 34px;
+        margin-top: 5px;
     }
     #first-photo{
         width: 300px;
         height: 220px;
-        margin-top: 40px;
-        margin-left: -16px;
+        margin-left: 0;
+        margin-top: 36px;
     }
     #blue-filter-mini{
         width: 300px;
         height: 220px;
-        margin-top: 16px;
+        margin-top: 36px;
     }
     .blue-frame-mini{
         width: 270px;
@@ -738,7 +700,7 @@ html{
 
 @media (min-width: 386px) and (max-width: 576px) {
     #first-photo{
-        margin-left: 0;
+        margin-left: 16px;
     }
     #blue-filter-mini{
         margin-left: 16px;
@@ -798,28 +760,12 @@ html{
         font-size: 36px;
         margin-left: 110px;
     }
-    .rhombus-blue-xs{
-        top: -13px;
-        right: -265px;
-    }
-    .rhombus-blue-xs:before{
-        width: 150px;
-        left: -152px;
-    }
 }
 
 @media (min-width: 400px) and (max-width: 490px) {
     .brand{
         font-size: 36px;
         margin-left: 80px;
-    }
-    .rhombus-blue-xs{
-        top: -13px;
-        right: -265px;
-    }
-    .rhombus-blue-xs:before{
-        width: 150px;
-        left: -152px;
     }
 }
 
