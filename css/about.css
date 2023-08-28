@@ -932,14 +932,6 @@ html{
 }
 
 @media (max-width: 576px) {
-    body {
-        position: fixed;
-        overflow-x: hidden;
-        width: 100%;
-    }
-    @viewport {
-        user-zoom: fixed;
-    }
     .head-button{
         text-align: center;
         font-size: 22px;
@@ -955,18 +947,15 @@ html{
 
     /* Фоновый треугольник (START) */
     #triangle-up{
-        width: 2000px;
-        position: absolute;
-        z-index: -100;
-        top: 100px;
-        left: -950px;
+        display: none;
     }
     #triangle-down{
-        width: 2100px;
-        position: absolute;
-        z-index: -100;
-        top: 1300px;
-        left: -300px;
+        display: none;
+    }
+    body {
+        background-image: url('../pics/about/Polygon-1-sm.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     /* Фоновый треугольник (END) */
 
@@ -980,10 +969,13 @@ html{
         display: none;
     }
     #about-main-photo-sm{
-        width: 300px;
+        width: 290px;
     }
     .row > *{
-        max-width: 300%;
+        max-width: 90%;
+    }
+    .row > img{
+        max-width: 200%;
     }
     .about-page-big-text{
         font-size: 52px;

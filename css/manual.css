@@ -572,14 +572,6 @@ html{
 }
 
 @media (max-width: 576px) {
-    body {
-        position: fixed;
-        overflow-x: hidden;
-        width: 100%;
-    }
-    @viewport {
-        user-zoom: fixed;
-    }
     .head-button{
         text-align: center;
         font-size: 22px;
@@ -594,12 +586,14 @@ html{
     }
 
     #triangle{
-        width: 2300px;
-        position: absolute;
-        z-index: -100;
-        top: -180px;
-        left: -1060px;
+        display: none;
     }
+    body {
+        background-image: url('../pics/manual/Polygon-3-sm.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     .big-text{
         font-size: 70px;
         text-align: center;
@@ -662,6 +656,7 @@ html{
         margin-left: 26px;
         width: 270px;
         height: 180px;
+        margin-bottom: 40px;
     }
     .window{
         width: 230px;
@@ -682,7 +677,7 @@ html{
         position: relative;
         z-index: 10;
         margin-top: -60px;
-        margin-left: 60px;
+        margin-left: 40px;
     }
     .photo{
         display: none;

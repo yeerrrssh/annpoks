@@ -339,8 +339,8 @@ html{
         letter-spacing: 2px;
     }
     .dropdown-menu{
-        border: none;
-        background: none;
+        border: none !important;
+        background: none !important;
     }
     #hamburger-menu{
         margin-right: 0;
@@ -382,31 +382,26 @@ html{
 }
 
 @media (max-width: 576px) {
-    body {
-        position: fixed;
-        overflow-x: hidden;
-        width: 100%;
-    }
-    @viewport {
-        user-zoom: fixed;
-    }
     .head-button{
         text-align: center;
         font-size: 22px;
         letter-spacing: 2px;
     }
     .dropdown-menu{
-        border: none;
-        background: none;
+        border: none !important;
+        background: none !important;
     }
     #hamburger-menu{
         margin-right: 0;
     }
 
     #triangle{
-        top: -220px;
-        left: -100%;
-        width: 3670px;
+        display: none;
+    }
+    body {
+        background-image: url('../pics/price/Polygon-1-sm.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .main-text-max{
@@ -433,6 +428,9 @@ html{
     .white-box{
         margin: 15px 0 10px 0;
         padding-bottom: 20px;
+    }
+    #last-white-box{
+        margin-bottom: 30px;
     }
 
     .white-text-name{
