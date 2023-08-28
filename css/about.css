@@ -236,6 +236,9 @@ html{
         font-size: 22px;
         letter-spacing: 2px;
     }
+    .dropdown-menu{
+        background-color: #F1F1F1;
+    }
     #hamburger-menu{
         margin-right: 70px;
     }
@@ -395,6 +398,9 @@ html{
     }
     .brand{
         font-size: 44px;
+    }
+    .dropdown-menu{
+        background-color: #F1F1F1;
     }
     .head-button{
         font-size: 19px;
@@ -568,6 +574,9 @@ html{
     .head-button{
         font-size: 18px;
         letter-spacing: 0;
+    }
+    .dropdown-menu{
+        background-color: #F1F1F1;
     }
     #hamburger-menu{
         margin-right: 0;

@@ -222,7 +222,7 @@ html{
 
     #home-page-text{
         font-size: 144px;
-        margin-top: 40px;
+        margin-top: 20px;
         margin-bottom: 0;
         padding-bottom: 0;
     }
@@ -233,7 +233,7 @@ html{
     }
     #home-page-text-slogan{
         font-size: 48px;
-        margin-top: 50px;
+        margin-top: 24px;
     }
     .home-page-text-mini{
         font-size: 15px;
@@ -260,7 +260,7 @@ html{
         height: 580px;
         border-radius: 580px;
         border: 20px solid #0358E4;
-        top: 160px;
+        top: 170px;
         left: 200px;
     }
     .orientated-button{
@@ -290,6 +290,7 @@ html{
     }
     #photo{
         width: 446px;
+        margin-left: 30px;
     }
     .down-part{
         display: none;

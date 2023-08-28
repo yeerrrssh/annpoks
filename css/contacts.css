@@ -114,9 +114,9 @@ body {
     }
 
     .big-text{
-        font-size: 147px;
+        font-size: 140px;
         margin-top: -55px;
-        margin-left: -330px;
+        margin-left: -320px;
     }
     .blue-text{
         font-size: 50px;
@@ -124,7 +124,7 @@ body {
         margin-left: -30px;
     }
     .info-text{
-        font-size: 24px;
+        font-size: 22px;
         letter-spacing: 4px;
         margin-bottom: 20px;
     }
@@ -133,6 +133,7 @@ body {
         margin-bottom: 10px;
     }
     #icon-1{
+        margin-top: 0;
         width: 57px;
     }
     #icon-2{
@@ -155,7 +156,7 @@ body {
         letter-spacing: 2px;
     }
     #contact-1{
-        margin-top: 20px;
+        margin-top: 10px;
         margin-bottom: 40px;
     }
     #contact-2{
@@ -167,12 +168,13 @@ body {
         margin-bottom: 40px;
     }
     #contact-4{
-        margin-top: 44px;
+        margin-top: -3px;
         margin-bottom: 40px;
     }
     .snoska-text{
         font-size: 10px;
         letter-spacing: 2px;
+        margin-top: -34px;
     }
 }
 

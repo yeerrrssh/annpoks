@@ -220,7 +220,7 @@ html{
     .courses-page-text{
         font-size: 130px;
         margin-bottom: -22px;
-        margin-top: -20px;
+        margin-top: -45px;
         margin-right: -170px;
     }
 
@@ -264,11 +264,12 @@ html{
     }
     #big-photo{
         width: 324px;
+        margin-top: -5px;
     }
     #blue-filter-big{
         width: 324px;
         height: 596px;
-        margin-top: 21px;
+        margin-top: -5px;
     }
     .blue-frame-big{
         width: 293px;
