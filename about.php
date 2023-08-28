@@ -107,18 +107,25 @@
 <main>
     <div class="container">
         <img id="triangle-up" class="user-select-none"
-             srcset="pics/about/Polygon-2.svg 52w, pics/about/Polygon-2.svg 40w, pics/about/Polygon-2.svg 30w"
-             sizes="(min-width: 1600px) 50px, (max-width: 1600px) 46px, (max-width: 1034px) 30px"
              src="pics/about/Polygon-2.svg">
         <img id="about-main-photo" class="user-select-none"
-             srcset="pics/about/about-photo-human.png 52w, pics/about/about-photo-human.png 40w, pics/about/about-photo-human.png 30w"
-             sizes="(min-width: 1600px) 50px, (max-width: 1600px) 35px, (max-width: 1034px) 30px"
              src="pics/about/about-photo-human.png">
-        <div class="row justify-content-end">
+        <div class="row justify-content-end big-screen">
             <div class="col-5">
                 <p class="about-page-big-text user-select-none">About</p>
                 <p class="about-page-name-text user-select-none">Ann Pokasova</p>
                 <div class="rhombus-right user-select-none"></div>
+            </div>
+        </div>
+        <div class="row justify-content-center sm-screen">
+            <div class="col-5">
+                <p class="about-page-big-text user-select-none">About</p>
+                <p class="about-page-name-text user-select-none">Ann Pokasova</p>
+                <div class="rhombus-right user-select-none"></div>
+                <div class="row justify-content-center">
+                    <img id="about-main-photo-sm" class="user-select-none"
+                         src="pics/about/about-photo-human.png">
+                </div>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -126,10 +133,10 @@
             <p class="white-text-about-2 user-select-none">Вместе мы подготовились к впр, огэ, егэ, олимпиадам, вступительным экзаменам и школьным контрольным точкам<br><br>моя гордость - ваши высокие результаты</p>
             <button id="goDownButton" class="white-button user-select-none" href="#">view all</button>
         </div>
+
         <img id="triangle-down" class="user-select-none"
-             srcset="pics/about/Polygon-1.svg 52w, pics/about/Polygon-1.svg 40w, pics/about/Polygon-1.svg 30w"
-             sizes="(min-width: 1600px) 50px, (max-width: 1600px) 46px, (max-width: 1034px) 30px"
              src="pics/about/Polygon-1.svg">
+
         <div class="row justify-content-center down-block">
             <div class="col-4">
                 <div class="row justify-content-end">
@@ -207,6 +214,56 @@
                 <p id="translator" class="text-about-min user-select-none">переводчик</p>
             </div>
         </div>
+
+        <div class="row justify-content-center down-block-sm">
+            <div class="col-auto">
+                <div class="row justify-content-center">
+                    <img id="gimnazia-photo" class="user-select-none" src="pics/about/gimnazia.png">
+                    <p id="date-left" class="date user-select-none">2008 - 2015</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="235" height="13" viewBox="0 0 235 13" fill="none">
+                        <line y1="6" x2="235" y2="6" stroke="black" stroke-width="2"/>
+                        <path d="M124 6.55005L118.098 12.4516L112.197 6.55005L118.098 0.648468L124 6.55005Z" fill="black"/>
+                    </svg>
+                    <p class="text-about-max">мбоу гимназия №21</p>
+                    <p class="text-about-min">имени а.м.терехова<br>г.кемерово</p>
+
+                    <img id="gkl-photo" class="user-select-none" src="pics/about/gkl.png">
+                    <p class="date user-select-none">2015 - 2019</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="235" height="13" viewBox="0 0 235 13" fill="none">
+                        <line y1="6" x2="235" y2="6" stroke="black" stroke-width="2"/>
+                        <path d="M124 6.55005L118.098 12.4516L112.197 6.55005L118.098 0.648468L124 6.55005Z" fill="black"/>
+                    </svg>
+                    <p class="text-about-max">мбноу гкл</p>
+                    <p class="text-about-min">английская филология<br>г.кемерово</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2" height="30" viewBox="0 0 2 30" fill="none">
+                        <line x1="1" y1="4.37114e-08" x2="0.999999" y2="30" stroke="black" stroke-width="2"/>
+                    </svg>
+                    <p id="between-left-text" class="text-about-min user-select-none">егэ (eng) 91 балл</p>
+
+                    <img id="kemgu-photo" class="user-select-none" src="pics/about/kemgu.png">
+                    <p id="date-right" class="date user-select-none">2019 - 2023</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="235" height="13" viewBox="0 0 235 13" fill="none">
+                        <line y1="6" x2="235" y2="6" stroke="black" stroke-width="2"/>
+                        <path d="M124 6.55005L118.098 12.4516L112.197 6.55005L118.098 0.648468L124 6.55005Z" fill="black"/>
+                    </svg>
+                    <p class="text-about-max">кемгу</p>
+                    <p class="text-about-min">лингвистика<br>г.кемерово</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2" height="30" viewBox="0 0 2 30" fill="none">
+                        <line x1="1" y1="4.37114e-08" x2="0.999999" y2="30" stroke="black" stroke-width="2"/>
+                    </svg>
+                    <p id="between-right-text" class="text-about-min user-select-none">красный диплом</p>
+
+                    <img id="shahterskaya-photo" class="user-select-none" src="pics/about/shahterskaya-slava.png">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="235" height="13" viewBox="0 0 235 13" fill="none">
+                        <line y1="6" x2="235" y2="6" stroke="black" stroke-width="2"/>
+                        <path d="M124 6.55005L118.098 12.4516L112.197 6.55005L118.098 0.648468L124 6.55005Z" fill="black"/>
+                    </svg>
+                    <p id="translator" class="text-about-min user-select-none">переводчик</p>
+                    <img id="asia-photo" class="user-select-none" src="pics/about/children-asia.png">
+                </div>
+            </div>
+        </div>
+
     </div>
 </main>
 </body>
