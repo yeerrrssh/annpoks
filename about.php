@@ -12,7 +12,6 @@
     <script src="bootstrap/dist/js/bootstrap.bundle.js"></script>
 
     <script src="js/about.js"></script>
-    <script src="js/sandwich-menu.js"></script>
 
     <link rel="stylesheet" href="./css/about.css">
 
