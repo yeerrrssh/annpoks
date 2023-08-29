@@ -476,6 +476,7 @@ html{
         top: -300px;
         left: -900px;
     }
+
     .big-text{
         font-size: 90px;
         text-align: center;
@@ -578,8 +579,8 @@ html{
         letter-spacing: 2px;
     }
     .dropdown-menu{
-        border: none;
-        background: none;
+        border: none !important;
+        background: none !important;
     }
     #hamburger-menu{
         margin-right: 0;
@@ -589,6 +590,7 @@ html{
         display: none;
     }
     body {
+        overflow: visible;
         background-image: url('../pics/manual/Polygon-3-sm.svg');
         background-repeat: no-repeat;
         background-size: cover;

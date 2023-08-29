@@ -259,6 +259,9 @@ html{
         left: 154px;
     }
     /* Фоновый треугольник (END) */
+    .sm-screen{
+        display: none;
+    }
 
     #about-main-photo{
         width: 490px;
@@ -319,11 +322,12 @@ html{
     }
     #shahterskaya-photo{
         width: 360px;
+        margin-top: -10px;
 
     }
     #asia-photo{
         width: 400px;
-
+        margin-top: -10px;
     }
     .date{
         font-size: 18px;
@@ -375,7 +379,7 @@ html{
     }
     #translator{
         margin-top: -15px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     .blue-button{
         padding: 12px 40px;
@@ -423,6 +427,12 @@ html{
         left: 100px;
     }
     /* Фоновый треугольник (END) */
+    .big-screen{
+        display: compact;
+    }
+    .sm-screen{
+        display: none;
+    }
 
     #about-main-photo{
         width: 450px;
@@ -469,7 +479,7 @@ html{
         margin-top: 170px;
         margin-left: 35px;
     }
-    .down-block{
+    .down-block-sm{
         display: none;
     }
     /* Нижний информационный блок (END)*/
@@ -598,6 +608,13 @@ html{
         left: 45px;
     }
     /* Фоновый треугольник (END) */
+    .big-screen{
+        display: compact;
+    }
+    .sm-screen{
+        display: none;
+    }
+
 
     #about-main-photo{
         width: 390px;
@@ -644,7 +661,7 @@ html{
         margin-top: 200px;
         margin-left: 35px;
     }
-    .down-block{
+    .down-block-sm{
         display: none;
     }
     /* Нижний информационный блок (END)*/
@@ -784,18 +801,15 @@ html{
 
     /* Фоновый треугольник (START) */
     #triangle-up{
-        width: 2000px;
-        position: absolute;
-        z-index: -100;
-        top: 100px;
-        left: -950px;
+        display: none;
     }
     #triangle-down{
-        width: 2100px;
-        position: absolute;
-        z-index: -100;
-        top: 1300px;
-        left: -300px;
+        display: none;
+    }
+    body {
+        background-image: url('../pics/about/Polygon-1-sm.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     /* Фоновый треугольник (END) */
 
@@ -856,7 +870,7 @@ html{
     .down-block{
         display: none;
     }
-    .down-block{
+    .down-block-sm{
         display: compact;
     }
     /* Нижний информационный блок (END)*/
@@ -932,6 +946,9 @@ html{
 }
 
 @media (max-width: 576px) {
+    body{
+        overflow: visible;
+    }
     .head-button{
         text-align: center;
         font-size: 22px;
@@ -1020,7 +1037,7 @@ html{
     .down-block{
         display: none;
     }
-    .down-block{
+    .down-block-sm{
         display: compact;
     }
     /* Нижний информационный блок (END)*/

@@ -636,6 +636,14 @@ body {
         font-size: 36px;
         margin-left: 80px;
     }
+    .big-text{
+        font-size: 44px;
+        text-align: center;
+        margin-left: -88px;
+    }
+    .white-box{
+        padding-bottom: 70px;
+    }
 }
 
 @media (max-width: 400px) {

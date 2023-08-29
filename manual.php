@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="./css/manual.css">
     <script src="js/manual.js"></script>
+    <script src="js/sandwich-menu.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 </head>
@@ -84,13 +85,13 @@
                                 БОЛЬШЕ
                             </a>
                             <?php if ($_COOKIE['role'] == 'student'): ?>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background: none">
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #F1F1F1">
                                     <li><a class="dropdown-item head-button user-select-none" href="contacts.php">Контакты</a></li>
                                     <li><a class="dropdown-item head-button user-select-none" href="schedule.php">Записаться</a></li>
                                     <li><a class="dropdown-item head-button user-select-none" href="php/exit.php">Выйти из<br><?=$_COOKIE['user']?></a></li>
                                 </ul>
                             <?php elseif ($_COOKIE['role'] == 'admin'): ?>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background: none">
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #F1F1F1">
                                     <li><a class="dropdown-item head-button user-select-none" href="contacts.php">Контакты</a></li>
                                     <li><a class="dropdown-item head-button user-select-none" href="sign-up.php">Регистрация</a></li>
                                     <li><a class="dropdown-item head-button user-select-none" href="php/exit.php">Выйти из<br><?=$_COOKIE['user']?></a></li>

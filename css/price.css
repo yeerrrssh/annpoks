@@ -328,7 +328,7 @@ html{
 
 @media (min-width: 576px) and (max-width: 992px) {
     body{
-        overflow-x: hidden;
+        overflow: visible;
     }
     .brand{
         font-size: 48px;
@@ -347,9 +347,12 @@ html{
     }
 
     #triangle{
-        top: -220px;
-        left: -100%;
-        width: 4000px;
+        display: none;
+    }
+    body {
+        background-image: url('../pics/price/Polygon-1-sm.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .main-text-max{
@@ -399,6 +402,7 @@ html{
         display: none;
     }
     body {
+        overflow: visible;
         background-image: url('../pics/price/Polygon-1-sm.svg');
         background-repeat: no-repeat;
         background-size: cover;

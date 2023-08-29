@@ -12,6 +12,7 @@
     <script src="bootstrap/dist/js/bootstrap.bundle.js"></script>
 
     <link rel="stylesheet" href="./css/price.css">
+    <script src="js/sandwich-menu.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 </head>
