@@ -27,6 +27,128 @@ html{
 /* Шапка (END) */
 
 
+@keyframes all-elements {
+    0%{
+        opacity: 0;
+        margin-left: -10px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 0;
+    }
+}
+
+@keyframes big-text-xxl {
+    0%{
+        opacity: 0;
+        margin-left: 19px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 29px;
+    }
+}
+
+@keyframes big-text-sm {
+    0%{
+        opacity: 0;
+        margin-left: -25px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: -15px;
+    }
+}
+
+@keyframes white-text-1-xxl {
+    0%{
+        opacity: 0;
+        margin-left: 19%;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 20%;
+    }
+}
+
+@keyframes white-text-1-xl {
+    0%{
+        opacity: 0;
+        margin-left: 290px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 300px;
+    }
+}
+
+@keyframes white-text-2-xxl {
+    0%{
+        opacity: 0;
+        margin-left: 29%;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 30%;
+    }
+}
+
+@keyframes white-text-2-xl {
+    0%{
+        opacity: 0;
+        margin-left: 398px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 408px;
+    }
+}
+
+@keyframes white-text-sm {
+    0%{
+        opacity: 0;
+        margin-left: 4px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 14px;
+    }
+}
+
+@keyframes btn-xxl {
+    0%{
+        opacity: 0;
+        margin-left: 290px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 300px;
+    }
+}
+
+@keyframes photo-xl {
+    0%{
+        opacity: 0;
+        margin-left: 40px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 50px;
+    }
+}
+
+@keyframes name-text-sm {
+    0%{
+        opacity: 0;
+        margin-left: -56px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: -46px;
+    }
+}
+
+
 /* Страница about (START) */
 #about-main-photo{
     position: absolute;
@@ -250,6 +372,11 @@ html{
         z-index: -100;
         top: 0;
         left: 10%;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #triangle-down{
         width: 1600px;
@@ -265,17 +392,40 @@ html{
 
     #about-main-photo{
         width: 490px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .about-page-big-text{
         font-size: 130px;
-        margin-left: 30px;
+        margin-left: 29px;
         margin-bottom: 0;
+
+        animation-name: big-text-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .about-page-name-text{
         font-size: 26px;
-        margin-left: 30px;
+        margin-left: 29px;
         margin-top: -50px;
         margin-bottom: 0;
+
+        animation-name: big-text-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
+    }
+    .rhombus-right{
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.15s;
+        opacity: 0;
     }
     .white-text-about-1{
         max-width: 50%;
@@ -284,6 +434,12 @@ html{
         margin-left: 20%;
         font-size: 20px;
         letter-spacing: 4px;
+
+        animation-name: white-text-1-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     .white-text-about-2{
         margin-top: 0;
@@ -291,6 +447,12 @@ html{
         margin-left: 30%;
         font-size: 20px;
         letter-spacing: 4px;
+
+        animation-name: white-text-2-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     .white-button{
         width: auto;
@@ -299,6 +461,12 @@ html{
         letter-spacing: 3px;
         margin-top: 30px;
         margin-left: 300px;
+
+        animation-name: btn-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     /* Нижний информационный блок (START)*/
     .down-block{
@@ -418,6 +586,11 @@ html{
         z-index: -100;
         top: 0;
         left: 120px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #triangle-down{
         width: 1600px;
@@ -437,18 +610,41 @@ html{
     #about-main-photo{
         width: 450px;
         margin-left: 50px;
+
+        animation-name: photo-xl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .about-page-big-text{
         font-size: 130px;
-        margin-left: 30px;
+        margin-left: 29px;
         margin-top: -20px;
         margin-bottom: 0;
+
+        animation-name: big-text-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .about-page-name-text{
         font-size: 26px;
-        margin-left: 30px;
+        margin-left: 29px;
         margin-top: -50px;
         margin-bottom: 0;
+
+        animation-name: big-text-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
+    }
+    .rhombus-right{
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.15s;
+        opacity: 0;
     }
     .white-text-about-1{
         max-width: 50%;
@@ -457,6 +653,12 @@ html{
         margin-left: 300px;
         font-size: 18px;
         letter-spacing: 4px;
+
+        animation-name: white-text-1-xl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     .white-text-about-2{
         margin-top: 0;
@@ -464,6 +666,12 @@ html{
         margin-left: 408px;
         font-size: 18px;
         letter-spacing: 4px;
+
+        animation-name: white-text-2-xl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     .white-button{
         width: auto;
@@ -472,6 +680,12 @@ html{
         letter-spacing: 3px;
         margin-top: 20px;
         margin-left: 300px;
+
+        animation-name: btn-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     /* Нижний информационный блок (START)*/
     .down-block{
@@ -987,6 +1201,12 @@ html{
     }
     #about-main-photo-sm{
         width: 290px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     .row > *{
         max-width: 90%;
@@ -1000,6 +1220,11 @@ html{
         margin-top: 20px;
         margin-bottom: 0;
         text-align: center;
+
+        animation-name: big-text-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .about-page-name-text{
         position: relative;
@@ -1007,10 +1232,22 @@ html{
         text-align: center;
         margin: 0 -30px 0 -46px;
         left: 10px;
+
+        animation-name: name-text-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     .rhombus-right{
         right: 37px;
         top: -55px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     .rhombus-right:before{
         width: 200px;
@@ -1022,6 +1259,12 @@ html{
         margin-left: 14px;
         font-size: 16px;
         letter-spacing: 3px;
+
+        animation-name: white-text-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
     }
     .white-text-about-2{
         margin-top: 0;
@@ -1029,6 +1272,12 @@ html{
         margin-left: 14px;
         font-size: 16px;
         letter-spacing: 3px;
+
+        animation-name: white-text-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
     }
     .white-button{
         display: none;
