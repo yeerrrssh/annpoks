@@ -374,7 +374,7 @@ html{
         left: 10%;
 
         animation-name: all-elements;
-        animation-duration: 1s;
+        animation-duration: 0.6s;
         animation-fill-mode: forwards;
         opacity: 0;
     }
@@ -394,8 +394,9 @@ html{
         width: 490px;
 
         animation-name: all-elements;
-        animation-duration: 1s;
+        animation-duration: 0.8s;
         animation-fill-mode: forwards;
+        animation-delay: 0.4s;
         opacity: 0;
     }
     .about-page-big-text{
@@ -404,8 +405,9 @@ html{
         margin-bottom: 0;
 
         animation-name: big-text-xxl;
-        animation-duration: 1s;
+        animation-duration: 0.8s;
         animation-fill-mode: forwards;
+        animation-delay: 0.4s;
         opacity: 0;
     }
     .about-page-name-text{
@@ -417,14 +419,14 @@ html{
         animation-name: big-text-xxl;
         animation-duration: 1s;
         animation-fill-mode: forwards;
-        animation-delay: 0.1s;
+        animation-delay: 0.45s;
         opacity: 0;
     }
     .rhombus-right{
         animation-name: all-elements;
         animation-duration: 1s;
         animation-fill-mode: forwards;
-        animation-delay: 0.15s;
+        animation-delay: 0.55s;
         opacity: 0;
     }
     .white-text-about-1{
@@ -438,7 +440,7 @@ html{
         animation-name: white-text-1-xxl;
         animation-duration: 1s;
         animation-fill-mode: forwards;
-        animation-delay: 0.2s;
+        animation-delay: 0.6s;
         opacity: 0;
     }
     .white-text-about-2{
@@ -451,7 +453,7 @@ html{
         animation-name: white-text-2-xxl;
         animation-duration: 1s;
         animation-fill-mode: forwards;
-        animation-delay: 0.2s;
+        animation-delay: 0.6s;
         opacity: 0;
     }
     .white-button{
@@ -465,7 +467,7 @@ html{
         animation-name: btn-xxl;
         animation-duration: 1s;
         animation-fill-mode: forwards;
-        animation-delay: 0.2s;
+        animation-delay: 0.65s;
         opacity: 0;
     }
     /* Нижний информационный блок (START)*/
