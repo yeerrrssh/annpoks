@@ -514,7 +514,7 @@ html{
 @media (min-width: 400px) and (max-width: 490px) {
     .brand{
         font-size: 36px;
-        margin-left: 80px;
+        margin-left: 70px;
     }
     .rhombus{
         right: -310px;
