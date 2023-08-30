@@ -35,6 +35,28 @@ body {
 }
 /* Шапка (END) */
 
+
+@keyframes all-elements {
+    0%{
+        opacity: 0;
+        margin-left: -10px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 0;
+    }
+}
+
+@keyframes opacity-animation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+
 #background-photo{
     position: absolute;
     z-index: -100;
@@ -111,6 +133,11 @@ body {
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
         padding: 30px 55px 100px;
         margin-top: 0;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .big-main-text{
         font-size: 147px;
@@ -131,10 +158,20 @@ body {
         z-index: -20;
         margin-top: 78px;
         margin-left: -60px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #sheldon-text{
         margin-top: 15px;
         margin-left: 15px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #adventure-time-photo{
         width: 560px;
@@ -142,30 +179,60 @@ body {
         z-index: -20;
         margin-top: 75px;
         margin-left: -15px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #adventure-time-text{
         margin-top: 15px;
         margin-left: -15px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #left-button{
         margin-left: 10px;
         margin-top: 10px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #right-button{
         margin-left: -10px;
         margin-top: 10px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #left-rhombus{
         display: inline;
         position: absolute;
         bottom: 0;
         left: 3%;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #right-rhombus{
         display: inline;
         position: absolute;
         bottom: 0;
         right: 3%;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .left-right-part-lg{
         display: inline;
@@ -214,6 +281,11 @@ body {
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
         padding: 30px 45px 150px;
         margin-top: 0;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .big-main-text{
         font-size: 120px;
@@ -234,10 +306,20 @@ body {
         z-index: -20;
         margin-top: 58px;
         margin-left: -60px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #sheldon-text{
         margin-top: 15px;
         margin-left: 15px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #adventure-time-photo{
         width: 510px;
@@ -245,30 +327,60 @@ body {
         z-index: -20;
         margin-top: 55px;
         margin-left: -15px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #adventure-time-text{
         margin-top: 15px;
         margin-left: -15px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #left-button{
         margin-left: 10px;
         margin-top: 10px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #right-button{
         margin-left: -10px;
         margin-top: 10px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #left-rhombus{
         display: inline;
         position: absolute;
         bottom: 0;
         left: 3%;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #right-rhombus{
         display: inline;
         position: absolute;
         bottom: 0;
         right: 3%;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .left-right-part-lg{
         display: inline;
@@ -547,6 +659,11 @@ body {
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
         padding: 30px 25px 10px;
         margin-top: 130px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .big-main-text{
         font-size: 52px;
@@ -569,6 +686,12 @@ body {
         position: relative;
         z-index: -20;
         margin-top: 60px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.4s;
+        opacity: 0;
     }
     #sheldon-text{
         margin-top: 15px;
@@ -608,6 +731,12 @@ body {
     }
     .rhombus-sm{
         display: inline;
+
+        animation-name: opacity-animation;
+        animation-duration: 1.2s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+        opacity: 0;
     }
     #left-rhombus-sm{
         position: absolute;

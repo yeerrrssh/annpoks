@@ -13,7 +13,6 @@
 
     <link rel="stylesheet" href="./css/manual.css">
     <script src="js/manual.js"></script>
-    <script src="js/sandwich-menu.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 </head>

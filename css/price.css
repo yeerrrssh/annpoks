@@ -26,6 +26,50 @@ html{
 /* Шапка (END) */
 
 
+@keyframes all-elements {
+    0%{
+        opacity: 0;
+        margin-left: -10px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 0;
+    }
+}
+
+@keyframes all-elements-up {
+    0%{
+        opacity: 0;
+        margin-top: 10px;
+    }
+    100%{
+        opacity: 100%;
+        margin-top: 0;
+    }
+}
+
+@keyframes main-text-mini-xxl {
+    0%{
+        opacity: 0;
+        margin-left: -70px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: -60px;
+    }
+}
+
+@keyframes box1-sm {
+    0%{
+        opacity: 0;
+        margin-top: 30px;
+    }
+    100%{
+        opacity: 100%;
+        margin-top: 20px;
+    }
+}
+
 
 .main-text-max{
     font-family: 'Yeseva One', sans-serif;
@@ -166,6 +210,11 @@ html{
         top: -305px;
         left: 17%;
         width: 2200px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
 
     .main-text-max{
@@ -173,14 +222,61 @@ html{
         margin-bottom: -22px;
         margin-top: -50px;
         padding-bottom: 0;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     .main-text-mini{
         font-size: 50px;
         margin-top: 33px;
         margin-left: -60px;
+
+        animation-name: main-text-mini-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
+    }
+    .rhombus{
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.25s;
+        opacity: 0;
     }
     .white-box{
         border-radius: 34px 34px 0 0 !important;
+    }
+    #box1{
+        animation-name: all-elements-up;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.4s;
+        opacity: 0;
+    }
+    #box2{
+        animation-name: all-elements-up;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+        opacity: 0;
+    }
+    #box3{
+        animation-name: all-elements-up;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.6s;
+        opacity: 0;
+    }
+    #last-white-box{
+        animation-name: all-elements-up;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.7s;
+        opacity: 0;
     }
 }
 
@@ -201,6 +297,11 @@ html{
         top: -380px;
         left: 17%;
         width: 2200px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
 
     .main-text-max{
@@ -208,15 +309,33 @@ html{
         margin-bottom: -22px;
         margin-top: -30px;
         padding-bottom: 0;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     .main-text-mini{
         font-size: 46px;
         margin-top: 45px;
         margin-left: -60px;
+
+        animation-name: main-text-mini-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
     }
     .rhombus{
         right: -320px;
         top: -26px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.25s;
+        opacity: 0;
     }
 
     .white-box{
@@ -225,6 +344,36 @@ html{
         padding-left: 25px;
         padding-right: 25px;
     }
+
+    #box1{
+        animation-name: all-elements-up;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.4s;
+        opacity: 0;
+    }
+    #box2{
+        animation-name: all-elements-up;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+        opacity: 0;
+    }
+    #box3{
+        animation-name: all-elements-up;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.6s;
+        opacity: 0;
+    }
+    #last-white-box{
+        animation-name: all-elements-up;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.7s;
+        opacity: 0;
+    }
+
     #translate{
         top: 32px;
     }
@@ -414,15 +563,32 @@ html{
         margin-bottom: -22px;
         margin-top: 0;
         padding-bottom: 0;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .main-text-mini{
         text-align: center;
         font-size: 25px;
         margin: 0 5px -5px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
     }
     .rhombus{
         right: -340px;
         top: -10px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.15s;
+        opacity: 0;
     }
     .rhombus:before{
         left: -210px;
@@ -433,6 +599,14 @@ html{
         margin: 15px 0 10px 0;
         padding-bottom: 20px;
     }
+    #box1{
+        animation-name: box1-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+        opacity: 0;
+    }
+
     #last-white-box{
         margin-bottom: 30px;
     }
@@ -528,7 +702,7 @@ html{
         margin-left: 72px;
     }
     .rhombus{
-        right: -260px;
+        right: -280px;
         top: -10px;
     }
 }
@@ -537,6 +711,10 @@ html{
     .brand{
         font-size: 30px;
         margin-left: 58px;
+    }
+    .rhombus{
+        right: -260px;
+        top: -10px;
     }
 }
 

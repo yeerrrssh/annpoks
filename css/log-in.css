@@ -36,6 +36,19 @@ body {
 }
 /* Шапка (END) */
 
+
+@keyframes all-elements {
+    0%{
+        opacity: 0;
+        margin-left: -10px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 0;
+    }
+}
+
+
 #background-photo{
     position: absolute;
     z-index: -100;
@@ -146,6 +159,11 @@ body {
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
         padding: 30px 80px 150px;
         margin-top: 10px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .big-main-text{
         font-size: 147px;
@@ -232,6 +250,11 @@ body {
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
         padding: 30px 80px 150px;
         margin-top: 10px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .big-main-text{
         font-size: 147px;
@@ -511,6 +534,11 @@ body {
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
         padding: 30px 25px 210px;
         margin-top: 10px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .big-main-text{
         font-size: 62px;

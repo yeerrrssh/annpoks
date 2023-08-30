@@ -26,6 +26,184 @@ html{
 
 /* Шапка (END) */
 
+
+@keyframes all-elements {
+    0%{
+        opacity: 0;
+        margin-left: -10px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 0;
+    }
+}
+
+@keyframes big-text-xxl {
+    0%{
+        opacity: 0;
+        margin-right: -160px;
+    }
+    100%{
+        opacity: 100%;
+        margin-right: -170px;
+    }
+}
+
+@keyframes big-text-xl {
+    0%{
+        opacity: 0;
+        margin-right: -140px;
+    }
+    100%{
+        opacity: 100%;
+        margin-right: -150px;
+    }
+}
+
+@keyframes big-text-sm {
+    0%{
+        opacity: 0;
+        margin-right: -20px;
+    }
+    100%{
+        opacity: 100%;
+        margin-right: -30px;
+    }
+}
+
+@keyframes blue-filter-mini-xxl {
+    0%{
+        opacity: 0;
+        margin-right: -10px;
+    }
+    100%{
+        opacity: 60%;
+        margin-right: 0;
+    }
+}
+
+@keyframes blue-frame-mini-xxl {
+    0%{
+        opacity: 0;
+        margin-right: -10px;
+    }
+    100%{
+        opacity: 100%;
+        margin-right: 15px;
+    }
+}
+
+@keyframes blue-frame-big-xxl {
+    0%{
+        opacity: 0;
+        margin-left: 5px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 15px;
+    }
+}
+
+@keyframes blue-frame-big-xl {
+    0%{
+        opacity: 0;
+        margin-left: 15px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 25px;
+    }
+}
+
+@keyframes blue-photo-text-xl {
+    0%{
+        opacity: 0;
+        margin-left: -10px;
+        margin-right: 20px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@keyframes square-text-xl {
+    0%{
+        opacity: 0;
+        margin-left: 5px;
+        margin-right: 25px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 15px;
+        margin-right:15px;
+    }
+}
+
+@keyframes blue-filter-big-xl {
+    0%{
+        opacity: 0;
+        margin-left: 0;
+    }
+    100%{
+        opacity: 60%;
+        margin-left: 10px;
+    }
+}
+
+@keyframes big-photo-xl {
+    0%{
+        opacity: 0;
+        margin-left: 0;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 10px;
+    }
+}
+
+@keyframes rhombus-xs {
+    0%{
+        opacity: 0;
+        right: 44px;
+    }
+    100%{
+        opacity: 100%;
+        right: 34px;
+    }
+}
+
+@keyframes rhombus-sm {
+    0%{
+        opacity: 0;
+        right: 74px;
+    }
+    100%{
+        opacity: 100%;
+        right: 64px;
+    }
+}
+
+@keyframes animation-sm {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+@keyframes animation-filter-sm {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 60%;
+    }
+}
+
+
 /* Страница с курсами (START) */
 .courses-page-text{
     font-family: 'Yeseva One', sans-serif;
@@ -214,71 +392,163 @@ html{
     #hamburger-menu{
         margin-right: 70px;
     }
+
     .rhombus-blue-xs{
         display: none;
     }
     .courses-page-text{
+        position: relative;
+        z-index: -100;
         font-size: 130px;
         margin-bottom: -22px;
         margin-top: -45px;
         margin-right: -170px;
-    }
 
+        animation-name: big-text-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+    .rhombus-blue{
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
+    }
     #first-photo{
         width: 327px;
         height: 219px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     #blue-filter-mini{
         width: 327px;
         height: 219px;
+
+        animation-name: blue-filter-mini-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     .blue-frame-mini{
         width: 300px;
         height: 190px;
         margin-top: -205px;
         margin-left: 15px;
+
+        animation-name: blue-frame-mini-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     .blue-photo-text{
         margin-top: 18px;
         font-size: 46px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     #mini-photo-2{
         width: 327px;
         height: 219px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     .blue-photo-mini-text{
         font-size: 14px;
         letter-spacing: 3px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     #square-photo{
         width: 440px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.4s;
+        opacity: 0;
     }
     .blue-frame-medium{
         width: 410px;
         height: 410px;
         margin-top: 23px;
+
+        animation-name: blue-frame-mini-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.4s;
+        opacity: 0;
     }
     #square-photo-text{
         margin-top: 130px;
         font-size: 46px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.4s;
+        opacity: 0;
     }
     #big-photo{
         width: 324px;
         margin-top: -5px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.6s;
+        opacity: 0;
     }
     #blue-filter-big{
         width: 324px;
         height: 596px;
         margin-top: -5px;
+
+        animation-name: blue-filter-mini-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.6s;
+        opacity: 0;
     }
     .blue-frame-big{
         width: 293px;
         height: 565px;
         margin-top: -580px;
+
+        animation-name: blue-frame-big-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.6s;
+        opacity: 0;
     }
     #big-photo-text{
         margin-top: 200px;
         font-size: 46px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.6s;
+        opacity: 0;
     }
 }
 
@@ -299,10 +569,22 @@ html{
         margin-bottom: -22px;
         margin-top: -20px;
         margin-right: -150px;
+
+        animation-name: big-text-xl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
     }
     .rhombus-blue{
         right: -205px;
         top: -14px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
     }
     .rhombus-blue:before{
         width: 190px;
@@ -314,58 +596,130 @@ html{
     #first-photo{
         width: 290px;
         height: 190px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     #blue-filter-mini{
         width: 290px;
         height: 190px;
+
+        animation-name: blue-filter-mini-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     .blue-frame-mini{
         width: 263px;
         height: 161px;
         margin-top: -175px;
         margin-left: 15px;
+
+        animation-name: blue-frame-mini-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     .blue-photo-text{
         margin-top: 18px;
         font-size: 36px;
+
+        animation-name: blue-photo-text-xl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     #mini-photo-2{
         width: 290px;
         height: 190px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     .blue-photo-mini-text{
         font-size: 12px;
         letter-spacing: 3px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     #square-photo{
         width: 382px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.4s;
+        opacity: 0;
     }
     .blue-frame-medium{
         width: 352px;
         height: 352px;
         margin-top: 23px;
+
+        animation-name: blue-frame-mini-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.4s;
+        opacity: 0;
     }
     #square-photo-text{
         margin-top: 110px;
         font-size: 36px;
         margin-left: 15px;
         margin-right: 15px;
+
+        animation-name: square-text-xl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.4s;
+        opacity: 0;
     }
     #big-photo{
         margin-left: 10px;
         width: 268px;
+
+        animation-name: big-photo-xl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.6s;
+        opacity: 0;
     }
     #blue-filter-big{
         margin-left: 10px;
         width: 268px;
         height: 493px;
         margin-top: 21px;
+
+        animation-name: blue-filter-big-xl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.6s;
+        opacity: 0;
     }
     .blue-frame-big{
         margin-left: 25px;
         width: 238px;
         height: 465px;
         margin-top: -480px;
+
+        animation-name: blue-frame-big-xl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.6s;
+        opacity: 0;
     }
     #big-photo-text{
         margin-top: 165px;
@@ -612,6 +966,12 @@ html{
         margin-bottom: -22px;
         margin-top: -20px;
         margin-right: -30px;
+
+        animation-name: big-text-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     .rhombus-blue{
         display: none;
@@ -621,17 +981,35 @@ html{
         position: absolute;
         right: 34px;
         margin-top: 5px;
+
+        animation-name: rhombus-xs;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
     }
     #first-photo{
         width: 300px;
         height: 220px;
         margin-left: 0;
         margin-top: 36px;
+
+        animation-name: animation-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.4s;
+        opacity: 0;
     }
     #blue-filter-mini{
         width: 300px;
         height: 220px;
         margin-top: 36px;
+
+        animation-name: animation-filter-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.4s;
+        opacity: 0;
     }
     .blue-frame-mini{
         width: 270px;
@@ -640,23 +1018,53 @@ html{
         margin-left: 15px;
         padding-left: 40px;
         padding-right: 40px;
+
+        animation-name: animation-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.4s;
+        opacity: 0;
     }
     .blue-photo-text{
         margin-top: 30px;
         font-size: 36px;
+
+        animation-name: animation-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+        opacity: 0;
     }
     #mini-photo-2{
         width: 300px;
         height: 220px;
+
+        animation-name: animation-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.6s;
+        opacity: 0;
     }
     .blue-photo-mini-text{
         font-size: 12px;
         letter-spacing: 3px;
+
+        animation-name: animation-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.6s;
+        opacity: 0;
     }
     #square-photo{
         width: 300px;
         margin-left: 0;
         margin-top: 40px;
+
+        animation-name: animation-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.7s;
+        opacity: 0;
     }
     .blue-frame-medium{
         width: 270px;
@@ -665,23 +1073,47 @@ html{
         bottom: -34px;
         margin-left: 15px;
         margin-bottom: 30px;
+
+        animation-name: animation-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.7s;
+        opacity: 0;
     }
     #square-photo-text{
         margin-top: 74px;
         font-size: 36px;
         margin-left: 15px;
         margin-right: 15px;
+
+        animation-name: animation-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.7s;
+        opacity: 0;
     }
     #big-photo{
         width: 300px;
         margin-left: 33px;
         margin-top: 45px;
+
+        animation-name: animation-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.8s;
+        opacity: 0;
     }
     #blue-filter-big{
         width: 300px;
         height: 552px;
         margin-top: 45.5px;
         margin-left: 33px;
+
+        animation-name: animation-filter-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.8s;
+        opacity: 0;
     }
     .blue-frame-big{
         width: 270px;
@@ -689,12 +1121,24 @@ html{
         margin-top: -537px;
         margin-left: 48px;
         margin-bottom: 50px;
+
+        animation-name: animation-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.8s;
+        opacity: 0;
     }
     #big-photo-text{
         margin-top: 200px;
         font-size: 36px;
         margin-left: 30px;
         margin-right: 30px;
+
+        animation-name: animation-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.8s;
+        opacity: 0;
     }
 }
 
@@ -729,6 +1173,12 @@ html{
     }
     .rhombus-blue-xs{
         right: 64px;
+
+        animation-name: rhombus-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
     }
 }
 

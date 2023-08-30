@@ -32,6 +32,72 @@ html{
 
 /* Шапка (END) */
 
+
+@keyframes all-elements {
+    0%{
+        opacity: 0;
+        margin-left: -10px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 0;
+    }
+}
+
+@keyframes big-text-xxl {
+    0%{
+        opacity: 0;
+        margin-left: -20px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: -10px;
+    }
+}
+
+@keyframes black-text-xxl {
+    0%{
+        opacity: 0;
+        margin-right: -15px;
+    }
+    100%{
+        opacity: 100%;
+        margin-right: -25px;
+    }
+}
+
+@keyframes black-text-xl {
+    0%{
+        opacity: 0;
+        margin-right: -10px;
+    }
+    100%{
+        opacity: 100%;
+        margin-right: -20px;
+    }
+}
+
+@keyframes opacity-animation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+@keyframes photo-xxl {
+    0%{
+        opacity: 0;
+        margin-left: 110px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 120px;
+    }
+}
+
+
 .big-text{
     font-family: 'Yeseva One', sans-serif;
     color: black;
@@ -137,19 +203,41 @@ html{
         z-index: -100;
         top: 0;
         left: 0;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .big-text{
         font-size: 136px;
         margin-left: -10px;
         margin-top: -30px;
+
+        animation-name: big-text-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     .black-text{
         font-size: 47px;
         margin-top: -80px;
         margin-right: -25px;
+
+        animation-name: black-text-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
     }
     .white-main-text{
         font-size: 30px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .white-not-button{
         width: 270px;
@@ -157,6 +245,11 @@ html{
         font-size: 18px;
         letter-spacing: 3px;
         margin-top: -5px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .white-info-text{
         font-size: 23px;
@@ -167,11 +260,21 @@ html{
         position: relative;
         top: -65px;
         right: -55px;
+
+        animation-name: opacity-animation;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #down-arrow{
         position: relative;
         top: 25px;
         right: -583px;
+
+        animation-name: opacity-animation;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .white-box-1{
         border-radius: 34px;
@@ -208,12 +311,30 @@ html{
     .photo{
         width: 500px;
         margin-left: 120px;
+
+        animation-name: photo-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
     }
     #carouselExampleControls{
         display: compact;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+        opacity: 0;
     }
     #rhombus{
         display: compact;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.4s;
+        opacity: 0;
     }
     #rhombus-sm{
         display: none;
@@ -241,24 +362,53 @@ html{
         z-index: -100;
         top: 0;
         left: 0;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .big-text{
         font-size: 120px;
         margin-left: -10px;
         margin-top: -25px;
+
+        animation-name: big-text-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     .black-text{
         font-size: 40px;
         margin-top: -70px;
         margin-right: -20px;
+
+        animation-name: black-text-xl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     .rhombus-right{
         right: -365px;
         top: -32px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
     }
     .white-main-text{
         font-size: 28px;
         margin-top: 5px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.4s;
+        opacity: 0;
     }
     .white-not-button{
         width: 250px;
@@ -266,21 +416,43 @@ html{
         font-size: 17px;
         letter-spacing: 3px;
         margin-top: -5px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.4s;
+        opacity: 0;
     }
     .white-info-text{
         font-size: 20px;
         letter-spacing: 3px;
         margin-top: 20px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.4s;
+        opacity: 0;
     }
     #up-arrow{
         position: relative;
         top: -65px;
         right: -100px;
+
+        animation-name: opacity-animation;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #down-arrow{
         position: relative;
         top: 25px;
         right: -552px;
+
+        animation-name: opacity-animation;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .white-box-1{
         border-radius: 34px;
@@ -317,9 +489,21 @@ html{
     .photo{
         width: 450px;
         margin-left: 120px;
+
+        animation-name: photo-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
     }
     #carouselExampleControls{
         display: compact;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+        opacity: 0;
     }
     #rhombus{
         display: compact;
@@ -600,11 +784,23 @@ html{
         font-size: 70px;
         text-align: center;
         margin-top: 0;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     .black-text{
         font-size: 22px;
         margin-top: -40px;
         text-align: center;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
     }
     #rhombus{
         display: none;
@@ -615,6 +811,12 @@ html{
     .rhombus-right{
         right: -65px;
         top: -48px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     .rhombus-right:before{
         width: 190px;
@@ -623,6 +825,12 @@ html{
     .white-main-text{
         font-size: 20px;
         margin-top: 25px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.4s;
+        opacity: 0;
     }
     .white-not-button{
         width: 180px;
@@ -630,11 +838,23 @@ html{
         font-size: 14px;
         letter-spacing: 2px;
         margin-top: -5px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+        opacity: 0;
     }
     .white-info-text{
         font-size: 16px;
         letter-spacing: 2px;
         margin-top: 20px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.6s;
+        opacity: 0;
     }
     #up-arrow{
         position: relative;
@@ -651,6 +871,12 @@ html{
         border-radius: 34px;
         width: 256px;
         height: 150px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.7s;
+        opacity: 0;
     }
     .white-box-23{
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);

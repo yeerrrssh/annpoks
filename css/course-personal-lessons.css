@@ -35,6 +35,50 @@ body {
 }
 /* Шапка (END) */
 
+
+@keyframes all-elements {
+    0%{
+        opacity: 0;
+        margin-left: -10px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 0;
+    }
+}
+
+@keyframes all-elements-xl {
+    0%{
+        opacity: 0;
+        margin-left: 10px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 20px;
+    }
+}
+
+@keyframes all-elements-sm {
+    0%{
+        opacity: 0;
+        margin-left: 0;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 10px;
+    }
+}
+
+@keyframes opacity-animation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+
 .white-button{
     width: auto;
     height: fit-content;
@@ -104,10 +148,20 @@ body {
         letter-spacing: 3px;
         margin-left: 300px;
         margin-top: 28px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .blue-box{
         padding: 30px 55px 30px;
         margin-top: 10px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .big-main-text{
         font-size: 147px;
@@ -126,30 +180,60 @@ body {
         width: 550px;
         margin-left: 120px;
         margin-top: 180px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #up-left-text{
         margin-left: 70px;
         margin-top: 16px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #up-center-text{
         margin-left: -10px;
         margin-top: -25px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #up-right-text{
         margin-left: 15px;
         margin-top: 16px;
         margin-right: -30px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #icon-down{
         width: 84px;
         margin-left: 115px;
         margin-top: 26px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #down-text{
         display: compact;
         margin-left: 0;
         margin-top: 45px;
         margin-right: -50px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #down-text-sm{
         display: none;
@@ -188,11 +272,21 @@ body {
         letter-spacing: 3px;
         margin-left: 250px;
         margin-top: 20px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .blue-box{
         padding: 30px 45px 30px;
         margin-top: 20px;
         margin-left: 20px;
+
+        animation-name: all-elements-xl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .big-main-text{
         font-size: 120px;
@@ -211,30 +305,60 @@ body {
         width: 490px;
         margin-left: 70px;
         margin-top: 160px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #up-left-text{
         margin-left: 26px;
         margin-top: 16px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #up-center-text{
         margin-left: -2px;
         margin-top: -25px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #up-right-text{
         margin-left: 20px;
         margin-top: 16px;
         margin-right: -30px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #icon-down{
         width: 82px;
         margin-left: 65px;
         margin-top: 16px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #down-text{
         display: compact;
         margin-left: 0;
         margin-top: 40px;
         margin-right: -50px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     #down-text-sm{
         display: none;
@@ -471,6 +595,11 @@ body {
         margin-top: 140px;
         margin-bottom: 25px;
         margin-left: 10px;
+
+        animation-name: all-elements-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .big-main-text{
         font-size: 52px;
@@ -493,20 +622,44 @@ body {
         width: 300px;
         margin-top: 25px;
         margin-left: 10px;
+
+        animation-name: all-elements-sm;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     #up-left-text{
         margin-left: -22px;
         margin-right: -25px;
         margin-top: 53px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.4s;
+        opacity: 0;
     }
     #up-center-text{
         margin-left: -50px;
         margin-top: -15px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
     }
     #up-right-text{
         margin-left: -50px;
         margin-top: 53px;
         margin-right: -30px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+        opacity: 0;
     }
     #icon-down{
         width: 56px;

@@ -35,6 +35,50 @@ body {
 }
 /* Шапка (END) */
 
+
+@keyframes all-elements {
+    0%{
+        opacity: 0;
+        margin-left: 10px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 0;
+    }
+}
+
+@keyframes all-elements-rvrs {
+    0%{
+        opacity: 0;
+        margin-left: -10px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 0;
+    }
+}
+
+@keyframes white-box-xxl {
+    0%{
+        opacity: 0;
+        margin-right: -150px;
+    }
+    100%{
+        opacity: 100%;
+        margin-right: -160px;
+    }
+}
+
+@keyframes opacity-animation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+
 #background-photo{
     position: absolute;
     z-index: -100;
@@ -125,12 +169,24 @@ body {
         font-size: 18px;
         letter-spacing: 3px;
         margin-top: 35px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     .white-box{
         border-radius: 34px !important;
         padding: 30px 55px 100px;
         margin-top: 10px;
         margin-right: -160px;
+
+        animation-name: white-box-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     .big-main-text{
         font-size: 147px;
@@ -166,36 +222,84 @@ body {
         width: 560px;
         margin-top: 50px;
         margin-left: -25px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     #up-left-text{
         line-height: 1.15em;
         margin-left: 43px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     #up-center-text{
         line-height: 1.15em;
         margin-left: -22px;
         margin-top: -20px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     #up-right-text{
         line-height: 1.15em;
         margin-left: -78px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     #icon-center{
         width: 84px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     #icon-down{
         width: 84px;
         margin-top: 25px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     #center-right-text{
         display: compact;
         line-height: 1.15em;
         margin-top: 20px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     #down-right-text{
         display: compact;
         line-height: 1.15em;
         margin-top: 57px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     #center-right-text-sm{
         display: none;
@@ -230,12 +334,24 @@ body {
         font-size: 16px;
         letter-spacing: 3px;
         margin-top: 20px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     .white-box{
         border-radius: 34px !important;
         padding: 30px 45px 130px;
         margin-top: 10px;
         margin-right: -160px;
+
+        animation-name: white-box-xxl;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     .big-main-text{
         font-size: 120px;
@@ -271,39 +387,87 @@ body {
         width: 520px;
         margin-top: 35px;
         margin-left: -25px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     #up-left-text{
         line-height: 1.15em;
         margin-left: 7px;
         margin-top: 10px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     #up-center-text{
         line-height: 1.15em;
         margin-left: -22px;
         margin-top: -30px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     #up-right-text{
         line-height: 1.15em;
         margin-left: -44px;
         margin-top: 10px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     #icon-center{
         width: 82px;
         margin-top: -10px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     #icon-down{
         width: 82px;
         margin-top: 20px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     #center-right-text{
         display: compact;
         line-height: 1.15em;
         margin-top: 10px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     #down-right-text{
         display: compact;
         line-height: 1.15em;
         margin-top: 58px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     #center-right-text-sm{
         display: none;
@@ -574,16 +738,34 @@ body {
         border-radius: 34px !important;
         padding: 30px 25px 15px;
         margin-top: 140px;
+
+        animation-name: all-elements-rvrs;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
     }
     .big-main-text{
         font-size: 52px;
         margin-top: -160px;
         text-align: center;
+
+        animation-name: all-elements-rvrs;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
     }
     .mini-main-text{
         font-size: 22px;
         margin-top: -30px;
         text-align: center;
+
+        animation-name: all-elements-rvrs;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
     }
     .blue-text{
         font-size: 18px;
@@ -603,24 +785,48 @@ body {
     #icons-up{
         width: 300px;
         margin-top: 50px;
+
+        animation-name: all-elements-rvrs;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+        opacity: 0;
     }
     #up-left-text{
         line-height: 1.1em;
         margin-left: 0;
         margin-top: 34px;
         margin-right: -36px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+        opacity: 0;
     }
     #up-center-text{
         line-height: 1.1em;
         margin-left: -20px;
         margin-top: 0;
         margin-right: -20px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+        opacity: 0;
     }
     #up-right-text{
         line-height: 1.1em;
         margin-left: -27px;
         margin-top: 42px;
         margin-right: -20px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+        opacity: 0;
     }
     #icon-center{
         width: 56px;

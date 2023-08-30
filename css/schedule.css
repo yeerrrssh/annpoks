@@ -37,6 +37,39 @@ body {
 }
 /* Шапка (END) */
 
+
+@keyframes all-elements {
+    0%{
+        opacity: 0;
+        margin-left: -10px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 0;
+    }
+}
+
+@keyframes big-text-sm {
+    0%{
+        opacity: 0;
+        margin-left: 24px;
+    }
+    100%{
+        opacity: 100%;
+        margin-left: 34px;
+    }
+}
+
+@keyframes opacity-animation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+
 #background-photo{
     position: absolute;
     z-index: -100;
@@ -120,35 +153,69 @@ body {
         font-size: 147px;
         margin-top: -50px;
         text-align: center;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .blue-text{
         margin-top: -60px;
         font-size: 50px;
         text-align: center;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.15s;
+        opacity: 0;
     }
     .white-box{
         border-radius: 34px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
         padding: 25px 100px 200px;
         margin-top: 12px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .info-text{
         font-size: 24px;
         letter-spacing: 4px;
         margin-bottom: 20px;
         margin-top: 20px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
     }
     .info-text-mini{
         font-size: 12px;
         letter-spacing: 4px;
         margin-bottom: 20px;
         margin-top: 120px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.6s;
+        opacity: 0;
     }
     .blue-button{
         margin-top: 10px;
         padding: 12px 60px;
         font-size: 18px;
         letter-spacing: 3px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.45s;
+        opacity: 0;
     }
     .text-bs{
         display: compact;
@@ -182,11 +249,22 @@ body {
         font-size: 147px;
         margin-top: -50px;
         text-align: center;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .blue-text{
         margin-top: -60px;
         font-size: 50px;
         text-align: center;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.15s;
+        opacity: 0;
     }
     .white-box{
         border-radius: 34px;
@@ -194,24 +272,47 @@ body {
         padding: 25px 100px 200px;
         margin-top: 12px;
         margin-bottom: 100px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .info-text{
         font-size: 22px;
         letter-spacing: 4px;
         margin-bottom: 20px;
         margin-top: -10px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
     }
     .info-text-mini{
         font-size: 12px;
         letter-spacing: 4px;
         margin-bottom: 20px;
         margin-top: 100px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.6s;
+        opacity: 0;
     }
     .blue-button{
         margin-top: 0;
         padding: 12px 60px;
         font-size: 18px;
         letter-spacing: 3px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.45s;
+        opacity: 0;
     }
     .text-bs{
         display: compact;
@@ -383,10 +484,21 @@ body {
         font-size: 48px;
         margin-top: -20px;
         margin-left: 34px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .blue-text{
         margin-top: -22px;
         font-size: 20px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.15s;
+        opacity: 0;
     }
     .white-box{
         width: 300px;
@@ -394,24 +506,47 @@ body {
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
         padding: 25px 20px 160px;
         margin-top: 20px;
+
+        animation-name: all-elements;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        opacity: 0;
     }
     .info-text{
         font-size: 16px;
         letter-spacing: 0;
         margin-bottom: 20px;
         margin-top: 25px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
     }
     .info-text-mini{
         font-size: 10px;
         letter-spacing: 4px;
         margin-bottom: 20px;
         margin-top: 115px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.6s;
+        opacity: 0;
     }
     .blue-button{
         margin-top: 10px;
         padding: 12px 40px;
         font-size: 14px;
         letter-spacing: 3px;
+
+        animation-name: opacity-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.45s;
+        opacity: 0;
     }
     .text-bs{
         display: none;

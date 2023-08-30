@@ -117,7 +117,7 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="white-box col-auto">
+            <div id="box1" class="white-box col-auto">
                 <p id="translate" class="cost-lower-text user-select-none">индивидуальные</p>
                 <svg class="bc-box user-select-none" xmlns="http://www.w3.org/2000/svg" width="230" height="74" viewBox="0 0 277 72" fill="none">
                     <path d="M0 10C0 4.47715 4.47715 0 10 0H267C272.523 0 277 4.47715 277 10V62C277 67.5229 272.523 72 267 72H10C4.47716 72 0 67.5229 0 62V10Z" fill="#0358E4"/>
@@ -135,7 +135,7 @@
                 <p class="cost-text user-select-none">1500 руб</p>
                 <p class="cost-lower-text user-select-none">пара</p>
             </div>
-            <div class="white-box col-auto">
+            <div id="box2" class="white-box col-auto">
                 <p id="translate" class="cost-lower-text user-select-none">групповые</p>
                 <svg class="bc-box user-select-none" xmlns="http://www.w3.org/2000/svg" width="230" height="74" viewBox="0 0 277 72" fill="none">
                     <path d="M0 10C0 4.47715 4.47715 0 10 0H267C272.523 0 277 4.47715 277 10V62C277 67.5229 272.523 72 267 72H10C4.47716 72 0 67.5229 0 62V10Z" fill="#0358E4"/>
@@ -153,7 +153,7 @@
                 <p class="cost-text user-select-none">1200 руб</p>
                 <p class="cost-lower-text user-select-none">пара</p>
             </div>
-            <div class="white-box col-auto">
+            <div id="box3" class="white-box col-auto">
                 <p id="translate" class="cost-lower-text user-select-none">экзамены</p>
                 <svg class="bc-box user-select-none" xmlns="http://www.w3.org/2000/svg" width="230" height="74" viewBox="0 0 277 72" fill="none">
                     <path d="M0 10C0 4.47715 4.47715 0 10 0H267C272.523 0 277 4.47715 277 10V62C277 67.5229 272.523 72 267 72H10C4.47716 72 0 67.5229 0 62V10Z" fill="#0358E4"/>
