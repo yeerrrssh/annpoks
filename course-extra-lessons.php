@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta content="Rus Sofia" name="author">
+    <meta content="Анна Сергеевна Покасова" name="author">
     <meta content="репетитор по английскому, английский кемерово, репетитор кемерово, adventure time, young sheldon"
           name="keywords">
     <meta content="Дополнительный курс по английскому" name="description">

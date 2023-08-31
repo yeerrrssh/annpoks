@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta content="Rus Sofia" name="author">
+    <meta content="Анна Сергеевна Покасова" name="author">
     <title>Обо мне</title>
     <link rel="icon" href="pics/AP.svg" type="image/svg">
     <meta name="viewport" content="width=device-width, initial-scale=1">

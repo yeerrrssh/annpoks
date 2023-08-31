@@ -218,6 +218,8 @@ html{
     }
 
     .main-text-max{
+        position: relative;
+        z-index: -100;
         font-size: 126px;
         margin-bottom: -22px;
         margin-top: -50px;

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta content="Rus Sofia" name="author">
+    <meta content="Анна Сергеевна Покасова" name="author">
     <meta content="репетитор по английскому, английский кемерово, репетитор кемерово, анна покасова, репетитор"
           name="keywords">
     <meta content="From zero to hero - репетитор по английскому языку" name="description">
